@@ -55,7 +55,7 @@ Other operational details are in the README of the specific repository.
 ### SamaTulyataII
 
 
-Contact information:
+### Contact information:
 
 email: soumyadip.bandyopadhyay@hpi.de
 
