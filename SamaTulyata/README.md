@@ -39,9 +39,10 @@ Steps in experimentation: Refer to the README files in items ...
 
 For Running all exmaples use the command "./RunThesisExamples.sh" 
 If "SYNTAX ERROR" comes, please dont worry and go ahead.
+
 For measuring time you can use get_cpu_time(), gettimeofday() and settimeofday().
-Three provisions are available in the tool.
-In thesis our time measurement is carriedout get_cpu_time().
+All three provisions are available in the tool. In the thesis our time measurement is carried out using get_cpu_time().
+
 The older version is also available in 
 https://cse.iitkgp.ac.in/~chitta/pubs/rep/thesisBench.zip
 
