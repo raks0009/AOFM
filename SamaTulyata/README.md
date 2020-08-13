@@ -47,6 +47,8 @@ https://cse.iitkgp.ac.in/~chitta/pubs/rep/thesisBench.zip
 
 If you face any problem, please contact us using the contact information given below. 
 
-email: soumyadip.bandyopadhyay@hpi.de or 
+email: soumyadip.bandyopadhyay@hpi.de 
+ 
 email: soumyadip.bandyopadhyay@gmail.com
+
 Skype: soumyadip12
