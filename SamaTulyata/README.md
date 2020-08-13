@@ -1,10 +1,10 @@
 # SamaTulyata Tool
+Prototype of CPN-based Equivalence checker
+
 
 1. equivchecker-master.zip: Contains ecplise plugin.(https://github.com/santonus/equivchecker.git)
 
 2. Equivalence-checker-master.zip: Contains first version of tool (https://github.com/soumyadipcsis/Equivalence-checker.git)
-
-Prototype of CPN Equivalence checkers
 
 *********************************************************************************************************************************
 1. FSMDEQX -- the FSMD equivalence checker (both path extension based FSMDEQX-PE and value propagation FSMDEQX-VP based) 
@@ -17,7 +17,7 @@ Prototype of CPN Equivalence checkers
 (b) Automated-- the DCPEQX module + a front end for taking FSMD models and having them transformed to CPN mdoels     
    through an automated model constructor.
 
-(For ACTA informatica reviewers)
+(For Acta Informatica reviewers)
 ************************************************************************************************************************************
 3. SCPEQX -- 
 
@@ -47,9 +47,6 @@ https://cse.iitkgp.ac.in/~chitta/pubs/rep/thesisBench.zip
 
 If you face any problem, please contact us using the contact information given below. 
 
-For ecliple plugin : https://github.com/santonus/equivchecker
-
-soumyadip.bandyopadhyay@hpi.de or 
-soumyadip.bandyopadhyay@gmail.com
-
-Skype Id: soumyadip12
+email: soumyadip.bandyopadhyay@hpi.de or 
+email: soumyadip.bandyopadhyay@gmail.com
+Skype: soumyadip12
