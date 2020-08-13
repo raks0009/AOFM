@@ -37,7 +37,7 @@ Prototype of CPN-based Equivalence checker
 
 Steps in experimentation: Refer to the README files in items ...
 
-For Running all exmaples use the command "./RunThesisExamples.sh" 
+For Running all examples use the command "./RunThesisExamples.sh" 
 If "SYNTAX ERROR" comes, please dont worry and go ahead.
 
 For measuring time you can use get_cpu_time(), gettimeofday() and settimeofday().
