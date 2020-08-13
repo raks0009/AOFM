@@ -10,7 +10,7 @@ This directory contains the code used in the design of the work described in the
 Copyright (C) Soumyadip Bandyopadhyay, Birla Institute of Tehnology & Science-Pilani, Goa, India.
 correspondence: soumyadipb@goa.bits-pilani.ac.in
 
-This work is used in the publication of "ranslation Validation of Coloured Petri Net Models of Programs on Integers" submitted to Acta Informatica
+This work is used in the publication of "Translation Validation of Coloured Petri Net Models of Programs on Integers" submitted to Acta Informatica
 available on : <website>
   
 Cite this as:
@@ -26,3 +26,26 @@ Unless required by applicable law or agreed to in writing, software distributed 
 is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or 
 implied. See the License for the specific language governing permissions and limitations under the 
 License.
+
+1. **SCPEQX/**: It contains the SCPEQX module, the automated
+model constructor module and all the examples of the test suite; each
+example comprises a pair of source and transformed programs, that of
+the corresponding models and the corresponding output produced by the
+SCPEQX module.
+2. **DCPEQX/**: It contains the DCPEQX module, the automated
+model constructor and a copy of the same set of examples as provided
+under the subdirectory “SCPEQX”.
+3. **FSMDEQX/**: This subdirectory includes two versions of the
+finite state machine models with data paths (FSMD) based equivalence
+checking method – one with path extension (PE) capability and the other
+with value propagation (VP) capability. The examples in the test suite
+given in the above two subdirectories where parallelizing transformations
+are applied are not included in the example list given here. Other examples
+as given under SCPEQX subdirectory are included.
+4. **CPN_tool/**: It contains the well known CPN tool [1] as well as all the models
+– both hand constructed ones and those constructed by the automated
+model constructor – which are tested using this tool
+
+[1] : K. Jensen, L. M. Kristensen, and L. Wells. Coloured petri nets and cpn tools for modelling
+and validation of concurrent systems. Int. J. Softw. Tools Technol. Transf., 9(3):213–254, May
+2007.
