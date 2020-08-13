@@ -49,3 +49,14 @@ model constructor – which are tested using this tool
 [1] : K. Jensen, L. M. Kristensen, and L. Wells. Coloured petri nets and cpn tools for modelling
 and validation of concurrent systems. Int. J. Softw. Tools Technol. Transf., 9(3):213–254, May
 2007.
+
+Other operational details are in the README of the specific repository.
+
+### SamaTulyataII
+
+
+Contact information:
+
+email: soumyadipb@goa.bits-pilani.ac.in
+skype: Soumyadip12
+
