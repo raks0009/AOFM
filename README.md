@@ -57,6 +57,9 @@ Other operational details are in the README of the specific repository.
 
 Contact information:
 
-email: soumyadipb@goa.bits-pilani.ac.in
-skype: Soumyadip12
+email: soumyadip.bandyopadhyay@hpi.de
+
+email: soumyadip.bandyopadhyay@gmail.com
+
+Skype: soumyadip12
 
