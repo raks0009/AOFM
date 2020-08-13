@@ -1,9 +1,9 @@
 # AOFM
 Application Oriented Formal Methods Group
 
-### This repository contains tools related to the work of the Application Oriented Formal Methods Group working under Dr. Soumyadip Bandyopadhyay at Birla Institute of Technology and Science Pilani, KK Birla Goa Campus. It contains code related to equivalence checking tools and other publications. 
+#### This repository contains tools related to the work of the Application Oriented Formal Methods Group working under Dr. Soumyadip Bandyopadhyay at Birla Institute of Technology and Science Pilani, KK Birla Goa Campus. It contains code related to equivalence checking tools and other publications. 
 
-#### SamaTulyata
+### SamaTulyata
 
 This directory contains the code used in the design of the work described in the publication, "Translation Validation of Coloured Petri Net Models of Programs on Integers"
 
