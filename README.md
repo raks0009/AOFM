@@ -54,6 +54,11 @@ Other operational details are in the README of the specific repository.
 
 ### SamaTulyataII
 
+### CTiCPS 2020
+
+This directory contains the abstracts of the talks presented in the Current Trends in Cyber-Physical Systems 2020 online seminar. Find more information at bit.ly/cticps-2020
+
+### C2FSMD
 
 ### Contact information:
 
