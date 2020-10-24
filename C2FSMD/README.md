@@ -20,7 +20,7 @@ command lines :
 	* $1 : FSMD name that has to be given
 	* $2 : State name
 
-## output files
+### Output Files
  * general (org) : outputs resulting from previously defined grammar.
  * modified  (org) : outputs resulting from modified grammar.
  * dotty : FSMD data structre in dotty format.
