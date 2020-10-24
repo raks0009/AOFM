@@ -1,0 +1,86 @@
+digraph routine
+{
+fontname = "Times-Roman"; fontsize = 14;
+nodesep = 0.1; ranksep = 0.5;
+node [height = 0.25, width = 0.4, shape = box ];
+edge [color = black ];
+noder1000 [color=chocolate shape=record,label="{r1000 : data_transitions=1\n}"];
+nodeqq1001 [color=chocolate shape=record,label="{qq1001 : data_transitions=1\n|bit_index=0\n}"];
+noder1998 [color=chocolate shape=record,label="{r1998 : data_transitions=1\n}"];
+noder1999 [color=chocolate shape=record,label="{r1999 : data_transitions=0\n|?bit_index\<8\n}"];
+subgraph cluster_loop_LOOP0  { color=magenta; label="LOOP0";
+noder1002 [color=chocolate shape=record,label="{r1002 : data_transitions=1\n|count_0s[bit_index]=0\n}"];
+noder1003 [color=chocolate shape=record,label="{r1003 : data_transitions=1\n|count_1s[bit_index]=0\n}"];
+noder1004 [color=chocolate shape=record,label="{r1004 : data_transitions=1\n|bit_index=bit_index+1\n}"];
+}
+noder1005 [color=chocolate shape=record,label="{r1005 : data_transitions=1\n|bit_no=0\n}"];
+noder1991 [color=chocolate shape=record,label="{r1991 : data_transitions=1\n}"];
+noder1992 [color=chocolate shape=record,label="{r1992 : data_transitions=0\n|?bit_no\<8\n}"];
+subgraph cluster_loop_LOOP3  { color=magenta; label="LOOP3";
+noder1006 [color=chocolate shape=record,label="{r1006 : data_transitions=1\n|i=0\n}"];
+noder1007 [color=chocolate shape=record,label="{r1007 : data_transitions=1\n|sT3_24=leftShift(1,bit_no)\n}"];
+noder1993 [color=chocolate shape=record,label="{r1993 : data_transitions=1\n}"];
+noder1994 [color=chocolate shape=record,label="{r1994 : data_transitions=0\n|?i\<sT3_24\n}"];
+subgraph cluster_loop_LOOP2  { color=magenta; label="LOOP2";
+noder1008 [color=chocolate shape=record,label="{r1008 : data_transitions=1\n|xi=xorLShift(x,1,bit_no)\n}"];
+noder1009 [color=chocolate shape=record,label="{r1009 : data_transitions=1\n|sT5_24=sbox[xi]\n}"];
+noder1010 [color=chocolate shape=record,label="{r1010 : data_transitions=1\n|sT6_24=sbox[i]\n}"];
+noder1011 [color=chocolate shape=record,label="{r1011 : data_transitions=1\n|vi=xor(sT6_24,sT5_24)\n}"];
+noder1012 [color=chocolate shape=record,label="{r1012 : data_transitions=1\n|bit_index=0\n}"];
+noder1995 [color=chocolate shape=record,label="{r1995 : data_transitions=1\n}"];
+noder1996 [color=chocolate shape=record,label="{r1996 : data_transitions=0\n|?bit_index\<8\n}"];
+subgraph cluster_loop_LOOP1  { color=magenta; label="LOOP1";
+noder1013 [color=chocolate shape=record,label="{r1013 : data_transitions=1\n|sT11_29=andLShift(vi,1,bit_index)\n}"];
+subgraph cluster_ifelse_IFELSE0  { color=magenta; label="IFELSE0";
+noder1997 [color=chocolate shape=record,label="{r1997 : data_transitions=0\n|?sT11_29!=0\n}"];
+noder1014 [color=chocolate shape=record,label="{r1014 : data_transitions=1\n|sT12_29=count_1s[bit_index]\n}"];
+noder1015 [color=chocolate shape=record,label="{r1015 : data_transitions=1\n|count_1s[bit_index]=sT12_29+1\n}"];
+noder1016 [color=chocolate shape=record,label="{r1016 : data_transitions=1\n|sT13_30=count_0s[bit_index]\n}"];
+noder1017 [color=chocolate shape=record,label="{r1017 : data_transitions=1\n|count_0s[bit_index]=sT13_30+1\n}"];
+}
+noder1018 [color=chocolate shape=record,label="{r1018 : data_transitions=1\n|bit_index=bit_index+1\n}"];
+}
+noder1019 [color=chocolate shape=record,label="{r1019 : data_transitions=1\n|i=i+1\n}"];
+}
+noder1020 [color=chocolate shape=record,label="{r1020 : data_transitions=1\n|bit_no=bit_no+1\n}"];
+}
+noder1021 [color=chocolate shape=record,label="{r1021 : data_transitions=0\n}"];
+noder1000 -> nodeqq1001 [label=""];
+nodeqq1001 -> noder1998 [label=""];
+noder1002 -> noder1003 [label=""];
+noder1003 -> noder1004 [label=""];
+noder1004 -> noder1999 [label=""];
+noder1005 -> noder1991 [label=""];
+noder1006 -> noder1007 [label=""];
+noder1007 -> noder1993 [label=""];
+noder1008 -> noder1009 [label=""];
+noder1009 -> noder1010 [label=""];
+noder1010 -> noder1011 [label=""];
+noder1011 -> noder1012 [label=""];
+noder1012 -> noder1995 [label=""];
+noder1013 -> noder1997 [label=""];
+noder1014 -> noder1015 [label=""];
+noder1015 -> noder1018 [label=""];
+noder1016 -> noder1017 [label=""];
+noder1017 -> noder1018 [label=""];
+noder1018 -> noder1996 [label=""];
+noder1019 -> noder1994 [label=""];
+noder1020 -> noder1992 [label=""];
+noder1991 -> noder1992 [label=""];
+noder1992 -> noder1006 [label="T"];
+noder1992 -> noder1021 [label="F"];
+noder1993 -> noder1994 [label=""];
+noder1994 -> noder1008 [label="T"];
+noder1994 -> noder1020 [label="F"];
+noder1995 -> noder1996 [label=""];
+noder1996 -> noder1013 [label="T"];
+noder1996 -> noder1019 [label="F"];
+noder1997 -> noder1014 [label="T"];
+noder1997 -> noder1016 [label="F"];
+noder1998 -> noder1999 [label=""];
+noder1999 -> noder1002 [label="T"];
+noder1999 -> noder1005 [label="F"];
+
+}
+
+

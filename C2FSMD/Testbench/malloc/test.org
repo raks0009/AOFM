@@ -1,0 +1,9 @@
+test.org
+0 1
+
+z 
+gg1000 1 - / 	qq1001	
+qq1001 1 - / ptr=malloc((3))	gg1002	
+gg1002 0
+
+

@@ -1,0 +1,296 @@
+digraph routine
+{
+fontname = "Times-Roman"; fontsize = 14;
+nodesep = 0.1; ranksep = 0.5;
+node [height = 0.25, width = 0.4, shape = box ];
+edge [color = black ];
+nodebcd1000 [color=chocolate shape=record,label="{bcd1000 : data_transitions=1\n}"];
+nodeqq1001 [color=chocolate shape=record,label="{qq1001 : data_transitions=1\n|wh=0\n}"];
+nodebcd1002 [color=chocolate shape=record,label="{bcd1002 : data_transitions=1\n|bl=1\n}"];
+nodebcd1003 [color=chocolate shape=record,label="{bcd1003 : data_transitions=1\n|eoc=0\n}"];
+nodebcd1004 [color=chocolate shape=record,label="{bcd1004 : data_transitions=1\n|memw=0\n}"];
+nodebcd1005 [color=chocolate shape=record,label="{bcd1005 : data_transitions=1\n|data=0\n}"];
+nodebcd1006 [color=chocolate shape=record,label="{bcd1006 : data_transitions=1\n|addr=0\n}"];
+nodebcd1007 [color=chocolate shape=record,label="{bcd1007 : data_transitions=1\n|eop=0\n}"];
+nodebcd1967LB [color=chocolate shape=record,label="{bcd1967LB : data_transitions=1\n}"];
+nodebcd1968 [color=chocolate shape=record,label="{bcd1968 : data_transitions=0\n|?\n}"];
+subgraph cluster_loop_LOOP10  { color=magenta; label="LOOP10";
+nodebcd1996LB [color=chocolate shape=record,label="{bcd1996LB : data_transitions=1\n}"];
+nodebcd1997 [color=chocolate shape=record,label="{bcd1997 : data_transitions=0\n|?\n}"];
+subgraph cluster_loop_LOOP1  { color=magenta; label="LOOP1";
+nodebcd1008LB [color=chocolate shape=record,label="{bcd1008LB : data_transitions=1\n}"];
+nodebcd1009 [color=chocolate shape=record,label="{bcd1009 : data_transitions=0\n|?clk!=1\n}"];
+subgraph cluster_loop_LOOP0  { color=magenta; label="LOOP0";
+nodebcd1010 [color=chocolate shape=record,label="{bcd1010 : data_transitions=1\n}"];
+}
+nodebcd1011LE [color=chocolate shape=record,label="{bcd1011LE : data_transitions=1\n|eop=0\n}"];
+subgraph cluster_if_IF0  { color=magenta; label="IF0";
+nodebcd1999 [color=chocolate shape=record,label="{bcd1999 : data_transitions=0\n|?reset==1\n}"];
+nodebcd1012 [color=chocolate shape=record,label="{bcd1012 : data_transitions=1\n|eop=1\n}"];
+nodebcd1013 [color=chocolate shape=record,label="{bcd1013 : data_transitions=1\n|BREAK=1\n}"];
+}
+subgraph cluster_if_IF1  { color=magenta; label="IF1";
+nodebcd1998 [color=chocolate shape=record,label="{bcd1998 : data_transitions=0\n|?start==1\n}"];
+nodebcd1014 [color=chocolate shape=record,label="{bcd1014 : data_transitions=1\n|BREAK=1\n}"];
+}
+nodebcd1995 [color=chocolate shape=record,label="{bcd1995 : data_transitions=1\n}"];
+}
+subgraph cluster_if_IF2  { color=magenta; label="IF2";
+nodebcd1994LE [color=chocolate shape=record,label="{bcd1994LE : data_transitions=0\n|?eop==1\n}"];
+nodebcd1015 [color=chocolate shape=record,label="{bcd1015 : data_transitions=1\n|BREAK=1\n}"];
+}
+nodebcd1976LB [color=chocolate shape=record,label="{bcd1976LB : data_transitions=1\n}"];
+nodebcd1977 [color=chocolate shape=record,label="{bcd1977 : data_transitions=0\n|?(actnum!=num) && (white!=255)\n}"];
+subgraph cluster_loop_LOOP7  { color=magenta; label="LOOP7";
+nodebcd1990LB [color=chocolate shape=record,label="{bcd1990LB : data_transitions=1\n}"];
+nodebcd1991 [color=chocolate shape=record,label="{bcd1991 : data_transitions=0\n|?\n}"];
+subgraph cluster_loop_LOOP3  { color=magenta; label="LOOP3";
+nodebcd1016LB [color=chocolate shape=record,label="{bcd1016LB : data_transitions=1\n}"];
+nodebcd1017 [color=chocolate shape=record,label="{bcd1017 : data_transitions=0\n|?clk!=1\n}"];
+subgraph cluster_loop_LOOP2  { color=magenta; label="LOOP2";
+nodebcd1018 [color=chocolate shape=record,label="{bcd1018 : data_transitions=1\n}"];
+}
+nodebcd1019LE [color=chocolate shape=record,label="{bcd1019LE : data_transitions=1\n|eop=0\n}"];
+subgraph cluster_if_IF3  { color=magenta; label="IF3";
+nodebcd1993 [color=chocolate shape=record,label="{bcd1993 : data_transitions=0\n|?reset==1\n}"];
+nodebcd1020 [color=chocolate shape=record,label="{bcd1020 : data_transitions=1\n|eop=1\n}"];
+nodebcd1021 [color=chocolate shape=record,label="{bcd1021 : data_transitions=1\n|BREAK=1\n}"];
+}
+subgraph cluster_if_IF4  { color=magenta; label="IF4";
+nodebcd1992 [color=chocolate shape=record,label="{bcd1992 : data_transitions=0\n|?scan==1\n}"];
+nodebcd1022 [color=chocolate shape=record,label="{bcd1022 : data_transitions=1\n|BREAK=1\n}"];
+}
+nodebcd1989 [color=chocolate shape=record,label="{bcd1989 : data_transitions=1\n}"];
+}
+subgraph cluster_if_IF5  { color=magenta; label="IF5";
+nodebcd1988LE [color=chocolate shape=record,label="{bcd1988LE : data_transitions=0\n|?eop==1\n}"];
+nodebcd1023 [color=chocolate shape=record,label="{bcd1023 : data_transitions=1\n|BREAK=1\n}"];
+}
+nodebcd1024 [color=chocolate shape=record,label="{bcd1024 : data_transitions=1\n|flag=wh\n}"];
+nodebcd1025 [color=chocolate shape=record,label="{bcd1025 : data_transitions=1\n|actnum=0\n}"];
+nodebcd1026 [color=chocolate shape=record,label="{bcd1026 : data_transitions=1\n|white=0\n}"];
+nodebcd1027 [color=chocolate shape=record,label="{bcd1027 : data_transitions=1\n|black=0\n}"];
+nodebcd1028 [color=chocolate shape=record,label="{bcd1028 : data_transitions=1\n|eoc=0\n}"];
+nodebcd1980LB [color=chocolate shape=record,label="{bcd1980LB : data_transitions=1\n}"];
+nodebcd1981 [color=chocolate shape=record,label="{bcd1981 : data_transitions=0\n|?(white!=255) || (black!=255)\n}"];
+subgraph cluster_loop_LOOP6  { color=magenta; label="LOOP6";
+subgraph cluster_ifelse_IFELSE2  { color=magenta; label="IFELSE2";
+nodebcd1983 [color=chocolate shape=record,label="{bcd1983 : data_transitions=0\n|?video==wh\n}"];
+nodebcd1029LB [color=chocolate shape=record,label="{bcd1029LB : data_transitions=1\n}"];
+nodebcd1030 [color=chocolate shape=record,label="{bcd1030 : data_transitions=0\n|?clk!=1\n}"];
+subgraph cluster_loop_LOOP4  { color=magenta; label="LOOP4";
+nodebcd1031 [color=chocolate shape=record,label="{bcd1031 : data_transitions=1\n}"];
+}
+nodebcd1032LE [color=chocolate shape=record,label="{bcd1032LE : data_transitions=1\n|eop=0\n}"];
+subgraph cluster_if_IF6  { color=magenta; label="IF6";
+nodebcd1987 [color=chocolate shape=record,label="{bcd1987 : data_transitions=0\n|?reset==1\n}"];
+nodebcd1033 [color=chocolate shape=record,label="{bcd1033 : data_transitions=1\n|eop=1\n}"];
+nodebcd1034 [color=chocolate shape=record,label="{bcd1034 : data_transitions=1\n|BREAK=1\n}"];
+}
+nodebcd1035 [color=chocolate shape=record,label="{bcd1035 : data_transitions=1\n|white=white+1\n}"];
+subgraph cluster_ifelse_IFELSE0  { color=magenta; label="IFELSE0";
+nodebcd1986 [color=chocolate shape=record,label="{bcd1986 : data_transitions=0\n|?flag==bl\n}"];
+nodebcd1036 [color=chocolate shape=record,label="{bcd1036 : data_transitions=1\n|actnum=actnum+1\n}"];
+nodebcd1037 [color=chocolate shape=record,label="{bcd1037 : data_transitions=1\n|memw=0\n}"];
+nodebcd1038 [color=chocolate shape=record,label="{bcd1038 : data_transitions=1\n|memw=1\n}"];
+}
+nodebcd1039 [color=chocolate shape=record,label="{bcd1039 : data_transitions=1\n|black=0\n}"];
+nodebcd1040 [color=chocolate shape=record,label="{bcd1040 : data_transitions=1\n|flag=wh\n}"];
+nodebcd1041 [color=chocolate shape=record,label="{bcd1041 : data_transitions=1\n|data=white\n}"];
+nodebcd1042LB [color=chocolate shape=record,label="{bcd1042LB : data_transitions=1\n}"];
+nodebcd1043 [color=chocolate shape=record,label="{bcd1043 : data_transitions=0\n|?clk!=1\n}"];
+subgraph cluster_loop_LOOP5  { color=magenta; label="LOOP5";
+nodebcd1044 [color=chocolate shape=record,label="{bcd1044 : data_transitions=1\n}"];
+}
+nodebcd1045LE [color=chocolate shape=record,label="{bcd1045LE : data_transitions=1\n|eop=0\n}"];
+subgraph cluster_if_IF7  { color=magenta; label="IF7";
+nodebcd1985 [color=chocolate shape=record,label="{bcd1985 : data_transitions=0\n|?reset==1\n}"];
+nodebcd1046 [color=chocolate shape=record,label="{bcd1046 : data_transitions=1\n|eop=1\n}"];
+nodebcd1047 [color=chocolate shape=record,label="{bcd1047 : data_transitions=1\n|BREAK=1\n}"];
+}
+nodebcd1048 [color=chocolate shape=record,label="{bcd1048 : data_transitions=1\n|black=black+1\n}"];
+subgraph cluster_ifelse_IFELSE1  { color=magenta; label="IFELSE1";
+nodebcd1984 [color=chocolate shape=record,label="{bcd1984 : data_transitions=0\n|?flag==wh\n}"];
+nodebcd1049 [color=chocolate shape=record,label="{bcd1049 : data_transitions=1\n|actnum=actnum+1\n}"];
+nodebcd1050 [color=chocolate shape=record,label="{bcd1050 : data_transitions=1\n|memw=0\n}"];
+nodebcd1051 [color=chocolate shape=record,label="{bcd1051 : data_transitions=1\n|memw=1\n}"];
+}
+nodebcd1052 [color=chocolate shape=record,label="{bcd1052 : data_transitions=1\n|flag=bl\n}"];
+nodebcd1053 [color=chocolate shape=record,label="{bcd1053 : data_transitions=1\n|white=0\n}"];
+nodebcd1054 [color=chocolate shape=record,label="{bcd1054 : data_transitions=1\n|data=black\n}"];
+}
+subgraph cluster_if_IF8  { color=magenta; label="IF8";
+nodebcd1982 [color=chocolate shape=record,label="{bcd1982 : data_transitions=0\n|?eop==1\n}"];
+nodebcd1055 [color=chocolate shape=record,label="{bcd1055 : data_transitions=1\n|BREAK=1\n}"];
+}
+nodebcd1056 [color=chocolate shape=record,label="{bcd1056 : data_transitions=1\n|addr=actnum\n}"];
+nodebcd1979 [color=chocolate shape=record,label="{bcd1979 : data_transitions=1\n}"];
+}
+subgraph cluster_if_IF9  { color=magenta; label="IF9";
+nodebcd1978LE [color=chocolate shape=record,label="{bcd1978LE : data_transitions=0\n|?eop==1\n}"];
+nodebcd1057 [color=chocolate shape=record,label="{bcd1057 : data_transitions=1\n|BREAK=1\n}"];
+}
+nodebcd1975 [color=chocolate shape=record,label="{bcd1975 : data_transitions=1\n}"];
+}
+subgraph cluster_if_IF10  { color=magenta; label="IF10";
+nodebcd1974LE [color=chocolate shape=record,label="{bcd1974LE : data_transitions=0\n|?eop==1\n}"];
+nodebcd1058 [color=chocolate shape=record,label="{bcd1058 : data_transitions=1\n|BREAK=1\n}"];
+}
+nodebcd1059 [color=chocolate shape=record,label="{bcd1059 : data_transitions=1\n|memw=0\n}"];
+nodebcd1060 [color=chocolate shape=record,label="{bcd1060 : data_transitions=1\n|eoc=1\n}"];
+nodebcd1970LB [color=chocolate shape=record,label="{bcd1970LB : data_transitions=1\n}"];
+nodebcd1971 [color=chocolate shape=record,label="{bcd1971 : data_transitions=0\n|?start!=0\n}"];
+subgraph cluster_loop_LOOP9  { color=magenta; label="LOOP9";
+nodebcd1061LB [color=chocolate shape=record,label="{bcd1061LB : data_transitions=1\n}"];
+nodebcd1062 [color=chocolate shape=record,label="{bcd1062 : data_transitions=0\n|?clk!=1\n}"];
+subgraph cluster_loop_LOOP8  { color=magenta; label="LOOP8";
+nodebcd1063 [color=chocolate shape=record,label="{bcd1063 : data_transitions=1\n}"];
+}
+nodebcd1064LE [color=chocolate shape=record,label="{bcd1064LE : data_transitions=1\n|eop=0\n}"];
+subgraph cluster_if_IF11  { color=magenta; label="IF11";
+nodebcd1973 [color=chocolate shape=record,label="{bcd1973 : data_transitions=0\n|?reset==1\n}"];
+nodebcd1065 [color=chocolate shape=record,label="{bcd1065 : data_transitions=1\n|eop=1\n}"];
+nodebcd1066 [color=chocolate shape=record,label="{bcd1066 : data_transitions=1\n|BREAK=1\n}"];
+}
+subgraph cluster_if_IF12  { color=magenta; label="IF12";
+nodebcd1972 [color=chocolate shape=record,label="{bcd1972 : data_transitions=0\n|?start==0\n}"];
+nodebcd1067 [color=chocolate shape=record,label="{bcd1067 : data_transitions=1\n|BREAK=1\n}"];
+}
+nodebcd1969 [color=chocolate shape=record,label="{bcd1969 : data_transitions=1\n}"];
+}
+nodebcd1966LE [color=chocolate shape=record,label="{bcd1966LE : data_transitions=1\n}"];
+}
+nodebcd1068LE [color=chocolate shape=record,label="{bcd1068LE : data_transitions=0\n}"];
+nodebcd1000 -> nodeqq1001 [label=""];
+nodeqq1001 -> nodebcd1002 [label=""];
+nodebcd1002 -> nodebcd1003 [label=""];
+nodebcd1003 -> nodebcd1004 [label=""];
+nodebcd1004 -> nodebcd1005 [label=""];
+nodebcd1005 -> nodebcd1006 [label=""];
+nodebcd1006 -> nodebcd1007 [label=""];
+nodebcd1007 -> nodebcd1967LB [label=""];
+nodebcd1008LB -> nodebcd1009 [label=""];
+nodebcd1009 -> nodebcd1010 [label="T"];
+nodebcd1009 -> nodebcd1011LE [label="F"];
+nodebcd1010 -> nodebcd1009 [label=""];
+nodebcd1011LE -> nodebcd1999 [label=""];
+nodebcd1012 -> nodebcd1013 [label=""];
+nodebcd1013 -> nodebcd1998 [label=""];
+nodebcd1014 -> nodebcd1995 [label=""];
+nodebcd1015 -> nodebcd1976LB [label=""];
+nodebcd1016LB -> nodebcd1017 [label=""];
+nodebcd1017 -> nodebcd1018 [label="T"];
+nodebcd1017 -> nodebcd1019LE [label="F"];
+nodebcd1018 -> nodebcd1017 [label=""];
+nodebcd1019LE -> nodebcd1993 [label=""];
+nodebcd1020 -> nodebcd1021 [label=""];
+nodebcd1021 -> nodebcd1992 [label=""];
+nodebcd1022 -> nodebcd1989 [label=""];
+nodebcd1023 -> nodebcd1024 [label=""];
+nodebcd1024 -> nodebcd1025 [label=""];
+nodebcd1025 -> nodebcd1026 [label=""];
+nodebcd1026 -> nodebcd1027 [label=""];
+nodebcd1027 -> nodebcd1028 [label=""];
+nodebcd1028 -> nodebcd1980LB [label=""];
+nodebcd1029LB -> nodebcd1030 [label=""];
+nodebcd1030 -> nodebcd1031 [label="T"];
+nodebcd1030 -> nodebcd1032LE [label="F"];
+nodebcd1031 -> nodebcd1030 [label=""];
+nodebcd1032LE -> nodebcd1987 [label=""];
+nodebcd1033 -> nodebcd1034 [label=""];
+nodebcd1034 -> nodebcd1035 [label=""];
+nodebcd1035 -> nodebcd1986 [label=""];
+nodebcd1036 -> nodebcd1037 [label=""];
+nodebcd1037 -> nodebcd1039 [label=""];
+nodebcd1038 -> nodebcd1039 [label=""];
+nodebcd1039 -> nodebcd1040 [label=""];
+nodebcd1040 -> nodebcd1041 [label=""];
+nodebcd1041 -> nodebcd1982 [label=""];
+nodebcd1042LB -> nodebcd1043 [label=""];
+nodebcd1043 -> nodebcd1044 [label="T"];
+nodebcd1043 -> nodebcd1045LE [label="F"];
+nodebcd1044 -> nodebcd1043 [label=""];
+nodebcd1045LE -> nodebcd1985 [label=""];
+nodebcd1046 -> nodebcd1047 [label=""];
+nodebcd1047 -> nodebcd1048 [label=""];
+nodebcd1048 -> nodebcd1984 [label=""];
+nodebcd1049 -> nodebcd1050 [label=""];
+nodebcd1050 -> nodebcd1052 [label=""];
+nodebcd1051 -> nodebcd1052 [label=""];
+nodebcd1052 -> nodebcd1053 [label=""];
+nodebcd1053 -> nodebcd1054 [label=""];
+nodebcd1054 -> nodebcd1982 [label=""];
+nodebcd1055 -> nodebcd1056 [label=""];
+nodebcd1056 -> nodebcd1979 [label=""];
+nodebcd1057 -> nodebcd1975 [label=""];
+nodebcd1058 -> nodebcd1059 [label=""];
+nodebcd1059 -> nodebcd1060 [label=""];
+nodebcd1060 -> nodebcd1970LB [label=""];
+nodebcd1061LB -> nodebcd1062 [label=""];
+nodebcd1062 -> nodebcd1063 [label="T"];
+nodebcd1062 -> nodebcd1064LE [label="F"];
+nodebcd1063 -> nodebcd1062 [label=""];
+nodebcd1064LE -> nodebcd1973 [label=""];
+nodebcd1065 -> nodebcd1066 [label=""];
+nodebcd1066 -> nodebcd1972 [label=""];
+nodebcd1067 -> nodebcd1969 [label=""];
+nodebcd1966LE -> nodebcd1968 [label=""];
+nodebcd1967LB -> nodebcd1968 [label=""];
+nodebcd1968 -> nodebcd1996LB [label="T"];
+nodebcd1968 -> nodebcd1068LE [label="F"];
+nodebcd1969 -> nodebcd1971 [label=""];
+nodebcd1970LB -> nodebcd1971 [label=""];
+nodebcd1971 -> nodebcd1061LB [label="T"];
+nodebcd1971 -> nodebcd1966LE [label="F"];
+nodebcd1972 -> nodebcd1067 [label="T"];
+nodebcd1972 -> nodebcd1969 [label="F"];
+nodebcd1973 -> nodebcd1065 [label="T"];
+nodebcd1973 -> nodebcd1972 [label="F"];
+nodebcd1974LE -> nodebcd1058 [label="T"];
+nodebcd1974LE -> nodebcd1059 [label="F"];
+nodebcd1975 -> nodebcd1977 [label=""];
+nodebcd1976LB -> nodebcd1977 [label=""];
+nodebcd1977 -> nodebcd1990LB [label="T"];
+nodebcd1977 -> nodebcd1974LE [label="F"];
+nodebcd1978LE -> nodebcd1057 [label="T"];
+nodebcd1978LE -> nodebcd1975 [label="F"];
+nodebcd1979 -> nodebcd1981 [label=""];
+nodebcd1980LB -> nodebcd1981 [label=""];
+nodebcd1981 -> nodebcd1983 [label="T"];
+nodebcd1981 -> nodebcd1978LE [label="F"];
+nodebcd1982 -> nodebcd1055 [label="T"];
+nodebcd1982 -> nodebcd1056 [label="F"];
+nodebcd1983 -> nodebcd1029LB [label="T"];
+nodebcd1983 -> nodebcd1042LB [label="F"];
+nodebcd1984 -> nodebcd1049 [label="T"];
+nodebcd1984 -> nodebcd1051 [label="F"];
+nodebcd1985 -> nodebcd1046 [label="T"];
+nodebcd1985 -> nodebcd1048 [label="F"];
+nodebcd1986 -> nodebcd1036 [label="T"];
+nodebcd1986 -> nodebcd1038 [label="F"];
+nodebcd1987 -> nodebcd1033 [label="T"];
+nodebcd1987 -> nodebcd1035 [label="F"];
+nodebcd1988LE -> nodebcd1023 [label="T"];
+nodebcd1988LE -> nodebcd1024 [label="F"];
+nodebcd1989 -> nodebcd1991 [label=""];
+nodebcd1990LB -> nodebcd1991 [label=""];
+nodebcd1991 -> nodebcd1016LB [label="T"];
+nodebcd1991 -> nodebcd1988LE [label="F"];
+nodebcd1992 -> nodebcd1022 [label="T"];
+nodebcd1992 -> nodebcd1989 [label="F"];
+nodebcd1993 -> nodebcd1020 [label="T"];
+nodebcd1993 -> nodebcd1992 [label="F"];
+nodebcd1994LE -> nodebcd1015 [label="T"];
+nodebcd1994LE -> nodebcd1976LB [label="F"];
+nodebcd1995 -> nodebcd1997 [label=""];
+nodebcd1996LB -> nodebcd1997 [label=""];
+nodebcd1997 -> nodebcd1008LB [label="T"];
+nodebcd1997 -> nodebcd1994LE [label="F"];
+nodebcd1998 -> nodebcd1014 [label="T"];
+nodebcd1998 -> nodebcd1995 [label="F"];
+nodebcd1999 -> nodebcd1012 [label="T"];
+nodebcd1999 -> nodebcd1998 [label="F"];
+
+}
+
+

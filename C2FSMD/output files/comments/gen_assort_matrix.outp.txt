@@ -1,0 +1,324 @@
+FSMD name: qq
+** SearchInsert : inserted : BREAK	at position 0
+** SearchInsert : inserted : LOOP_END	at position 1
+starting yyparse : 
+** INfsmd : started
+** INfsmd : state transition added 
+gen_assort_matrix	q1000
+** Parser : identifier found gen_assort_matrix_bi
+** Parser : identifier found l
+** SearchInsert : inserted : l	at position 2
+** Parser : identifier found m
+** SearchInsert : inserted : m	at position 3
+** Parser : identifier found n
+** SearchInsert : inserted : n	at position 4
+** Parser : identifier found frac_low
+** SearchInsert : inserted : frac_low	at position 5
+**function inputs : 
+l 2
+frac_low 5
+** Parser : identifier found assort_matrix
+~~~~~~~~~~~~~~~~~~~~ array found
+~~~~~~~~~~~~~~~~~~~~ array found
+** SearchInsert : inserted : assort_matrix	at position 6
+** Parser : No data intialization in id: assort_matrix
+******* Parser : cool inserted assort_matrix
+** Parser : identifier found temp
+** SearchInsert : inserted : temp	at position 7
+** Parser : No data intialization in id: temp
+******* Parser : cool inserted temp
+~~~~~~~~~~~~~~ list : assort_matrix temp assort_matrix
+no declarations listed
+** Parser : identifier found i
+** SearchInsert : inserted : i	at position 8
+** Parser : data declared as id: i
+******* Parser : cool inserted i
+** Parser : identifier found j
+** SearchInsert : inserted : j	at position 9
+** Parser : data declared as id: j
+******* Parser : cool inserted j
+~~~~~~~~~~~~~~ list : i j i
+** Parser : identifier found total
+** SearchInsert : inserted : total	at position 10
+** Parser : data declared as id: total
+******* Parser : cool inserted total
+~~~~~~~~~~~~~~ list : i total i
+** Parser : identifier found nl
+** SearchInsert : inserted : nl	at position 11
+** Parser : data declared as id: nl
+******* Parser : cool inserted nl
+~~~~~~~~~~~~~~ list : i nl i
+** Parser : identifier found nm
+** SearchInsert : inserted : nm	at position 12
+** Parser : data declared as id: nm
+******* Parser : cool inserted nm
+~~~~~~~~~~~~~~ list : i nm i
+** INfsmd : started
+** INfsmd : state transition added 
+declarations
+** Parser : identifier found sum_deg_l
+** SearchInsert : inserted : sum_deg_l	at position 13
+** Parser : data declared as id: sum_deg_l
+******* Parser : cool inserted sum_deg_l
+** Parser : identifier found sum_deg_m
+** SearchInsert : inserted : sum_deg_m	at position 14
+** Parser : data declared as id: sum_deg_m
+******* Parser : cool inserted sum_deg_m
+~~~~~~~~~~~~~~ list : sum_deg_l sum_deg_m sum_deg_l
+** Parser : identifier found total_edges
+** SearchInsert : inserted : total_edges	at position 15
+** Parser : data declared as id: total_edges
+******* Parser : cool inserted total_edges
+~~~~~~~~~~~~~~ list : sum_deg_l total_edges sum_deg_l
+** INfsmd : started
+** INfsmd : state transition added 
+declarations
+** Parser : identifier found in expression i
+** Parser : identifier found in expression i
+** Parser : identifier found in expression m
+** Parser : identifier found in expression i
+** Parser : identifier found in expression i
+** Parser : identifier found in expression j
+** Parser : identifier found in expression j
+** Parser : identifier found in expression i
+** Parser : identifier found in expression j
+** Parser : identifier found in expression j
+** Parser : identifier found in expression assort_matrix
+** Parser : identifier found in expression i
+** Parser : identifier found in expression j
+!!!!!!!!!! DT created with array type lhs : assort_matrix[i][j] 4 4 16
+** Parser : expression :: assort_matrix[i][j]=0
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added j<i+1
+** INfsmd : started
+** INfsmd : state transition added !(j<i+1)
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added i<m+1
+** INfsmd : started
+** INfsmd : state transition added !(i<m+1)
+** Parser : identifier found in expression nl
+** Parser : identifier found in expression frac_low
+** Parser : identifier found in expression n
+** Parser : expression :: nl=(frac_low)*(n)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression nm
+** Parser : identifier found in expression n
+** Parser : identifier found in expression nl
+** Parser : expression :: nm=n-nl
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression sum_deg_l
+** Parser : identifier found in expression l
+** Parser : identifier found in expression nl
+** Parser : expression :: sum_deg_l=(l)*(nl)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression sum_deg_m
+** Parser : identifier found in expression m
+** Parser : identifier found in expression nm
+** Parser : expression :: sum_deg_m=(m)*(nm)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression total_edges
+** Parser : identifier found in expression sum_deg_l
+** Parser : identifier found in expression sum_deg_m
+** Parser : expression :: total_edges=(sum_deg_l+sum_deg_m)/(2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression sum_deg_l
+** Parser : identifier found in expression sum_deg_m
+** Parser : identifier found in expression temp
+** Parser : identifier found in expression sum_deg_m
+** Parser : identifier found in expression total_edges
+** Parser : expression :: temp=((((sum_deg_m)*(100))/(total_edges)*(2))*(100)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression assort_matrix
+** Parser : identifier found in expression m
+** Parser : identifier found in expression m
+** Parser : identifier found in expression temp
+!!!!!!!!!! DT created with array type lhs : assort_matrix[m][m] 4 4 16
+** Parser : expression :: assort_matrix[m][m]=temp
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression assort_matrix
+** Parser : identifier found in expression l
+** Parser : identifier found in expression m
+** Parser : identifier found in expression sum_deg_m
+** Parser : identifier found in expression total_edges
+** Parser : identifier found in expression assort_matrix
+** Parser : identifier found in expression m
+** Parser : identifier found in expression m
+!!!!!!!!!! DT created with array type lhs : assort_matrix[l][m] 4 4 16
+** Parser : expression :: assort_matrix[l][m]=((sum_deg_m)*(1))/(total_edges-(2)*(assort_matrix[m][m])
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression assort_matrix
+** Parser : identifier found in expression m
+** Parser : identifier found in expression l
+** Parser : identifier found in expression sum_deg_m
+** Parser : identifier found in expression total_edges
+** Parser : identifier found in expression assort_matrix
+** Parser : identifier found in expression m
+** Parser : identifier found in expression m
+!!!!!!!!!! DT created with array type lhs : assort_matrix[m][l] 4 4 16
+** Parser : expression :: assort_matrix[m][l]=((sum_deg_m)*(1))/(total_edges-(2)*(assort_matrix[m][m])
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression assort_matrix
+** Parser : identifier found in expression l
+** Parser : identifier found in expression l
+** Parser : identifier found in expression assort_matrix
+** Parser : identifier found in expression m
+** Parser : identifier found in expression m
+** Parser : identifier found in expression sum_deg_l
+** Parser : identifier found in expression sum_deg_m
+** Parser : identifier found in expression total_edges
+!!!!!!!!!! DT created with array type lhs : assort_matrix[l][l] 4 4 16
+** Parser : expression :: assort_matrix[l][l]=assort_matrix[m][m]+(sum_deg_l-sum_deg_m)/((2)*(total_edges)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression temp
+** Parser : identifier found in expression sum_deg_l
+** Parser : identifier found in expression total_edges
+** Parser : expression :: temp=((((sum_deg_l)*(100))/(total_edges)*(2))*(100)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression assort_matrix
+** Parser : identifier found in expression l
+** Parser : identifier found in expression l
+** Parser : identifier found in expression temp
+!!!!!!!!!! DT created with array type lhs : assort_matrix[l][l] 4 4 16
+** Parser : expression :: assort_matrix[l][l]=temp
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression assort_matrix
+** Parser : identifier found in expression l
+** Parser : identifier found in expression m
+** Parser : identifier found in expression sum_deg_l
+** Parser : identifier found in expression total_edges
+** Parser : identifier found in expression assort_matrix
+** Parser : identifier found in expression l
+** Parser : identifier found in expression l
+!!!!!!!!!! DT created with array type lhs : assort_matrix[l][m] 4 4 16
+** Parser : expression :: assort_matrix[l][m]=((sum_deg_l)*(1))/(total_edges-(2)*(assort_matrix[l][l])
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression assort_matrix
+** Parser : identifier found in expression m
+** Parser : identifier found in expression l
+** Parser : identifier found in expression sum_deg_l
+** Parser : identifier found in expression total_edges
+** Parser : identifier found in expression assort_matrix
+** Parser : identifier found in expression l
+** Parser : identifier found in expression l
+!!!!!!!!!! DT created with array type lhs : assort_matrix[m][l] 4 4 16
+** Parser : expression :: assort_matrix[m][l]=((sum_deg_l)*(1))/(total_edges-(2)*(assort_matrix[l][l])
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression assort_matrix
+** Parser : identifier found in expression m
+** Parser : identifier found in expression m
+** Parser : identifier found in expression assort_matrix
+** Parser : identifier found in expression l
+** Parser : identifier found in expression l
+** Parser : identifier found in expression sum_deg_m
+** Parser : identifier found in expression sum_deg_l
+** Parser : identifier found in expression total_edges
+!!!!!!!!!! DT created with array type lhs : assort_matrix[m][m] 4 4 16
+** Parser : expression :: assort_matrix[m][m]=assort_matrix[l][l]+(sum_deg_m-sum_deg_l)/((2)*(total_edges)
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added sum_deg_l>sum_deg_m
+** INfsmd : started
+** INfsmd : state transition added !(sum_deg_l>sum_deg_m)
+parsed
+/**LELB situations will be handled here**/
+time_stamp : state_id comments
+enterd print function
+gen_assort_matrix.org
+2 0
+l frac_low 
+
+q1000 1 - / 	qq1001	
+qq1001 1 - / i=0,j=0,total=1,nl=0,nm=0	q1002	
+q1002 1 - / sum_deg_l=0,sum_deg_m=0,total_edges=0	q1995LB	
+q1003 1 - / assort_matrix[i][j]=0	q1997	
+q1004LE 1 - / nl=(frac_low)*(n)	q1005	
+q1005 1 - / nm=n-nl	q1006	
+q1006 1 - / sum_deg_l=(l)*(nl)	q1007	
+q1007 1 - / sum_deg_m=(m)*(nm)	q1008	
+q1008 1 - / total_edges=(sum_deg_l+sum_deg_m)/(2	q1993	
+q1009 1 - / temp=((((sum_deg_m)*(100))/(total_edges)*(2))*(100)	q1010	
+q1010 1 - / assort_matrix[m][m]=temp	q1011	
+q1011 1 - / assort_matrix[l][m]=((sum_deg_m)*(1))/(total_edges-(2)*(assort_matrix[m][m])	q1012	
+q1012 1 - / assort_matrix[m][l]=((sum_deg_m)*(1))/(total_edges-(2)*(assort_matrix[m][m])	q1013	
+q1013 1 - / assort_matrix[l][l]=assort_matrix[m][m]+(sum_deg_l-sum_deg_m)/((2)*(total_edges)	q1019	
+q1014 1 - / temp=((((sum_deg_l)*(100))/(total_edges)*(2))*(100)	q1015	
+q1015 1 - / assort_matrix[l][l]=temp	q1016	
+q1016 1 - / assort_matrix[l][m]=((sum_deg_l)*(1))/(total_edges-(2)*(assort_matrix[l][l])	q1017	
+q1017 1 - / assort_matrix[m][l]=((sum_deg_l)*(1))/(total_edges-(2)*(assort_matrix[l][l])	q1018	
+q1018 1 - / assort_matrix[m][m]=assort_matrix[l][l]+(sum_deg_m-sum_deg_l)/((2)*(total_edges)	q1019	
+end state at q1019
+q1993 2 sum_deg_l>sum_deg_m / - 	q1009	 !(sum_deg_l>sum_deg_m) / - 	q1014	
+q1994LE 1 - / i=i+1	q1996	
+q1995LB 1 - / i=1	q1996	
+q1996 2 i<m+1 / - 	q1998LB	 !(i<m+1) / - 	q1004LE	
+q1997 1 - / j=j+1	q1999	
+q1998LB 1 - / j=1	q1999	
+q1999 2 j<i+1 / - 	q1003	 !(j<i+1) / - 	q1994LE	
+q1019 0
+
+
+finished FSMD .org files
+
+
+
+DOTTY :
+loop list :
+<998,999,4,1>
+<995,996,4,1>
+<993,9,19,4>
+<993,14,19,4>
+<0,0,0,0>
+end
+loop count : 3
+hi allocations succesful
+loops sorting & merging :
+loop <999,994> sizes :sizes end <999,994,1> end
+loop <996,4> sizes : <243,348>sizes end <996,4,1> end
+ifel <993,9491440> sizes :sizes end <993,19,1> end
+loops sorted
+<0,19,0,0>
+<0,19,0,1>
+<0,19,1,2>
+<0,19,2,995>
+<0,19,995,996>
+loop inserted : 996 4
+<0,19,996,4>
+<0,19,4,5>
+<0,19,5,6>
+<0,19,6,7>
+<0,19,7,8>
+<0,19,8,993>
+loop inserted : 993 19
+Ok till here : loops modifications succesful
+Ok till here : nodes are added 
+Links now :
+end state reached : 19
+links too finished
+Generated output file names : HTG_gen_assort_matrix_c_main.dotty gen_assort_matrix.org gen_assort_matrix1.org
+dotty finished
+done

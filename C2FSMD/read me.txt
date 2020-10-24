@@ -1,0 +1,24 @@
+command lines : 
+make
+./myparser < $$.c
+
+output :	$$.org		// normal output
+		$$1.org		// modified output
+
+and $$.c format should be :
+<//$1 $2 <c_code>	>
+	$1 : FSMD name that has to be given
+	$2 : each state name that has to be started with
+
+
+
+in the folder : 
+test.c : which consume all types of data transitions.
+orig.c : a c code with errors.
+gcd2.c : big file : 600+ lines of code.
+
+output files :
+general : outputs resulting from previously defined grammar.
+modified : outputs resulting from modified grammar.
+dotty : fsmd data structre as in dotty format.
+comments : which are printed in the terminal while running a particular c code.

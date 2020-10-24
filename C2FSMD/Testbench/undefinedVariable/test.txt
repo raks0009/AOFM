@@ -1,0 +1,12 @@
+FSMD name: qq
+** SearchInsert : inserted : BREAK	at position 0
+** SearchInsert : inserted : LOOP_END	at position 1
+starting yyparse : 
+** INfsmd : started
+** INfsmd : state transition added 
+test	gg1000
+** Parser : identifier found test
+** Parser : identifier found in expression  n
+***** temporary variable insertion : n
+** SearchInsert : inserted : n	at position 2
+variable used before declaration in line number 7

@@ -1,0 +1,54 @@
+FSMD name: qq
+** SearchInsert : inserted : BREAK	at position 0
+** SearchInsert : inserted : LOOP_END	at position 1
+starting yyparse : 
+** INfsmd : started
+** INfsmd : state transition added 
+test	gg1000
+** Parser : identifier found test
+** Parser : identifier found y1
+** SearchInsert : inserted : y1	at position 2
+** Parser : No data intialization in id: y1
+******* Parser : cool inserted y1
+** Parser : identifier found y2
+** SearchInsert : inserted : y2	at position 3
+** Parser : No data intialization in id: y2
+******* Parser : cool inserted y2
+~~~~~~~~~~~~~~ list : y1 y2 y1
+no declarations listed
+** Parser : identifier found z
+** SearchInsert : inserted : z	at position 4
+** Parser : No data intialization in id: z
+******* Parser : cool inserted z
+no declarations listed
+** Parser : identifier found i
+** SearchInsert : inserted : i	at position 5
+** Parser : data declared as id: i
+******* Parser : cool inserted i
+** INfsmd : started
+** INfsmd : state transition added 
+declarations
+parsed
+/**LELB situations will be handled here**/
+time_stamp : state_id comments
+enterd print function
+test.org
+0 0
+
+
+gg1000 1 - / 	qq1001	
+qq1001 1 - / i=5	gg1002	
+end state at gg1002
+gg1002 0
+
+
+finished FSMD .org files
+
+
+
+DOTTY :
+loop list :
+<1757414256,32744,2,1>
+<1702057263,1630499698,7233900,-1073741824>
+<-443987883,1447122753,1230197825,-1991641975>
+Segmentation fault: 11

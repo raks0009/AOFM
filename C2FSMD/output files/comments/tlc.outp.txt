@@ -1,0 +1,358 @@
+FSMD name: qq
+** SearchInsert : inserted : BREAK	at position 0
+** SearchInsert : inserted : LOOP_END	at position 1
+starting yyparse : 
+** INfsmd : started
+** INfsmd : state transition added 
+tlc	t1000
+** Parser : identifier found main
+** Parser : identifier found current_state
+** SearchInsert : inserted : current_state	at position 2
+** Parser : No data intialization in id: current_state
+******* Parser : cool inserted current_state
+** Parser : identifier found newstate
+** SearchInsert : inserted : newstate	at position 3
+** Parser : No data intialization in id: newstate
+******* Parser : cool inserted newstate
+~~~~~~~~~~~~~~ list : current_state newstate current_state
+** Parser : identifier found newHL
+** SearchInsert : inserted : newHL	at position 4
+** Parser : No data intialization in id: newHL
+******* Parser : cool inserted newHL
+~~~~~~~~~~~~~~ list : current_state newHL current_state
+** Parser : identifier found newFL
+** SearchInsert : inserted : newFL	at position 5
+** Parser : No data intialization in id: newFL
+******* Parser : cool inserted newFL
+~~~~~~~~~~~~~~ list : current_state newFL current_state
+** Parser : identifier found cars
+** SearchInsert : inserted : cars	at position 6
+** Parser : No data intialization in id: cars
+******* Parser : cool inserted cars
+~~~~~~~~~~~~~~ list : current_state cars current_state
+no declarations listed
+** Parser : identifier found timeOutL
+** SearchInsert : inserted : timeOutL	at position 7
+** Parser : No data intialization in id: timeOutL
+******* Parser : cool inserted timeOutL
+** Parser : identifier found timeOutS
+** SearchInsert : inserted : timeOutS	at position 8
+** Parser : No data intialization in id: timeOutS
+******* Parser : cool inserted timeOutS
+~~~~~~~~~~~~~~ list : timeOutL timeOutS timeOutL
+** Parser : identifier found newST
+** SearchInsert : inserted : newST	at position 9
+** Parser : No data intialization in id: newST
+******* Parser : cool inserted newST
+~~~~~~~~~~~~~~ list : timeOutL newST timeOutL
+** Parser : identifier found FarmL
+** SearchInsert : inserted : FarmL	at position 10
+** Parser : No data intialization in id: FarmL
+******* Parser : cool inserted FarmL
+~~~~~~~~~~~~~~ list : timeOutL FarmL timeOutL
+** Parser : identifier found state
+** SearchInsert : inserted : state	at position 11
+** Parser : No data intialization in id: state
+******* Parser : cool inserted state
+~~~~~~~~~~~~~~ list : timeOutL state timeOutL
+** Parser : identifier found HiWay
+** SearchInsert : inserted : HiWay	at position 12
+** Parser : No data intialization in id: HiWay
+******* Parser : cool inserted HiWay
+~~~~~~~~~~~~~~ list : timeOutL HiWay timeOutL
+** Parser : identifier found StartTimer
+** SearchInsert : inserted : StartTimer	at position 13
+** Parser : No data intialization in id: StartTimer
+******* Parser : cool inserted StartTimer
+~~~~~~~~~~~~~~ list : timeOutL StartTimer timeOutL
+no declarations listed
+** Parser : identifier found in expression current_state
+** Parser : identifier found in expression newHL
+** Parser : expression :: newHL=4
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression newFL
+** Parser : expression :: newFL=6
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression cars
+** Parser : identifier found in expression timeOutL
+** Parser : identifier found in expression newstate
+** Parser : expression :: newstate=4
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression newST
+** Parser : expression :: newST=1
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression newstate
+** Parser : expression :: newstate=0
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression newST
+** Parser : expression :: newST=0
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added (cars==1) && (timeOutL==1)
+** INfsmd : started
+** INfsmd : state transition added !((cars==1) && (timeOutL==1))
+** INfsmd : started
+** INfsmd : state transition added current_state==0
+** INfsmd : started
+** INfsmd : state transition added !(current_state==0)
+** Parser : identifier found in expression current_state
+** Parser : identifier found in expression newHL
+** Parser : expression :: newHL=2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression newFL
+** Parser : expression :: newFL=6
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression timeOutS
+** Parser : identifier found in expression newstate
+** Parser : expression :: newstate=2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression newST
+** Parser : expression :: newST=1
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression newstate
+** Parser : expression :: newstate=6
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression newST
+** Parser : expression :: newST=0
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added timeOutS==1
+** INfsmd : started
+** INfsmd : state transition added !(timeOutS==1)
+** INfsmd : started
+** INfsmd : state transition added current_state==4
+** INfsmd : started
+** INfsmd : state transition added !(current_state==4)
+** Parser : identifier found in expression current_state
+** Parser : identifier found in expression newHL
+** Parser : expression :: newHL=6
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression newFL
+** Parser : expression :: newFL=4
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression cars
+** Parser : identifier found in expression timeOutL
+** Parser : identifier found in expression newstate
+** Parser : expression :: newstate=6
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression newST
+** Parser : expression :: newST=1
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression newstate
+** Parser : expression :: newstate=2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression newST
+** Parser : expression :: newST=0
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added (cars==0) || (timeOutL==1)
+** INfsmd : started
+** INfsmd : state transition added !((cars==0) || (timeOutL==1))
+** INfsmd : started
+** INfsmd : state transition added current_state==2
+** INfsmd : started
+** INfsmd : state transition added !(current_state==2)
+** Parser : identifier found in expression current_state
+** Parser : identifier found in expression newHL
+** Parser : expression :: newHL=6
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression newFL
+** Parser : expression :: newFL=2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression timeOutS
+** Parser : identifier found in expression newstate
+** Parser : expression :: newstate=0
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression newST
+** Parser : expression :: newST=1
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression newstate
+** Parser : expression :: newstate=6
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression newST
+** Parser : expression :: newST=0
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added timeOutS==1
+** INfsmd : started
+** INfsmd : state transition added !(timeOutS==1)
+** INfsmd : started
+** INfsmd : state transition added current_state==6
+** INfsmd : started
+** INfsmd : state transition added !(current_state==6)
+** Parser : identifier found in expression current_state
+** Parser : identifier found in expression newHL
+** Parser : expression :: newHL=0
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression newFL
+** Parser : expression :: newFL=0
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression newstate
+** Parser : expression :: newstate=0
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression newST
+** Parser : expression :: newST=0
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added current_state==7
+** INfsmd : started
+** INfsmd : state transition added !(current_state==7)
+** Parser : identifier found in expression state
+** Parser : identifier found in expression newstate
+** Parser : expression :: state=newstate
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression HiWay
+** Parser : identifier found in expression newHL
+** Parser : expression :: HiWay=newHL
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression FarmL
+** Parser : identifier found in expression newST
+** Parser : expression :: FarmL=newST
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression StartTimer
+** Parser : identifier found in expression newST
+** Parser : expression :: StartTimer=newST
+** INfsmd : started
+** INfsmd : state transition added 
+parsed
+/**LELB situations will be handled here**/
+time_stamp : state_id comments
+enterd print function
+tlc.org
+0 0
+
+
+t1000 1 - / 	t1998	
+qq1001 1 - / newHL=4	t1002	
+t1002 1 - / newFL=6	t1999	
+t1003 1 - / newstate=4	t1004	
+t1004 1 - / newST=1	t1996	
+t1005 1 - / newstate=0	t1006	
+t1006 1 - / newST=0	t1996	
+t1007 1 - / newHL=2	t1008	
+t1008 1 - / newFL=6	t1997	
+t1009 1 - / newstate=2	t1010	
+t1010 1 - / newST=1	t1994	
+t1011 1 - / newstate=6	t1012	
+t1012 1 - / newST=0	t1994	
+t1013 1 - / newHL=6	t1014	
+t1014 1 - / newFL=4	t1995	
+t1015 1 - / newstate=6	t1016	
+t1016 1 - / newST=1	t1992	
+t1017 1 - / newstate=2	t1018	
+t1018 1 - / newST=0	t1992	
+t1019 1 - / newHL=6	t1020	
+t1020 1 - / newFL=2	t1993	
+t1021 1 - / newstate=0	t1022	
+t1022 1 - / newST=1	t1991	
+t1023 1 - / newstate=6	t1024	
+t1024 1 - / newST=0	t1991	
+t1025 1 - / newHL=0	t1026	
+t1026 1 - / newFL=0	t1027	
+t1027 1 - / newstate=0	t1028	
+t1028 1 - / newST=0	t1029	
+t1029 1 - / state=newstate	t1030	
+t1030 1 - / HiWay=newHL	t1031	
+t1031 1 - / FarmL=newST	t1032	
+t1032 1 - / StartTimer=newST	t1033	
+end state at t1033
+t1991 2 current_state==7 / - 	t1025	 !(current_state==7) / - 	t1029	
+t1992 2 current_state==6 / - 	t1019	 !(current_state==6) / - 	t1991	
+t1993 2 timeOutS==1 / - 	t1021	 !(timeOutS==1) / - 	t1023	
+t1994 2 current_state==2 / - 	t1013	 !(current_state==2) / - 	t1992	
+t1995 2 (cars==0) || (timeOutL==1) / - 	t1015	 !((cars==0) || (timeOutL==1)) / - 	t1017	
+t1996 2 current_state==4 / - 	t1007	 !(current_state==4) / - 	t1994	
+t1997 2 timeOutS==1 / - 	t1009	 !(timeOutS==1) / - 	t1011	
+t1998 2 current_state==0 / - 	qq1001	 !(current_state==0) / - 	t1996	
+t1999 2 (cars==1) && (timeOutL==1) / - 	t1003	 !((cars==1) && (timeOutL==1)) / - 	t1005	
+t1033 0
+
+
+finished FSMD .org files
+
+
+
+DOTTY :
+loop list :
+<999,3,7,4>
+<999,5,7,4>
+<998,1,7,3>
+<997,9,13,4>
+<997,11,13,4>
+<996,7,13,3>
+<995,15,19,4>
+<995,17,19,4>
+<994,13,19,3>
+<993,21,25,4>
+<993,23,25,4>
+<992,19,25,3>
+<991,25,29,3>
+<0,0,0,0>
+end
+loop count : 9
+hi allocations succesful
+loops sorting & merging :
+ifel <999,16241648> sizes :sizes end <999,996,1> end
+if <998,996> sizes : <340,550><998,996,1> end
+ifel <997,16241648> sizes :sizes end <997,994,1> end
+if <996,994> sizes : <338,535><996,994,1> end
+ifel <995,16241648> sizes :sizes end <995,992,1> end
+if <994,992> sizes : <338,550><994,992,1> end
+ifel <993,16241648> sizes :sizes end <993,991,1> end
+if <992,991> sizes : <338,535><992,991,1> end
+if <991,29> sizes :<991,29,1> end
+loops sorted
+<0,33,0,0>
+<0,33,0,998>
+loop inserted : 998 996
+<0,33,998,996>
+loop inserted : 996 994
+<0,33,996,994>
+loop inserted : 994 992
+<0,33,994,992>
+loop inserted : 992 991
+<0,33,992,991>
+loop inserted : 991 29
+<0,33,991,29>
+<0,33,29,30>
+<0,33,30,31>
+<0,33,31,32>
+Ok till here : loops modifications succesful
+Ok till here : nodes are added 
+Links now :
+end state reached : 33
+links too finished
+Generated output file names : HTG_tlc_c_main.dotty tlc.org tlc1.org
+dotty finished
+done

@@ -1,0 +1,108 @@
+FSMD name: qq
+** SearchInsert : inserted : BREAK	at position 0
+** SearchInsert : inserted : LOOP_END	at position 1
+starting yyparse : 
+** INfsmd : started
+** INfsmd : state transition added 
+test	gg1000
+** Parser : identifier found test
+** Parser : identifier found y1
+** SearchInsert : inserted : y1	at position 2
+** Parser : No data intialization in id: y1
+******* Parser : cool inserted y1
+** Parser : identifier found y2
+** SearchInsert : inserted : y2	at position 3
+** Parser : No data intialization in id: y2
+******* Parser : cool inserted y2
+~~~~~~~~~~~~~~ list : y1 y2 y1
+no declarations listed
+** Parser : identifier found z
+** SearchInsert : inserted : z	at position 4
+** Parser : No data intialization in id: z
+******* Parser : cool inserted z
+no declarations listed
+** Parser : identifier found i
+** SearchInsert : inserted : i	at position 5
+** Parser : data declared as id: i
+******* Parser : cool inserted i
+** INfsmd : started
+** INfsmd : state transition added 
+declarations
+** Parser : identifier found in expression  y1
+** Parser : identifier found in expression  y2
+** Parser : identifier found in expression  y1
+** Parser : identifier found in expression  y1
+** Parser : identifier found in expression  y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression  y1
+** Parser : identifier found in expression  y2
+** Parser : identifier found in expression  y1
+** Parser : identifier found in expression  y1
+** Parser : identifier found in expression  y2
+** Parser : expression :: y1=y1-y2
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>y2
+** INfsmd : started
+** INfsmd : state transition added !(y1>y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression  z
+parsed
+/**LELB situations will be handled here**/
+time_stamp : state_id comments
+enterd print function
+test.org
+0 1
+
+z 
+gg1000 1 - / 	qq1001	
+qq1001 1 - / i=5	gg1996	
+gg1002 1 - / y1=(y1)/(y2	gg1998	
+gg1003 1 - / y1=y1-y2	gg1999	
+end state at gg1004
+gg1996 1 - / - 	gg1997	
+gg1997 2 y1!=y2 / - 	gg1002	 !(y1!=y2) / - 	gg1004	
+gg1998 1 - / - 	gg1999	
+gg1999 2 y1>y2 / - 	gg1003	 !(y1>y2) / - 	gg1997	
+gg1004 0
+
+
+finished FSMD .org files
+
+
+
+DOTTY :
+loop list :
+<998,999,4,2>
+<996,997,4,2>
+<0,0,0,0>
+end
+loop count : 2
+hi allocations succesful
+loops sorting & merging :
+loop <999,997> sizes :sizes end <999,997,1> end
+loop <997,4> sizes : <334,250>sizes end <997,4,1> end
+loops sorted
+<0,4,0,0>
+<0,4,0,1>
+<0,4,1,996>
+<0,4,996,997>
+loop inserted : 997 4
+Ok till here : loops modifications succesful
+Ok till here : nodes are added 
+Links now :
+end state reached : 4
+links too finished
+Generated output file names : HTG_test_c_main.dotty test.org test1.org
+dotty finished
+done

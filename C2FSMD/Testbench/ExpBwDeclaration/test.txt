@@ -1,0 +1,23 @@
+FSMD name: qq
+** SearchInsert : inserted : BREAK	at position 0
+** SearchInsert : inserted : LOOP_END	at position 1
+starting yyparse : 
+** INfsmd : started
+** INfsmd : state transition added 
+test	gg1000
+** Parser : identifier found test
+** Parser : identifier found y1
+** SearchInsert : inserted : y1	at position 2
+** Parser : No data intialization in id: y1
+******* Parser : cool inserted y1
+** Parser : identifier found y2
+** SearchInsert : inserted : y2	at position 3
+** Parser : No data intialization in id: y2
+******* Parser : cool inserted y2
+~~~~~~~~~~~~~~ list : y1 y2 y1
+no declarations listed
+** Parser : identifier found in expression  y1
+** Parser : expression :: y1=5
+** INfsmd : started
+** INfsmd : state transition added 
+syntax error in line number 10

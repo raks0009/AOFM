@@ -1,0 +1,22 @@
+digraph routine
+{
+fontname = "Times-Roman"; fontsize = 14;
+nodesep = 0.1; ranksep = 0.5;
+node [height = 0.25, width = 0.4, shape = box ];
+edge [color = black ];
+nodegg1000 [color=chocolate shape=record,label="{gg1000 : data_transitions=1\n}"];
+nodeqq1001 [color=chocolate shape=record,label="{qq1001 : data_transitions=1\n|i=5\n}"];
+subgraph cluster_if_IF0  { color=magenta; label="IF0";
+nodegg1999 [color=chocolate shape=record,label="{gg1999 : data_transitions=0\n|?y1!=y2\n}"];
+nodegg1002 [color=chocolate shape=record,label="{gg1002 : data_transitions=1\n|y1=(y1)/(y2\n}"];
+}
+nodegg1003 [color=chocolate shape=record,label="{gg1003 : data_transitions=0\n}"];
+nodegg1000 -> nodeqq1001 [label=""];
+nodeqq1001 -> nodegg1999 [label=""];
+nodegg1002 -> nodegg1003 [label=""];
+nodegg1999 -> nodegg1002 [label="T"];
+nodegg1999 -> nodegg1003 [label="F"];
+
+}
+
+

@@ -1,0 +1,28 @@
+"sac1.org"
+0 0;
+;
+;
+q1000 1 - | 	q1989LB	; 
+qq1001 1 - | count_0s[bit_index]=0	q1002	; 	
+q1002 1 - | count_1s[bit_index]=0	q1997	; 	
+q1003LE 1 - | i=0	q1991	; 	/* loop_end */
+q1004 1 - | xi=power(x,i)	q1005	; 	
+q1005 1 - | vi=power(sbox[x],sbox[xi])	q1994LB	; 	
+q1006 1 - | count_1s[bit_index]=count_1s[bit_index]+1	q1993	; 	
+q1007 1 - | count_0s[bit_index]=count_0s[bit_index]+1	q1993	; 	
+q1008LE 1 - | i=leftShift(i,1)	q1992	; 	/* loop_end */
+q1988 1 - | x=x+1	q1990	; 	
+q1989LB 1 - | x=0	q1990	; 	/* x=0,; x<=255; x=x+1, */
+q1990 2 x<=255 | - 	q1998LB	 !(x<=255) | - 	q1009LE	; 	
+q1991 1 - | - 	q1992	; 	
+q1992 2 i!=f(1,8) | - 	q1004	 !(i!=f(1,8)) | - 	q1988	; 	
+q1993 1 - | bit_index=bit_index+1	q1995	; 	
+q1994LB 1 - | bit_index=0	q1995	; 	/* bit_index=0,; bit_index<8; bit_index=bit_index+
+q1995 2 bit_index<8 | - 	q1996	 !(bit_index<8) | - 	q1008LE	; 	
+q1996 2 g(vi,1,bit_index)!=0 | - 	q1006	 !(g(vi,1,bit_index)!=0) | - 	q1007	; 	
+q1997 1 - | bit_index=bit_index+1	q1999	; 	
+q1998LB 1 - | bit_index=0	q1999	; 	/* bit_index=0,; bit_index<8; bit_index=bit_index+
+q1999 2 bit_index<8 | - 	qq1001	 !(bit_index<8) | - 	q1003LE	; 	
+q1009LE 0;
+
+

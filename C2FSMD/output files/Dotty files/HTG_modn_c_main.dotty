@@ -1,0 +1,51 @@
+digraph routine
+{
+fontname = "Times-Roman"; fontsize = 14;
+nodesep = 0.1; ranksep = 0.5;
+node [height = 0.25, width = 0.4, shape = box ];
+edge [color = black ];
+nodemm1000 [color=chocolate shape=record,label="{mm1000 : data_transitions=1\n}"];
+nodeqq1001 [color=chocolate shape=record,label="{qq1001 : data_transitions=1\n|s=0\n}"];
+nodemm1995LB [color=chocolate shape=record,label="{mm1995LB : data_transitions=1\n|i=0\n}"];
+nodemm1996 [color=chocolate shape=record,label="{mm1996 : data_transitions=0\n|?i\<=15\n}"];
+subgraph cluster_loop_LOOP0  { color=magenta; label="LOOP0";
+subgraph cluster_if_IF0  { color=magenta; label="IF0";
+nodemm1999 [color=chocolate shape=record,label="{mm1999 : data_transitions=0\n|?b%2==1\n}"];
+nodemm1002 [color=chocolate shape=record,label="{mm1002 : data_transitions=1\n|s=s+a\n}"];
+}
+subgraph cluster_if_IF1  { color=magenta; label="IF1";
+nodemm1998 [color=chocolate shape=record,label="{mm1998 : data_transitions=0\n|?s\n}"];
+nodemm1003 [color=chocolate shape=record,label="{mm1003 : data_transitions=1\n|s=s-n\n}"];
+}
+nodemm1004 [color=chocolate shape=record,label="{mm1004 : data_transitions=1\n|a=(a)*(2)\n}"];
+nodemm1005 [color=chocolate shape=record,label="{mm1005 : data_transitions=1\n|b=(b)/(2\n}"];
+subgraph cluster_if_IF2  { color=magenta; label="IF2";
+nodemm1997 [color=chocolate shape=record,label="{mm1997 : data_transitions=0\n|?a\n}"];
+nodemm1006 [color=chocolate shape=record,label="{mm1006 : data_transitions=1\n|a=a-n\n}"];
+}
+nodemm1994 [color=chocolate shape=record,label="{mm1994 : data_transitions=1\n|i=i+1\n}"];
+}
+nodemm1007LE [color=chocolate shape=record,label="{mm1007LE : data_transitions=1\n|sout=s\n}"];
+nodemm1008 [color=chocolate shape=record,label="{mm1008 : data_transitions=0\n}"];
+nodemm1000 -> nodeqq1001 [label=""];
+nodeqq1001 -> nodemm1995LB [label=""];
+nodemm1002 -> nodemm1998 [label=""];
+nodemm1003 -> nodemm1004 [label=""];
+nodemm1004 -> nodemm1005 [label=""];
+nodemm1005 -> nodemm1997 [label=""];
+nodemm1006 -> nodemm1994 [label=""];
+nodemm1007LE -> nodemm1008 [label=""];
+nodemm1994 -> nodemm1996 [label=""];
+nodemm1995LB -> nodemm1996 [label=""];
+nodemm1996 -> nodemm1999 [label="T"];
+nodemm1996 -> nodemm1007LE [label="F"];
+nodemm1997 -> nodemm1006 [label="T"];
+nodemm1997 -> nodemm1994 [label="F"];
+nodemm1998 -> nodemm1003 [label="T"];
+nodemm1998 -> nodemm1004 [label="F"];
+nodemm1999 -> nodemm1002 [label="T"];
+nodemm1999 -> nodemm1998 [label="F"];
+
+}
+
+

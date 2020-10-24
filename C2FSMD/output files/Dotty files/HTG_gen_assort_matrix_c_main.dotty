@@ -1,0 +1,72 @@
+digraph routine
+{
+fontname = "Times-Roman"; fontsize = 14;
+nodesep = 0.1; ranksep = 0.5;
+node [height = 0.25, width = 0.4, shape = box ];
+edge [color = black ];
+nodeq1000 [color=chocolate shape=record,label="{q1000 : data_transitions=1\n}"];
+nodeqq1001 [color=chocolate shape=record,label="{qq1001 : data_transitions=1\n|i=0\n|j=0\n|total=1\n|nl=0\n|nm=0\n}"];
+nodeq1002 [color=chocolate shape=record,label="{q1002 : data_transitions=1\n|sum_deg_l=0\n|sum_deg_m=0\n|total_edges=0\n}"];
+nodeq1995LB [color=chocolate shape=record,label="{q1995LB : data_transitions=1\n|i=1\n}"];
+nodeq1996 [color=chocolate shape=record,label="{q1996 : data_transitions=0\n|?i\<m+1\n}"];
+subgraph cluster_loop_LOOP1  { color=magenta; label="LOOP1";
+nodeq1998LB [color=chocolate shape=record,label="{q1998LB : data_transitions=1\n|j=1\n}"];
+nodeq1999 [color=chocolate shape=record,label="{q1999 : data_transitions=0\n|?j\<i+1\n}"];
+subgraph cluster_loop_LOOP0  { color=magenta; label="LOOP0";
+nodeq1003 [color=chocolate shape=record,label="{q1003 : data_transitions=1\n|assort_matrix[i][j]=0\n}"];
+nodeq1997 [color=chocolate shape=record,label="{q1997 : data_transitions=1\n|j=j+1\n}"];
+}
+nodeq1994LE [color=chocolate shape=record,label="{q1994LE : data_transitions=1\n|i=i+1\n}"];
+}
+nodeq1004LE [color=chocolate shape=record,label="{q1004LE : data_transitions=1\n|nl=(frac_low)*(n)\n}"];
+nodeq1005 [color=chocolate shape=record,label="{q1005 : data_transitions=1\n|nm=n-nl\n}"];
+nodeq1006 [color=chocolate shape=record,label="{q1006 : data_transitions=1\n|sum_deg_l=(l)*(nl)\n}"];
+nodeq1007 [color=chocolate shape=record,label="{q1007 : data_transitions=1\n|sum_deg_m=(m)*(nm)\n}"];
+nodeq1008 [color=chocolate shape=record,label="{q1008 : data_transitions=1\n|total_edges=(sum_deg_l+sum_deg_m)/(2\n}"];
+subgraph cluster_ifelse_IFELSE0  { color=magenta; label="IFELSE0";
+nodeq1993 [color=chocolate shape=record,label="{q1993 : data_transitions=0\n|?sum_deg_l\>sum_deg_m\n}"];
+nodeq1009 [color=chocolate shape=record,label="{q1009 : data_transitions=1\n|temp=((((sum_deg_m)*(100))/(total_edges)*(2))*(100)\n}"];
+nodeq1010 [color=chocolate shape=record,label="{q1010 : data_transitions=1\n|assort_matrix[m][m]=temp\n}"];
+nodeq1011 [color=chocolate shape=record,label="{q1011 : data_transitions=1\n|assort_matrix[l][m]=((sum_deg_m)*(1))/(total_edges-(2)*(assort_matrix[m][m])\n}"];
+nodeq1012 [color=chocolate shape=record,label="{q1012 : data_transitions=1\n|assort_matrix[m][l]=((sum_deg_m)*(1))/(total_edges-(2)*(assort_matrix[m][m])\n}"];
+nodeq1013 [color=chocolate shape=record,label="{q1013 : data_transitions=1\n|assort_matrix[l][l]=assort_matrix[m][m]+(sum_deg_l-sum_deg_m)/((2)*(total_edges)\n}"];
+nodeq1014 [color=chocolate shape=record,label="{q1014 : data_transitions=1\n|temp=((((sum_deg_l)*(100))/(total_edges)*(2))*(100)\n}"];
+nodeq1015 [color=chocolate shape=record,label="{q1015 : data_transitions=1\n|assort_matrix[l][l]=temp\n}"];
+nodeq1016 [color=chocolate shape=record,label="{q1016 : data_transitions=1\n|assort_matrix[l][m]=((sum_deg_l)*(1))/(total_edges-(2)*(assort_matrix[l][l])\n}"];
+nodeq1017 [color=chocolate shape=record,label="{q1017 : data_transitions=1\n|assort_matrix[m][l]=((sum_deg_l)*(1))/(total_edges-(2)*(assort_matrix[l][l])\n}"];
+nodeq1018 [color=chocolate shape=record,label="{q1018 : data_transitions=1\n|assort_matrix[m][m]=assort_matrix[l][l]+(sum_deg_m-sum_deg_l)/((2)*(total_edges)\n}"];
+}
+nodeq1019 [color=chocolate shape=record,label="{q1019 : data_transitions=0\n}"];
+nodeq1000 -> nodeqq1001 [label=""];
+nodeqq1001 -> nodeq1002 [label=""];
+nodeq1002 -> nodeq1995LB [label=""];
+nodeq1003 -> nodeq1997 [label=""];
+nodeq1004LE -> nodeq1005 [label=""];
+nodeq1005 -> nodeq1006 [label=""];
+nodeq1006 -> nodeq1007 [label=""];
+nodeq1007 -> nodeq1008 [label=""];
+nodeq1008 -> nodeq1993 [label=""];
+nodeq1009 -> nodeq1010 [label=""];
+nodeq1010 -> nodeq1011 [label=""];
+nodeq1011 -> nodeq1012 [label=""];
+nodeq1012 -> nodeq1013 [label=""];
+nodeq1013 -> nodeq1019 [label=""];
+nodeq1014 -> nodeq1015 [label=""];
+nodeq1015 -> nodeq1016 [label=""];
+nodeq1016 -> nodeq1017 [label=""];
+nodeq1017 -> nodeq1018 [label=""];
+nodeq1018 -> nodeq1019 [label=""];
+nodeq1993 -> nodeq1009 [label="T"];
+nodeq1993 -> nodeq1014 [label="F"];
+nodeq1994LE -> nodeq1996 [label=""];
+nodeq1995LB -> nodeq1996 [label=""];
+nodeq1996 -> nodeq1998LB [label="T"];
+nodeq1996 -> nodeq1004LE [label="F"];
+nodeq1997 -> nodeq1999 [label=""];
+nodeq1998LB -> nodeq1999 [label=""];
+nodeq1999 -> nodeq1003 [label="T"];
+nodeq1999 -> nodeq1994LE [label="F"];
+
+}
+
+

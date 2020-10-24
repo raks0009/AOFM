@@ -1,0 +1,109 @@
+barcode.org
+0 0
+
+
+bcd1000 1 - / 	qq1001	
+qq1001 1 - / wh=0	bcd1002	
+bcd1002 1 - / bl=1	bcd1003	
+bcd1003 1 - / eoc=0	bcd1004	
+bcd1004 1 - / memw=0	bcd1005	
+bcd1005 1 - / data=0	bcd1006	
+bcd1006 1 - / addr=0	bcd1007	
+bcd1007 1 - / eop=0	bcd1967LB	
+bcd1008LB 1 - / - 	bcd1009	
+bcd1009 2 clk!=1 / - 	bcd1010	 !(clk!=1) / - 	bcd1011LE	
+bcd1010 1 - / - 	bcd1009	
+bcd1011LE 1 - / eop=0	bcd1999	
+bcd1012 1 - / eop=1	bcd1013	
+bcd1013 1 - / BREAK=1	bcd1998	
+bcd1014 1 - / BREAK=1	bcd1995	
+bcd1015 1 - / BREAK=1	bcd1976LB	
+bcd1016LB 1 - / - 	bcd1017	
+bcd1017 2 clk!=1 / - 	bcd1018	 !(clk!=1) / - 	bcd1019LE	
+bcd1018 1 - / - 	bcd1017	
+bcd1019LE 1 - / eop=0	bcd1993	
+bcd1020 1 - / eop=1	bcd1021	
+bcd1021 1 - / BREAK=1	bcd1992	
+bcd1022 1 - / BREAK=1	bcd1989	
+bcd1023 1 - / BREAK=1	bcd1024	
+bcd1024 1 - / flag=wh	bcd1025	
+bcd1025 1 - / actnum=0	bcd1026	
+bcd1026 1 - / white=0	bcd1027	
+bcd1027 1 - / black=0	bcd1028	
+bcd1028 1 - / eoc=0	bcd1980LB	
+bcd1029LB 1 - / - 	bcd1030	
+bcd1030 2 clk!=1 / - 	bcd1031	 !(clk!=1) / - 	bcd1032LE	
+bcd1031 1 - / - 	bcd1030	
+bcd1032LE 1 - / eop=0	bcd1987	
+bcd1033 1 - / eop=1	bcd1034	
+bcd1034 1 - / BREAK=1	bcd1035	
+bcd1035 1 - / white=white+1	bcd1986	
+bcd1036 1 - / actnum=actnum+1	bcd1037	
+bcd1037 1 - / memw=0	bcd1039	
+bcd1038 1 - / memw=1	bcd1039	
+bcd1039 1 - / black=0	bcd1040	
+bcd1040 1 - / flag=wh	bcd1041	
+bcd1041 1 - / data=white	bcd1982	
+bcd1042LB 1 - / - 	bcd1043	
+bcd1043 2 clk!=1 / - 	bcd1044	 !(clk!=1) / - 	bcd1045LE	
+bcd1044 1 - / - 	bcd1043	
+bcd1045LE 1 - / eop=0	bcd1985	
+bcd1046 1 - / eop=1	bcd1047	
+bcd1047 1 - / BREAK=1	bcd1048	
+bcd1048 1 - / black=black+1	bcd1984	
+bcd1049 1 - / actnum=actnum+1	bcd1050	
+bcd1050 1 - / memw=0	bcd1052	
+bcd1051 1 - / memw=1	bcd1052	
+bcd1052 1 - / flag=bl	bcd1053	
+bcd1053 1 - / white=0	bcd1054	
+bcd1054 1 - / data=black	bcd1982	
+bcd1055 1 - / BREAK=1	bcd1056	
+bcd1056 1 - / addr=actnum	bcd1979	
+bcd1057 1 - / BREAK=1	bcd1975	
+bcd1058 1 - / BREAK=1	bcd1059	
+bcd1059 1 - / memw=0	bcd1060	
+bcd1060 1 - / eoc=1	bcd1970LB	
+bcd1061LB 1 - / - 	bcd1062	
+bcd1062 2 clk!=1 / - 	bcd1063	 !(clk!=1) / - 	bcd1064LE	
+bcd1063 1 - / - 	bcd1062	
+bcd1064LE 1 - / eop=0	bcd1973	
+bcd1065 1 - / eop=1	bcd1066	
+bcd1066 1 - / BREAK=1	bcd1972	
+bcd1067 1 - / BREAK=1	bcd1969	
+bcd1966LE 1 - / - 	bcd1968	
+bcd1967LB 1 - / - 	bcd1968	
+bcd1968 2 - / - 	bcd1996LB	 !() / - 	bcd1068LE	
+bcd1969 1 - / - 	bcd1971	
+bcd1970LB 1 - / - 	bcd1971	
+bcd1971 2 start!=0 / - 	bcd1061LB	 !(start!=0) / - 	bcd1966LE	
+bcd1972 2 start==0 / - 	bcd1067	 !(start==0) / - 	bcd1969	
+bcd1973 2 reset==1 / - 	bcd1065	 !(reset==1) / - 	bcd1972	
+bcd1974LE 2 eop==1 / - 	bcd1058	 !(eop==1) / - 	bcd1059	
+bcd1975 1 - / - 	bcd1977	
+bcd1976LB 1 - / - 	bcd1977	
+bcd1977 2 (actnum!=num) && (white!=255) / - 	bcd1990LB	 !((actnum!=num) && (white!=255)) / - 	bcd1974LE	
+bcd1978LE 2 eop==1 / - 	bcd1057	 !(eop==1) / - 	bcd1975	
+bcd1979 1 - / - 	bcd1981	
+bcd1980LB 1 - / - 	bcd1981	
+bcd1981 2 (white!=255) || (black!=255) / - 	bcd1983	 !((white!=255) || (black!=255)) / - 	bcd1978LE	
+bcd1982 2 eop==1 / - 	bcd1055	 !(eop==1) / - 	bcd1056	
+bcd1983 2 video==wh / - 	bcd1029LB	 !(video==wh) / - 	bcd1042LB	
+bcd1984 2 flag==wh / - 	bcd1049	 !(flag==wh) / - 	bcd1051	
+bcd1985 2 reset==1 / - 	bcd1046	 !(reset==1) / - 	bcd1048	
+bcd1986 2 flag==bl / - 	bcd1036	 !(flag==bl) / - 	bcd1038	
+bcd1987 2 reset==1 / - 	bcd1033	 !(reset==1) / - 	bcd1035	
+bcd1988LE 2 eop==1 / - 	bcd1023	 !(eop==1) / - 	bcd1024	
+bcd1989 1 - / - 	bcd1991	
+bcd1990LB 1 - / - 	bcd1991	
+bcd1991 2 - / - 	bcd1016LB	 !() / - 	bcd1988LE	
+bcd1992 2 scan==1 / - 	bcd1022	 !(scan==1) / - 	bcd1989	
+bcd1993 2 reset==1 / - 	bcd1020	 !(reset==1) / - 	bcd1992	
+bcd1994LE 2 eop==1 / - 	bcd1015	 !(eop==1) / - 	bcd1976LB	
+bcd1995 1 - / - 	bcd1997	
+bcd1996LB 1 - / - 	bcd1997	
+bcd1997 2 - / - 	bcd1008LB	 !() / - 	bcd1994LE	
+bcd1998 2 start==1 / - 	bcd1014	 !(start==1) / - 	bcd1995	
+bcd1999 2 reset==1 / - 	bcd1012	 !(reset==1) / - 	bcd1998	
+bcd1068LE 0
+
+

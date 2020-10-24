@@ -1,0 +1,730 @@
+FSMD name: qq
+** SearchInsert : inserted : BREAK	at position 0
+** SearchInsert : inserted : LOOP_END	at position 1
+starting yyparse : 
+** INfsmd : started
+** INfsmd : state transition added 
+test	rm1000
+** Parser : identifier found main
+** Parser : identifier found argc
+** SearchInsert : inserted : argc	at position 2
+** Parser : identifier found argc2
+** SearchInsert : inserted : argc2	at position 3
+** Parser : identifier found argf
+~~~~~~~~~~~~~~~~~~~~ array found
+~~~~~~~~~~~~~~~~~~~~ array found
+** SearchInsert : inserted : argf	at position 4
+**function inputs : 
+argc 2
+argf 4
+** Parser : identifier found b
+** SearchInsert : inserted : b	at position 5
+** Parser : data declared as id: b
+******* Parser : cool inserted b
+** INfsmd : started
+** INfsmd : state transition added 
+declarations
+** Parser : identifier found i
+** SearchInsert : inserted : i	at position 6
+** Parser : No data intialization in id: i
+******* Parser : cool inserted i
+** Parser : identifier found x
+** SearchInsert : inserted : x	at position 7
+** Parser : No data intialization in id: x
+******* Parser : cool inserted x
+~~~~~~~~~~~~~~ list : i x i
+** Parser : identifier found j
+** SearchInsert : inserted : j	at position 8
+** Parser : data declared as id: j
+******* Parser : cool inserted j
+~~~~~~~~~~~~~~ list : i j i
+** Parser : identifier found k
+** SearchInsert : inserted : k	at position 9
+** Parser : data declared as id: k
+******* Parser : cool inserted k
+~~~~~~~~~~~~~~ list : i k i
+** INfsmd : started
+** INfsmd : state transition added 
+declarations
+** Parser : identifier found A
+~~~~~~~~~~~~~~~~~~~~ array found
+** SearchInsert : inserted : A	at position 10
+** Parser : No data intialization in id: A
+******* Parser : cool inserted A
+no declarations listed
+** Parser : identifier found B
+~~~~~~~~~~~~~~~~~~~~ array found
+~~~~~~~~~~~~~~~~~~~~ array found
+** SearchInsert : inserted : B	at position 11
+** Parser : data declared as id: B
+******* Parser : cool inserted B
+** INfsmd : started
+** INfsmd : state transition added 
+declarations
+** Parser : identifier found C
+~~~~~~~~~~~~~~~~~~~~ array found
+** SearchInsert : inserted : C	at position 12
+** Parser : data declared as id: C
+******* Parser : cool inserted C
+** INfsmd : started
+** INfsmd : state transition added 
+declarations
+** Parser : identifier found y
+** SearchInsert : inserted : y	at position 13
+** Parser : data declared as id: y
+******* Parser : cool inserted y
+** INfsmd : started
+** INfsmd : state transition added 
+declarations
+** Parser : identifier found in expression A
+** Parser : expression :: A[1]=1
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression argf
+** Parser : expression :: argf[1][2]=1
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression A
+** Parser : identifier found in expression i
+** Parser : identifier found in expression B
+** Parser : identifier found in expression j
+** Parser : identifier found in expression j
+!!!!!!!!!! DT created with array type lhs : A[i] 4 4 16
+** Parser : expression :: A[i]=B[j][j]
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression j
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added j<0
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added !(j<0)
+** Parser : identifier found in expression j
+** Parser : identifier found in expression j
+** Parser : identifier found in expression j
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added j<10
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added !(j<10)
+** Parser : identifier found in expression i
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added i<10
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added !(i<10)
+** Parser : identifier found in expression x
+** Parser : identifier found in expression hello
+***** temporary variable insertion : hello
+** SearchInsert : inserted : hello	at position 14
+** Parser : expression :: x=hello()
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression k
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added k>10
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added !(k>10)
+** Parser : identifier found in expression x
+** Parser : identifier found in expression hello
+***** function call found : function name : hello
+** Parser : identifier found in expression i
+** Parser : identifier found in expression j
+** Parser : expression :: x=hello(i,j)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression x
+** Parser : identifier found in expression hello
+***** function call found : function name : hello
+** Parser : identifier found in expression i
+** Parser : identifier found in expression k
+** Parser : identifier found in expression k
+** Parser : identifier found in expression k
+** Parser : identifier found in expression j
+** Parser : expression :: x=hello(i+k,(k)*(10),((k)*(j))/(10)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression x
+** Parser : identifier found in expression x
+** Parser : expression :: x=x
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added 1
+** INfsmd : started
+** INfsmd : state transition added !(1)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression j
+** Parser : expression :: j=1
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression j
+** Parser : expression :: j=0
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression j
+** Parser : expression :: j=j+1
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression j
+** Parser : expression :: j=j+1
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression k
+** Parser : expression :: k=120
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression i
+** Parser : expression :: i=10
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression i
+** Parser : identifier found in expression i
+** Parser : expression :: i=i+(10)*(15)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression x
+** Parser : expression :: x=(10+2)*(5+5)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression x
+** Parser : identifier found in expression i
+** Parser : identifier found in expression j
+** Parser : expression :: x=i+j
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression x
+** Parser : identifier found in expression x
+** Parser : identifier found in expression j
+** Parser : expression :: x=x%j
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression x
+** Parser : identifier found in expression i
+** Parser : identifier found in expression b
+** Parser : expression :: b=10
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression i
+** Parser : expression :: i=5
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression i
+** Parser : expression :: i=6
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression b
+** Parser : expression :: b=11
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added x==i
+** INfsmd : started
+** INfsmd : state transition added !(x==i)
+** Parser : identifier found in expression x
+** Parser : identifier found in expression x
+** Parser : expression :: x=x
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added 1
+** INfsmd : started
+** INfsmd : state transition added !(1)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression x
+** Parser : identifier found in expression i
+** Parser : expression :: x=i
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression i
+** Parser : identifier found in expression x
+** Parser : expression :: i=x
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression b
+** Parser : identifier found in expression b
+** Parser : identifier found in expression j
+** Parser : identifier found in expression y
+** Parser : identifier found in expression j
+** Parser : expression :: y=j
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression j
+** Parser : identifier found in expression y
+** Parser : expression :: j=y
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression x
+** Parser : expression :: x=11
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression i
+** Parser : identifier found in expression x
+** Parser : expression :: i=x
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added j<10
+** INfsmd : started
+** INfsmd : state transition added !(j<10)
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added (b!=10) && (b!=5)
+** INfsmd : started
+** INfsmd : state transition added !((b!=10) && (b!=5))
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression A
+** Parser : expression :: A[0]=5
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression A
+** Parser : expression :: A[1]=10
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression A
+** Parser : identifier found in expression A
+** Parser : identifier found in expression A
+** Parser : expression :: A[2]=A[1]+A[0]
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression x
+** Parser : identifier found in expression y
+** Parser : identifier found in expression b
+** Parser : expression :: x=(y)/(b
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression x
+** Parser : identifier found in expression i
+** Parser : identifier found in expression b
+** Parser : identifier found in expression x
+** Parser : identifier found in expression i
+** Parser : identifier found in expression j
+** Parser : identifier found in expression i
+** Parser : identifier found in expression b
+** Parser : expression :: x=(((i+b)*(x+i))*(j-i))/(b+10
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression A
+** Parser : identifier found in expression A
+** Parser : expression :: A[1]=A[0]
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression A
+** Parser : identifier found in expression A
+** Parser : expression :: A[1]=A[0]+5
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression A
+** Parser : identifier found in expression A
+** Parser : identifier found in expression A
+** Parser : identifier found in expression x
+** Parser : identifier found in expression i
+** Parser : identifier found in expression A
+** Parser : identifier found in expression A
+** Parser : expression :: A[2]=((A[0]+A[1])*(x+i))*(A[0]-A[1])
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression x
+** Parser : identifier found in expression j
+** Parser : expression :: x=j
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression j
+** Parser : identifier found in expression j
+** Parser : identifier found in expression j
+** Parser : identifier found in expression j
+** Parser : identifier found in expression i
+** Parser : identifier found in expression i
+** Parser : identifier found in expression A
+** Parser : identifier found in expression i
+** Parser : identifier found in expression i
+!!!!!!!!!! DT created with array type lhs : A[i] 4 4 16
+** Parser : expression :: A[i]=i
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression A
+** Parser : identifier found in expression i
+** Parser : identifier found in expression i
+!!!!!!!!!! DT created with array type lhs : A[i+1] 4 4 16
+** Parser : expression :: A[i+1]=i
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression i
+** Parser : identifier found in expression i
+** Parser : expression :: i=i+1
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression i
+** Parser : expression :: i=i+1
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added j<15
+** INfsmd : started
+** INfsmd : state transition added !(j<15)
+** Parser : identifier found in expression i
+** Parser : identifier found in expression i
+** Parser : identifier found in expression i
+** Parser : identifier found in expression j
+** Parser : identifier found in expression j
+** Parser : identifier found in expression j
+** Parser : identifier found in expression j
+** Parser : expression :: j=(j)*(2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression j
+** Parser : identifier found in expression j
+** Parser : expression :: j=j-1
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression B
+** Parser : identifier found in expression i
+** Parser : identifier found in expression j
+!!!!!!!!!! DT created with array type lhs : B[i][j] 4 4 16
+** Parser : expression :: B[i][j]=2
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added j<20
+** INfsmd : started
+** INfsmd : state transition added !(j<20)
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added i<25
+** INfsmd : started
+** INfsmd : state transition added !(i<25)
+** Parser : identifier found in expression i
+** Parser : identifier found in expression i
+** Parser : identifier found in expression i
+** Parser : identifier found in expression j
+** Parser : expression :: j=(j)*(2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression j
+** Parser : identifier found in expression j
+** Parser : expression :: j=j+1
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added i<35
+** INfsmd : started
+** INfsmd : state transition added !(i<35)
+** Parser : identifier found in expression x
+** Parser : identifier found in expression x
+** Parser : expression :: x=x
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression j
+** Parser : identifier found in expression j
+** Parser : identifier found in expression B
+** Parser : identifier found in expression i
+** Parser : identifier found in expression j
+!!!!!!!!!! DT created with array type lhs : B[i][j] 4 4 16
+** Parser : expression :: B[i][j]=2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression j
+** Parser : expression :: j=j+1
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added j<50
+** INfsmd : started
+** INfsmd : state transition added !(j<50)
+** Parser : identifier found in expression x
+** Parser : identifier found in expression i
+** Parser : expression :: x=i
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression j
+** Parser : identifier found in expression j
+** Parser : expression :: j=(j)/(2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression j
+** Parser : expression :: BREAK
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added j==2
+** INfsmd : started
+** INfsmd : state transition added !(j==2)
+parsed
+/**LELB situations will be handled here**/
+time_stamp : state_id comments
+*****************LELB situation : 
+intially : rm1012LB : /* j=0,; j<10; */
+finally : rm1012LELB : /* loop_end *//* j=0,; j<10; */
+**********************************
+*****************LELB situation : 
+intially : rm1980LB : /* i=0,; i<35; i=i+1, */
+finally : rm1980LELB : /* loop_end *//* i=0,; i<35; i=i+1, */
+**********************************
+*****************LELB situation : 
+intially : rm1983LB : /* i=0,; i<25; i=i+1, */
+finally : rm1983LELB : /* loop_end *//* i=0,; i<25; i=i+1, */
+**********************************
+enterd print function
+test.org
+2 2
+argc argf 
+1 0 
+rm1000 1 - / 	qq1001	
+qq1001 1 - / b=5	rm1002	
+rm1002 1 - / j=10,k=11	rm1003	
+rm1003 1 - / B[0][0]=1,B[0][1]=1,B[0][2]=1,B[1][0]=2,B[1][1]=2,B[1][2]=2,B[2][0]=2,B[2][1]=2,B[2][2]=2	rm1004	
+rm1004 1 - / C[0]=1,C[1]=2,C[2]=3	rm1005	
+rm1005 1 - / y=0	rm1006	
+rm1006 1 - / A[1]=1	rm1007	
+rm1007 1 - / argf[1][2]=1	rm1008	
+rm1008 1 - / A[i]=B[j][j]	rm1009LB	
+rm1009LB 1 - / - 	rm1010	
+rm1010 2 j<0 / - 	rm1011	 !(j<0) / - 	rm1012LELB	
+rm1011 1 - / - 	rm1010	
+rm1012LELB 1 - / j=0	rm1013	
+rm1013 2 j<10 / - 	rm1014	 !(j<10) / - 	rm1015LE	
+rm1014 1 - / j=j+1	rm1013	
+rm1015LE 1 - / - 	rm1016	
+rm1016 2 i<10 / - 	rm1017	 !(i<10) / - 	rm1018	
+rm1017 1 - / - 	rm1016	
+rm1018 1 - / x=hello()	rm1019	
+rm1019 1 - / - 	rm1020	
+rm1020 2 k>10 / - 	rm1021	 !(k>10) / - 	rm1022	
+rm1021 1 - / - 	rm1020	
+rm1022 1 - / x=hello(i,j)	rm1023	
+rm1023 1 - / x=hello(i+k,(k)*(10),((k)*(j))/(10)	rm1998	
+rm1024 1 - / x=x	rm1999	
+rm1025 1 - / j=1	rm1026	
+rm1026 1 - / j=0	rm1027	
+rm1027 1 - / j=j+1	rm1028	
+rm1028 1 - / j=j+1	rm1029	
+rm1029 1 - / k=120	rm1030	
+rm1030 1 - / i=10	rm1031	
+rm1031 1 - / i=i+(10)*(15)	rm1032	
+rm1032 1 - / x=(10+2)*(5+5)	rm1033	
+rm1033 1 - / x=i+j	rm1034	
+rm1034 1 - / x=x%j	rm1997	
+rm1035 1 - / b=10	rm1036	
+rm1036 1 - / i=5	rm1995	
+rm1037 1 - / i=6	rm1038	
+rm1038 1 - / b=11	rm1995	
+rm1039 1 - / x=x	rm1996	
+rm1040 1 - / x=i	rm1041	
+rm1041 1 - / i=x	rm1991	
+rm1042 1 - / y=j	rm1043	
+rm1043 1 - / j=y	rm1044	
+rm1044 1 - / x=11	rm1045	
+rm1045 1 - / i=x	rm1994	
+rm1046 1 - / A[0]=5	rm1047	
+rm1047 1 - / A[1]=10	rm1048	
+rm1048 1 - / A[2]=A[1]+A[0]	rm1049	
+rm1049 1 - / x=(y)/(b	rm1050	
+rm1050 1 - / x=(((i+b)*(x+i))*(j-i))/(b+10	rm1051	
+rm1051 1 - / A[1]=A[0]	rm1052	
+rm1052 1 - / A[1]=A[0]+5	rm1053	
+rm1053 1 - / A[2]=((A[0]+A[1])*(x+i))*(A[0]-A[1])	rm1054	
+rm1054 1 - / x=j	rm1989LB	
+rm1055 1 - / A[i]=i	rm1056	
+rm1056 1 - / A[i+1]=i	rm1057	
+rm1057 1 - / i=i+1	rm1058	
+rm1058 1 - / i=i+1	rm1988	
+rm1059 1 - / j=(j)*(2)	rm1060	
+rm1060 1 - / j=j-1	rm1061	
+rm1061 1 - / B[i][j]=2	rm1985	
+rm1062 1 - / j=(j)*(2)	rm1063	
+rm1063 1 - / j=j+1	rm1979	
+rm1064LE 1 - / x=x	rm1977LB	
+rm1065 1 - / B[i][j]=2	rm1066	
+rm1066 1 - / j=j+1	rm1976	
+rm1067LE 1 - / x=i	rm1068	
+rm1068 1 - / j=(j)/(2	rm1975	
+rm1069 1 - / BREAK=1	rm1070	
+end state at rm1070
+rm1975 2 j==2 / - 	rm1069	 !(j==2) / - 	rm1070	
+rm1976 1 - / - 	rm1978	
+rm1977LB 1 - / j=0	rm1978	
+rm1978 2 j<50 / - 	rm1065	 !(j<50) / - 	rm1067LE	
+rm1979 1 - / i=i+1	rm1981	
+rm1980LELB 1 - / i=0	rm1981	
+rm1981 2 i<35 / - 	rm1062	 !(i<35) / - 	rm1064LE	
+rm1982LE 1 - / i=i+1	rm1984	
+rm1983LELB 1 - / i=0	rm1984	
+rm1984 2 i<25 / - 	rm1986LB	 !(i<25) / - 	rm1980LELB	
+rm1985 1 - / j=j+1	rm1987	
+rm1986LB 1 - / j=0	rm1987	
+rm1987 2 j<20 / - 	rm1059	 !(j<20) / - 	rm1982LE	
+rm1988 1 - / j=j+1,i=i+2	rm1990	
+rm1989LB 1 - / j=0	rm1990	
+rm1990 2 j<15 / - 	rm1055	 !(j<15) / - 	rm1983LELB	
+rm1991 1 - / - 	rm1992	
+rm1992 2 (b!=10) && (b!=5) / - 	rm1993	 !((b!=10) && (b!=5)) / - 	rm1046	
+rm1993 1 - / - 	rm1994	
+rm1994 2 j<10 / - 	rm1042	 !(j<10) / - 	rm1992	
+rm1995 1 - / - 	rm1996	
+rm1996 2 1 / - 	rm1039	 !(1) / - 	rm1040	
+rm1997 2 x==i / - 	rm1035	 !(x==i) / - 	rm1037	
+rm1998 1 - / - 	rm1999	
+rm1999 2 1 / - 	rm1024	 !(1) / - 	rm1025	
+rm1070 0
+
+
+finished FSMD .org files
+
+
+
+DOTTY :
+loop list :
+<9,10,12,1>
+<15,13,15,1>
+<18,16,18,2>
+<22,20,22,2>
+<998,999,25,2>
+<997,35,39,4>
+<997,37,39,4>
+<995,996,40,2>
+<993,994,46,2>
+<991,992,46,2>
+<989,990,59,1>
+<986,987,62,1>
+<983,984,62,1>
+<980,981,64,1>
+<977,978,67,1>
+<975,69,70,3>
+<0,0,0,0>
+end
+loop count : 15
+hi allocations succesful
+loops sorting & merging :
+loop <10,12> sizes :sizes end <10,12,1> end
+loop <13,15> sizes :sizes end <13,15,1> end
+loop <16,18> sizes :sizes end <16,18,1> end
+loop <20,22> sizes :sizes end <20,22,1> end
+loop <999,25> sizes :sizes end <999,25,1> end
+ifel <997,2692080> sizes :sizes end <997,995,1> end
+loop <996,40> sizes :sizes end <996,40,1> end
+loop <994,992> sizes :sizes end <994,992,1> end
+loop <992,46> sizes : <248,512>sizes end <992,46,1> end
+loop <990,983> sizes :sizes end <990,983,1> end
+loop <987,982> sizes :sizes end <987,982,1> end
+loop <984,980> sizes : <248,527>sizes end <984,980,1> end
+loop <981,64> sizes :sizes end <981,64,1> end
+loop <978,67> sizes :sizes end <978,67,1> end
+if <975,70> sizes :<975,70,1> end
+loops sorted
+<0,70,0,0>
+<0,70,0,1>
+<0,70,1,2>
+<0,70,2,3>
+<0,70,3,4>
+<0,70,4,5>
+<0,70,5,6>
+<0,70,6,7>
+<0,70,7,8>
+<0,70,8,9>
+<0,70,9,10>
+loop inserted : 10 12
+<0,70,10,12>
+<0,70,12,13>
+loop inserted : 13 15
+<0,70,13,15>
+<0,70,15,16>
+loop inserted : 16 18
+<0,70,16,18>
+<0,70,18,19>
+<0,70,19,20>
+loop inserted : 20 22
+<0,70,20,22>
+<0,70,22,23>
+<0,70,23,998>
+<0,70,998,999>
+loop inserted : 999 25
+<0,70,999,25>
+<0,70,25,26>
+<0,70,26,27>
+<0,70,27,28>
+<0,70,28,29>
+<0,70,29,30>
+<0,70,30,31>
+<0,70,31,32>
+<0,70,32,33>
+<0,70,33,34>
+<0,70,34,997>
+loop inserted : 997 995
+<0,70,997,995>
+<0,70,995,996>
+loop inserted : 996 40
+<0,70,996,40>
+<0,70,40,41>
+<0,70,41,991>
+<0,70,991,992>
+loop inserted : 992 46
+<0,70,992,46>
+<0,70,46,47>
+<0,70,47,48>
+<0,70,48,49>
+<0,70,49,50>
+<0,70,50,51>
+<0,70,51,52>
+<0,70,52,53>
+<0,70,53,54>
+<0,70,54,989>
+<0,70,989,990>
+loop inserted : 990 983
+<0,70,990,983>
+<0,70,983,984>
+loop inserted : 984 980
+<0,70,984,980>
+<0,70,980,981>
+loop inserted : 981 64
+<0,70,981,64>
+<0,70,64,977>
+<0,70,977,978>
+loop inserted : 978 67
+<0,70,978,67>
+<0,70,67,68>
+<0,70,68,975>
+loop inserted : 975 70
+Ok till here : loops modifications succesful
+Ok till here : nodes are added 
+Links now :
+end state reached : 70
+links too finished
+Generated output file names : HTG_test_c_main.dotty test.org test1.org
+dotty finished
+done

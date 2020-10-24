@@ -1,0 +1,33 @@
+"sac_sparkout1.org"
+0 0;
+;
+;
+r1000 1 - | 	qq1001	; 
+qq1001 1 - | x=0	r1991	; 	
+r1002 1 - | bit_index=0	r1998	; 	
+r1003 1 - | count_0s[bit_index]=0	r1004	; 	
+r1004 1 - | count_1s[bit_index]=0	r1005	; 	
+r1005 1 - | bit_index=bit_index+1	r1999	; 	
+r1006 1 - | i=1	r1007	; 	
+r1007 1 - | sT4_22=sbox[x]	r1993	; 	
+r1008 1 - | xi=power(x,i)	r1009	; 	
+r1009 1 - | sT3_22=sbox[xi]	r1010	; 	
+r1010 1 - | vi=power(sT4_22,sT3_22)	r1011	; 	
+r1011 1 - | bit_index=0	r1995	; 	
+r1012 1 - | sT9_26=g(vi,1,bit_index)	r1997	; 	
+r1013 1 - | count_1s[bit_index]=count_1s[bit_index]+1	r1015	; 	
+r1014 1 - | count_0s[bit_index]=count_0s[bit_index]+1	r1015	; 	
+r1015 1 - | bit_index=bit_index+1	r1996	; 	
+r1016 1 - | i=leftShift(i,1)	r1994	; 	
+r1991 1 - | - 	r1992	; 	
+r1992 2 x<=255 | - 	r1002	 !(x<=255) | - 	r1017	; 	
+r1993 1 - | - 	r1994	; 	
+r1994 2 i!=f(1,8) | - 	r1008	 !(i!=f(1,8)) | - 	r1992	; 	
+r1995 1 - | - 	r1996	; 	
+r1996 2 bit_index<8 | - 	r1012	 !(bit_index<8) | - 	r1016	; 	
+r1997 2 sT9_26!=0 | - 	r1013	 !(sT9_26!=0) | - 	r1014	; 	
+r1998 1 - | - 	r1999	; 	
+r1999 2 bit_index<8 | - 	r1003	 !(bit_index<8) | - 	r1006	; 	
+r1017 0;
+
+

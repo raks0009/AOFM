@@ -1,0 +1,26 @@
+digraph routine
+{
+fontname = "Times-Roman"; fontsize = 14;
+nodesep = 0.1; ranksep = 0.5;
+node [height = 0.25, width = 0.4, shape = box ];
+edge [color = black ];
+nodegg1000 [color=chocolate shape=record,label="{gg1000 : data_transitions=1\n}"];
+nodeqq1001 [color=chocolate shape=record,label="{qq1001 : data_transitions=1\n|n=5\n}"];
+nodegg1002 [color=chocolate shape=record,label="{gg1002 : data_transitions=1\n|i=0\n}"];
+nodegg1998 [color=chocolate shape=record,label="{gg1998 : data_transitions=1\n}"];
+nodegg1999 [color=chocolate shape=record,label="{gg1999 : data_transitions=0\n|?n-1\n}"];
+subgraph cluster_loop_LOOP0  { color=magenta; label="LOOP0";
+nodegg1003 [color=chocolate shape=record,label="{gg1003 : data_transitions=1\n|z=z+ar[i]\n}"];
+}
+nodegg1004 [color=chocolate shape=record,label="{gg1004 : data_transitions=0\n}"];
+nodegg1000 -> nodeqq1001 [label=""];
+nodeqq1001 -> nodegg1002 [label=""];
+nodegg1002 -> nodegg1998 [label=""];
+nodegg1003 -> nodegg1999 [label=""];
+nodegg1998 -> nodegg1999 [label=""];
+nodegg1999 -> nodegg1003 [label="T"];
+nodegg1999 -> nodegg1004 [label="F"];
+
+}
+
+

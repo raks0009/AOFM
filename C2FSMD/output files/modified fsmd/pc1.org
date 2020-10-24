@@ -1,0 +1,28 @@
+"pc1.org"
+0 0;
+;
+;
+q1000 1 - | 	q1998LB	; 
+qq1001 1 - | count_0s[bit_index]=0	q1002	; 	
+q1002 1 - | count_1s[bit_index]=0	q1997	; 	
+q1003 1 - | x=i	q1004	; 	
+q1004 1 - | xi=xorLShift(x,1,bit_no)	q1005	; 	
+q1005 1 - | vi=xor(sbox[x],sbox[xi])	q1994LB	; 	
+q1006 1 - | count_1s[bit_index]=count_1s[bit_index]+1	q1993	; 	
+q1007 1 - | count_0s[bit_index]=count_0s[bit_index]+1	q1993	; 	
+q1987LE 1 - | bit_no=bit_no+1	q1989	; 	/* loop_end */
+q1988LELB 1 - | bit_no=0	q1989	; 	/* loop_end *//* bit_no=0,; bit_no<8; bit_no=bit_no+1, */
+q1989 2 bit_no<8 | - 	q1991LB	 !(bit_no<8) | - 	q1008LE	; 	o+1, */
+q1990LE 1 - | i=i+1	q1992	; 	/* loop_end */
+q1991LB 1 - | i=0	q1992	; 	/* i=0,; i<leftShift(1,8); i=i+1, */
+q1992 2 i<leftShift(1,8) | - 	q1003	 !(i<leftShift(1,8)) | - 	q1987LE	; 	
+q1993 1 - | bit_index=bit_index+1	q1995	; 	
+q1994LB 1 - | bit_index=0	q1995	; 	/* bit_index=0,; bit_index<8; bit_index=bit_index+
+q1995 2 bit_index<8 | - 	q1996	 !(bit_index<8) | - 	q1990LE	; 	
+q1996 2 andLShift(vi,1,bit_index)!=0 | - 	q1006	 !(andLShift(vi,1,bit_index)!=0) | - 	q1007	; 	
+q1997 1 - | bit_index=bit_index+1	q1999	; 	
+q1998LB 1 - | bit_index=0	q1999	; 	/* bit_index=0,; bit_index<8; bit_index=bit_index+
+q1999 2 bit_index<8 | - 	qq1001	 !(bit_index<8) | - 	q1988LELB	; 	
+q1008LE 0;
+
+

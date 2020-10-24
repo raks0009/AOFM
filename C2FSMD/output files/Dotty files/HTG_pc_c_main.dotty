@@ -1,0 +1,68 @@
+digraph routine
+{
+fontname = "Times-Roman"; fontsize = 14;
+nodesep = 0.1; ranksep = 0.5;
+node [height = 0.25, width = 0.4, shape = box ];
+edge [color = black ];
+nodeq1000 [color=chocolate shape=record,label="{q1000 : data_transitions=1\n}"];
+nodeq1998LB [color=chocolate shape=record,label="{q1998LB : data_transitions=1\n|bit_index=0\n}"];
+nodeq1999 [color=chocolate shape=record,label="{q1999 : data_transitions=0\n|?bit_index\<8\n}"];
+subgraph cluster_loop_LOOP0  { color=magenta; label="LOOP0";
+nodeqq1001 [color=chocolate shape=record,label="{qq1001 : data_transitions=1\n|count_0s[bit_index]=0\n}"];
+nodeq1002 [color=chocolate shape=record,label="{q1002 : data_transitions=1\n|count_1s[bit_index]=0\n}"];
+nodeq1997 [color=chocolate shape=record,label="{q1997 : data_transitions=1\n|bit_index=bit_index+1\n}"];
+}
+nodeq1988LELB [color=chocolate shape=record,label="{q1988LELB : data_transitions=1\n|bit_no=0\n}"];
+nodeq1989 [color=chocolate shape=record,label="{q1989 : data_transitions=0\n|?bit_no\<8\n}"];
+subgraph cluster_loop_LOOP3  { color=magenta; label="LOOP3";
+nodeq1991LB [color=chocolate shape=record,label="{q1991LB : data_transitions=1\n|i=0\n}"];
+nodeq1992 [color=chocolate shape=record,label="{q1992 : data_transitions=0\n|?i\<leftShift(1,8)\n}"];
+subgraph cluster_loop_LOOP2  { color=magenta; label="LOOP2";
+nodeq1003 [color=chocolate shape=record,label="{q1003 : data_transitions=1\n|x=i\n}"];
+nodeq1004 [color=chocolate shape=record,label="{q1004 : data_transitions=1\n|xi=xorLShift(x,1,bit_no)\n}"];
+nodeq1005 [color=chocolate shape=record,label="{q1005 : data_transitions=1\n|vi=xor(sbox[x],sbox[xi])\n}"];
+nodeq1994LB [color=chocolate shape=record,label="{q1994LB : data_transitions=1\n|bit_index=0\n}"];
+nodeq1995 [color=chocolate shape=record,label="{q1995 : data_transitions=0\n|?bit_index\<8\n}"];
+subgraph cluster_loop_LOOP1  { color=magenta; label="LOOP1";
+subgraph cluster_ifelse_IFELSE0  { color=magenta; label="IFELSE0";
+nodeq1996 [color=chocolate shape=record,label="{q1996 : data_transitions=0\n|?andLShift(vi,1,bit_index)!=0\n}"];
+nodeq1006 [color=chocolate shape=record,label="{q1006 : data_transitions=1\n|count_1s[bit_index]=count_1s[bit_index]+1\n}"];
+nodeq1007 [color=chocolate shape=record,label="{q1007 : data_transitions=1\n|count_0s[bit_index]=count_0s[bit_index]+1\n}"];
+}
+nodeq1993 [color=chocolate shape=record,label="{q1993 : data_transitions=1\n|bit_index=bit_index+1\n}"];
+}
+nodeq1990LE [color=chocolate shape=record,label="{q1990LE : data_transitions=1\n|i=i+1\n}"];
+}
+nodeq1987LE [color=chocolate shape=record,label="{q1987LE : data_transitions=1\n|bit_no=bit_no+1\n}"];
+}
+nodeq1008LE [color=chocolate shape=record,label="{q1008LE : data_transitions=0\n}"];
+nodeq1000 -> nodeq1998LB [label=""];
+nodeqq1001 -> nodeq1002 [label=""];
+nodeq1002 -> nodeq1997 [label=""];
+nodeq1003 -> nodeq1004 [label=""];
+nodeq1004 -> nodeq1005 [label=""];
+nodeq1005 -> nodeq1994LB [label=""];
+nodeq1006 -> nodeq1993 [label=""];
+nodeq1007 -> nodeq1993 [label=""];
+nodeq1987LE -> nodeq1989 [label=""];
+nodeq1988LELB -> nodeq1989 [label=""];
+nodeq1989 -> nodeq1991LB [label="T"];
+nodeq1989 -> nodeq1008LE [label="F"];
+nodeq1990LE -> nodeq1992 [label=""];
+nodeq1991LB -> nodeq1992 [label=""];
+nodeq1992 -> nodeq1003 [label="T"];
+nodeq1992 -> nodeq1987LE [label="F"];
+nodeq1993 -> nodeq1995 [label=""];
+nodeq1994LB -> nodeq1995 [label=""];
+nodeq1995 -> nodeq1996 [label="T"];
+nodeq1995 -> nodeq1990LE [label="F"];
+nodeq1996 -> nodeq1006 [label="T"];
+nodeq1996 -> nodeq1007 [label="F"];
+nodeq1997 -> nodeq1999 [label=""];
+nodeq1998LB -> nodeq1999 [label=""];
+nodeq1999 -> nodeqq1001 [label="T"];
+nodeq1999 -> nodeq1988LELB [label="F"];
+
+}
+
+

@@ -1,0 +1,42 @@
+digraph routine
+{
+fontname = "Times-Roman"; fontsize = 14;
+nodesep = 0.1; ranksep = 0.5;
+node [height = 0.25, width = 0.4, shape = box ];
+edge [color = black ];
+nodepp1000 [color=chocolate shape=record,label="{pp1000 : data_transitions=1\n}"];
+nodeqq1001 [color=chocolate shape=record,label="{qq1001 : data_transitions=1\n|sum=1\n|i=2\n}"];
+nodepp1997LB [color=chocolate shape=record,label="{pp1997LB : data_transitions=1\n}"];
+nodepp1998 [color=chocolate shape=record,label="{pp1998 : data_transitions=0\n|?i\<n\n}"];
+subgraph cluster_loop_LOOP0  { color=magenta; label="LOOP0";
+subgraph cluster_if_IF0  { color=magenta; label="IF0";
+nodepp1999 [color=chocolate shape=record,label="{pp1999 : data_transitions=0\n|?n%i==1\n}"];
+nodepp1002 [color=chocolate shape=record,label="{pp1002 : data_transitions=1\n|sum=sum+i\n}"];
+}
+nodepp1003 [color=chocolate shape=record,label="{pp1003 : data_transitions=1\n|i=i+1\n}"];
+nodepp1996 [color=chocolate shape=record,label="{pp1996 : data_transitions=1\n}"];
+}
+subgraph cluster_ifelse_IFELSE0  { color=magenta; label="IFELSE0";
+nodepp1995LE [color=chocolate shape=record,label="{pp1995LE : data_transitions=0\n|?sum==n\n}"];
+nodepp1004 [color=chocolate shape=record,label="{pp1004 : data_transitions=1\n|out=1\n}"];
+nodepp1005 [color=chocolate shape=record,label="{pp1005 : data_transitions=1\n|out=0\n}"];
+}
+nodepp1006 [color=chocolate shape=record,label="{pp1006 : data_transitions=0\n}"];
+nodepp1000 -> nodeqq1001 [label=""];
+nodeqq1001 -> nodepp1997LB [label=""];
+nodepp1002 -> nodepp1003 [label=""];
+nodepp1003 -> nodepp1996 [label=""];
+nodepp1004 -> nodepp1006 [label=""];
+nodepp1005 -> nodepp1006 [label=""];
+nodepp1995LE -> nodepp1004 [label="T"];
+nodepp1995LE -> nodepp1005 [label="F"];
+nodepp1996 -> nodepp1998 [label=""];
+nodepp1997LB -> nodepp1998 [label=""];
+nodepp1998 -> nodepp1999 [label="T"];
+nodepp1998 -> nodepp1995LE [label="F"];
+nodepp1999 -> nodepp1002 [label="T"];
+nodepp1999 -> nodepp1003 [label="F"];
+
+}
+
+

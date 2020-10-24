@@ -1,0 +1,329 @@
+FSMD name: qq
+** SearchInsert : inserted : BREAK	at position 0
+** SearchInsert : inserted : LOOP_END	at position 1
+starting yyparse : 
+** INfsmd : started
+** INfsmd : state transition added 
+balanced_sparkout	r1000
+** Parser : identifier found chk_balancedness
+** Parser : identifier found sbox
+~~~~~~~~~~~~~~~~~~~~ array found
+** SearchInsert : inserted : sbox	at position 2
+** Parser : No data intialization in id: sbox
+******* Parser : cool inserted sbox
+no declarations listed
+** Parser : identifier found i
+** SearchInsert : inserted : i	at position 3
+** Parser : No data intialization in id: i
+******* Parser : cool inserted i
+no declarations listed
+** Parser : identifier found bit_index
+** SearchInsert : inserted : bit_index	at position 4
+** Parser : No data intialization in id: bit_index
+******* Parser : cool inserted bit_index
+no declarations listed
+** Parser : identifier found count_1s
+~~~~~~~~~~~~~~~~~~~~ array found
+** SearchInsert : inserted : count_1s	at position 5
+** Parser : No data intialization in id: count_1s
+******* Parser : cool inserted count_1s
+no declarations listed
+** Parser : identifier found count_0s
+~~~~~~~~~~~~~~~~~~~~ array found
+** SearchInsert : inserted : count_0s	at position 6
+** Parser : No data intialization in id: count_0s
+******* Parser : cool inserted count_0s
+no declarations listed
+** Parser : identifier found y
+** SearchInsert : inserted : y	at position 7
+** Parser : No data intialization in id: y
+******* Parser : cool inserted y
+no declarations listed
+** Parser : identifier found balanced
+** SearchInsert : inserted : balanced	at position 8
+** Parser : No data intialization in id: balanced
+******* Parser : cool inserted balanced
+no declarations listed
+** Parser : identifier found sT0_13
+** SearchInsert : inserted : sT0_13	at position 9
+** Parser : No data intialization in id: sT0_13
+******* Parser : cool inserted sT0_13
+no declarations listed
+** Parser : identifier found sT1_18
+** SearchInsert : inserted : sT1_18	at position 10
+** Parser : No data intialization in id: sT1_18
+******* Parser : cool inserted sT1_18
+no declarations listed
+** Parser : identifier found sT2_21
+** SearchInsert : inserted : sT2_21	at position 11
+** Parser : No data intialization in id: sT2_21
+******* Parser : cool inserted sT2_21
+no declarations listed
+** Parser : identifier found sT3_22
+** SearchInsert : inserted : sT3_22	at position 12
+** Parser : No data intialization in id: sT3_22
+******* Parser : cool inserted sT3_22
+no declarations listed
+** Parser : identifier found sT4_22
+** SearchInsert : inserted : sT4_22	at position 13
+** Parser : No data intialization in id: sT4_22
+******* Parser : cool inserted sT4_22
+no declarations listed
+** Parser : identifier found sT5_22
+** SearchInsert : inserted : sT5_22	at position 14
+** Parser : No data intialization in id: sT5_22
+******* Parser : cool inserted sT5_22
+no declarations listed
+** Parser : identifier found sT6_22
+** SearchInsert : inserted : sT6_22	at position 15
+** Parser : No data intialization in id: sT6_22
+******* Parser : cool inserted sT6_22
+no declarations listed
+** Parser : identifier found sT7_27
+** SearchInsert : inserted : sT7_27	at position 16
+** Parser : No data intialization in id: sT7_27
+******* Parser : cool inserted sT7_27
+no declarations listed
+** Parser : identifier found sT8_29
+** SearchInsert : inserted : sT8_29	at position 17
+** Parser : No data intialization in id: sT8_29
+******* Parser : cool inserted sT8_29
+no declarations listed
+** Parser : identifier found sT9_29
+** SearchInsert : inserted : sT9_29	at position 18
+** Parser : No data intialization in id: sT9_29
+******* Parser : cool inserted sT9_29
+no declarations listed
+** Parser : identifier found sT10_29
+** SearchInsert : inserted : sT10_29	at position 19
+** Parser : No data intialization in id: sT10_29
+******* Parser : cool inserted sT10_29
+no declarations listed
+** Parser : identifier found in expression i
+** Parser : expression :: i=0
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression i
+** Parser : identifier found in expression count_1s
+** Parser : identifier found in expression i
+!!!!!!!!!! DT created with array type lhs : count_1s[i] 4 4 16
+** Parser : expression :: count_1s[i]=0
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression count_0s
+** Parser : identifier found in expression i
+!!!!!!!!!! DT created with array type lhs : count_0s[i] 4 4 16
+** Parser : expression :: count_0s[i]=0
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression i
+** Parser : identifier found in expression i
+** Parser : expression :: i=i+1
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added i<8
+** INfsmd : started
+** INfsmd : state transition added !(i<8)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression i
+** Parser : expression :: i=0
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression i
+** Parser : identifier found in expression f
+***** temporary variable insertion : f
+** SearchInsert : inserted : f	at position 20
+** Parser : identifier found in expression y
+** Parser : identifier found in expression sbox
+** Parser : identifier found in expression i
+** Parser : expression :: y=sbox[i]
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression bit_index
+** Parser : expression :: bit_index=0
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression bit_index
+** Parser : identifier found in expression sT6_22
+** Parser : identifier found in expression f
+***** function call found : function name : f
+** Parser : identifier found in expression y
+** Parser : identifier found in expression bit_index
+** Parser : expression :: sT6_22=f(y,1,bit_index)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression sT6_22
+** Parser : identifier found in expression count_1s
+** Parser : identifier found in expression bit_index
+** Parser : identifier found in expression count_1s
+** Parser : identifier found in expression bit_index
+!!!!!!!!!! DT created with array type lhs : count_1s[bit_index] 4 4 16
+** Parser : expression :: count_1s[bit_index]=count_1s[bit_index]+1
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression count_0s
+** Parser : identifier found in expression bit_index
+** Parser : identifier found in expression count_0s
+** Parser : identifier found in expression bit_index
+!!!!!!!!!! DT created with array type lhs : count_0s[bit_index] 4 4 16
+** Parser : expression :: count_0s[bit_index]=count_0s[bit_index]+1
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added sT6_22!=0
+** INfsmd : started
+** INfsmd : state transition added !(sT6_22!=0)
+** Parser : identifier found in expression bit_index
+** Parser : identifier found in expression bit_index
+** Parser : expression :: bit_index=bit_index+1
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added bit_index<8
+** INfsmd : started
+** INfsmd : state transition added !(bit_index<8)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression i
+** Parser : identifier found in expression i
+** Parser : expression :: i=i+1
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added i<f(1,8)
+** INfsmd : started
+** INfsmd : state transition added !(i<f(1,8))
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression i
+** Parser : expression :: i=0
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression i
+** Parser : identifier found in expression sT8_29
+** Parser : identifier found in expression count_0s
+** Parser : identifier found in expression i
+** Parser : expression :: sT8_29=count_0s[i]
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression sT9_29
+** Parser : identifier found in expression count_1s
+** Parser : identifier found in expression i
+** Parser : expression :: sT9_29=count_1s[i]
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression sT9_29
+** Parser : identifier found in expression sT8_29
+** Parser : identifier found in expression balanced
+** Parser : expression :: balanced=0
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression balanced
+** Parser : expression :: balanced=1
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added sT9_29!=sT8_29
+** INfsmd : started
+** INfsmd : state transition added !(sT9_29!=sT8_29)
+** Parser : identifier found in expression i
+** Parser : identifier found in expression i
+** Parser : expression :: i=i+1
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added i<8
+** INfsmd : started
+** INfsmd : state transition added !(i<8)
+** INfsmd : started
+** INfsmd : state transition added 
+parsed
+/**LELB situations will be handled here**/
+time_stamp : state_id comments
+enterd print function
+balanced_sparkout.org
+0 0
+
+
+r1000 1 - / 	qq1001	
+qq1001 1 - / i=0	r1998	
+r1002 1 - / count_1s[i]=0	r1003	
+r1003 1 - / count_0s[i]=0	r1004	
+r1004 1 - / i=i+1	r1999	
+r1005 1 - / i=0	r1993	
+r1006 1 - / y=sbox[i]	r1007	
+r1007 1 - / bit_index=0	r1995	
+r1008 1 - / sT6_22=f(y,1,bit_index)	r1997	
+r1009 1 - / count_1s[bit_index]=count_1s[bit_index]+1	r1011	
+r1010 1 - / count_0s[bit_index]=count_0s[bit_index]+1	r1011	
+r1011 1 - / bit_index=bit_index+1	r1996	
+r1012 1 - / i=i+1	r1994	
+r1013 1 - / i=0	r1990	
+r1014 1 - / sT8_29=count_0s[i]	r1015	
+r1015 1 - / sT9_29=count_1s[i]	r1992	
+r1016 1 - / balanced=0	r1018	
+r1017 1 - / balanced=1	r1018	
+r1018 1 - / i=i+1	r1991	
+end state at r1019
+r1990 1 - / - 	r1991	
+r1991 2 i<8 / - 	r1014	 !(i<8) / - 	r1019	
+r1992 2 sT9_29!=sT8_29 / - 	r1016	 !(sT9_29!=sT8_29) / - 	r1017	
+r1993 1 - / - 	r1994	
+r1994 2 i<f(1,8) / - 	r1006	 !(i<f(1,8)) / - 	r1013	
+r1995 1 - / - 	r1996	
+r1996 2 bit_index<8 / - 	r1008	 !(bit_index<8) / - 	r1012	
+r1997 2 sT6_22!=0 / - 	r1009	 !(sT6_22!=0) / - 	r1010	
+r1998 1 - / - 	r1999	
+r1999 2 i<8 / - 	r1002	 !(i<8) / - 	r1005	
+r1019 0
+
+
+finished FSMD .org files
+
+
+
+DOTTY :
+loop list :
+<998,999,5,2>
+<997,9,11,4>
+<997,10,11,4>
+<995,996,12,2>
+<993,994,13,2>
+<992,16,18,4>
+<992,17,18,4>
+<990,991,19,2>
+<0,0,0,0>
+end
+loop count : 6
+hi allocations succesful
+loops sorting & merging :
+loop <999,5> sizes :sizes end <999,5,1> end
+ifel <997,2532336> sizes :sizes end <997,11,1> end
+loop <996,12> sizes : <265,413>sizes end <996,12,1> end
+loop <994,13> sizes : <424,785>sizes end <994,13,1> end
+ifel <992,2532336> sizes :sizes end <992,18,1> end
+loop <991,19> sizes : <354,356>sizes end <991,19,1> end
+loops sorted
+<0,19,0,0>
+<0,19,0,1>
+<0,19,1,998>
+<0,19,998,999>
+loop inserted : 999 5
+<0,19,999,5>
+<0,19,5,993>
+<0,19,993,994>
+loop inserted : 994 13
+<0,19,994,13>
+<0,19,13,990>
+<0,19,990,991>
+loop inserted : 991 19
+Ok till here : loops modifications succesful
+Ok till here : nodes are added 
+Links now :
+end state reached : 19
+links too finished
+Generated output file names : HTG_balanced_sparkout_c_main.dotty balanced_sparkout.org balanced_sparkout1.org
+dotty finished
+done

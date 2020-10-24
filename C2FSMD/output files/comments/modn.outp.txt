@@ -1,0 +1,168 @@
+FSMD name: qq
+** SearchInsert : inserted : BREAK	at position 0
+** SearchInsert : inserted : LOOP_END	at position 1
+starting yyparse : 
+** INfsmd : started
+** INfsmd : state transition added 
+modn	mm1000
+** Parser : identifier found main
+** Parser : identifier found s
+** SearchInsert : inserted : s	at position 2
+** Parser : No data intialization in id: s
+******* Parser : cool inserted s
+** Parser : identifier found i
+** SearchInsert : inserted : i	at position 3
+** Parser : No data intialization in id: i
+******* Parser : cool inserted i
+~~~~~~~~~~~~~~ list : s i s
+** Parser : identifier found n
+** SearchInsert : inserted : n	at position 4
+** Parser : No data intialization in id: n
+******* Parser : cool inserted n
+~~~~~~~~~~~~~~ list : s n s
+** Parser : identifier found a
+** SearchInsert : inserted : a	at position 5
+** Parser : No data intialization in id: a
+******* Parser : cool inserted a
+~~~~~~~~~~~~~~ list : s a s
+** Parser : identifier found b
+** SearchInsert : inserted : b	at position 6
+** Parser : No data intialization in id: b
+******* Parser : cool inserted b
+~~~~~~~~~~~~~~ list : s b s
+** Parser : identifier found sout
+** SearchInsert : inserted : sout	at position 7
+** Parser : No data intialization in id: sout
+******* Parser : cool inserted sout
+~~~~~~~~~~~~~~ list : s sout s
+no declarations listed
+** Parser : identifier found in expression s
+** Parser : expression :: s=0
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression i
+** Parser : identifier found in expression i
+** Parser : identifier found in expression i
+** Parser : identifier found in expression i
+** Parser : identifier found in expression b
+** Parser : identifier found in expression s
+** Parser : identifier found in expression s
+** Parser : identifier found in expression a
+** Parser : expression :: s=s+a
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added b%2==1
+** INfsmd : started
+** INfsmd : state transition added !(b%2==1)
+** Parser : identifier found in expression s
+** Parser : identifier found in expression n
+~~~~~~~in link_NC:
+ && direct maping output:
+** Parser : identifier found in expression s
+** Parser : identifier found in expression s
+** Parser : identifier found in expression n
+** Parser : expression :: s=s-n
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added s
+** INfsmd : started
+** INfsmd : state transition added !(s)
+** Parser : identifier found in expression a
+** Parser : identifier found in expression a
+** Parser : expression :: a=(a)*(2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression b
+** Parser : identifier found in expression b
+** Parser : expression :: b=(b)/(2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression a
+** Parser : identifier found in expression n
+~~~~~~~in link_NC:
+ && direct maping output:
+** Parser : identifier found in expression a
+** Parser : identifier found in expression a
+** Parser : identifier found in expression n
+** Parser : expression :: a=a-n
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added a
+** INfsmd : started
+** INfsmd : state transition added !(a)
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added i<=15
+** INfsmd : started
+** INfsmd : state transition added !(i<=15)
+** Parser : identifier found in expression sout
+** Parser : identifier found in expression s
+** Parser : expression :: sout=s
+** INfsmd : started
+** INfsmd : state transition added 
+parsed
+/**LELB situations will be handled here**/
+time_stamp : state_id comments
+enterd print function
+modn.org
+0 0
+
+
+mm1000 1 - / 	qq1001	
+qq1001 1 - / s=0	mm1995LB	
+mm1002 1 - / s=s+a	mm1998	
+mm1003 1 - / s=s-n	mm1004	
+mm1004 1 - / a=(a)*(2)	mm1005	
+mm1005 1 - / b=(b)/(2	mm1997	
+mm1006 1 - / a=a-n	mm1994	
+mm1007LE 1 - / sout=s	mm1008	
+end state at mm1008
+mm1994 1 - / i=i+1	mm1996	
+mm1995LB 1 - / i=0	mm1996	
+mm1996 2 i<=15 / - 	mm1999	 !(i<=15) / - 	mm1007LE	
+mm1997 2 a / - 	mm1006	 !(a) / - 	mm1994	
+mm1998 2 s / - 	mm1003	 !(s) / - 	mm1004	
+mm1999 2 b%2==1 / - 	mm1002	 !(b%2==1) / - 	mm1998	
+mm1008 0
+
+
+finished FSMD .org files
+
+
+
+DOTTY :
+loop list :
+<999,2,3,3>
+<998,3,4,3>
+<997,6,7,3>
+<995,996,7,1>
+<0,0,0,0>
+end
+loop count : 4
+hi allocations succesful
+loops sorting & merging :
+if <999,998> sizes :<999,998,1> end
+if <998,4> sizes :<998,4,1> end
+if <997,994> sizes :<997,994,1> end
+loop <996,7> sizes : <154,241> <395,236> <820,236>sizes end <996,7,1> end
+loops sorted
+<0,8,0,0>
+<0,8,0,1>
+<0,8,1,995>
+<0,8,995,996>
+loop inserted : 996 7
+<0,8,996,7>
+Ok till here : loops modifications succesful
+Ok till here : nodes are added 
+Links now :
+end state reached : 8
+links too finished
+Generated output file names : HTG_modn_c_main.dotty modn.org modn1.org
+dotty finished
+done

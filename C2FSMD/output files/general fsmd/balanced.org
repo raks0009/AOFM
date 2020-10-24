@@ -1,0 +1,30 @@
+balanced.org
+1 0
+z 
+
+q1000 1 - / 	qq1001	
+qq1001 1 - / z=10	q1998LB	
+q1002 1 - / count_1s[i]=0	q1003	
+q1003 1 - / count_0s[i]=0	q1997	
+q1004 1 - / y=sbox[i]	q1994LB	
+q1005 1 - / count_1s[bit_index]=count_1s[bit_index]+1	q1993	
+q1006 1 - / count_0s[bit_index]=count_0s[bit_index]+1	q1993	
+q1007 1 - / balanced=0	q1986	
+q1008 1 - / balanced=1	q1986	
+q1986 1 - / i=i+1	q1988	
+q1987LELB 1 - / i=0	q1988	
+q1988 2 i<8 / - 	q1989	 !(i<8) / - 	q1009LE	
+q1989 2 count_1s[i]!=count_0s[i] / - 	q1007	 !(count_1s[i]!=count_0s[i]) / - 	q1008	
+q1990LE 1 - / i=i+1	q1992	
+q1991LELB 1 - / i=0	q1992	
+q1992 2 i<f(1,8) / - 	q1004	 !(i<f(1,8)) / - 	q1987LELB	
+q1993 1 - / bit_index=bit_index+1	q1995	
+q1994LB 1 - / bit_index=0	q1995	
+q1995 2 bit_index<8 / - 	q1996	 !(bit_index<8) / - 	q1990LE	
+q1996 2 f2(y,1,bit_index)!=0 / - 	q1005	 !(f2(y,1,bit_index)!=0) / - 	q1006	
+q1997 1 - / i=i+1	q1999	
+q1998LB 1 - / i=0	q1999	
+q1999 2 i<8 / - 	q1002	 !(i<8) / - 	q1991LELB	
+q1009LE 0
+
+

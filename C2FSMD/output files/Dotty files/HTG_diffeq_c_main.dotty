@@ -1,0 +1,48 @@
+digraph routine
+{
+fontname = "Times-Roman"; fontsize = 14;
+nodesep = 0.1; ranksep = 0.5;
+node [height = 0.25, width = 0.4, shape = box ];
+edge [color = black ];
+nodeqq1000 [color=chocolate shape=record,label="{qq1000 : data_transitions=1\n}"];
+nodeqq1998LB [color=chocolate shape=record,label="{qq1998LB : data_transitions=1\n|i=0\n}"];
+nodeqq1999 [color=chocolate shape=record,label="{qq1999 : data_transitions=0\n|?x\<a\n}"];
+subgraph cluster_loop_LOOP0  { color=magenta; label="LOOP0";
+nodeqq1001 [color=chocolate shape=record,label="{qq1001 : data_transitions=1\n|t1=(u)*(dx)\n}"];
+nodeqq1002 [color=chocolate shape=record,label="{qq1002 : data_transitions=1\n|t2=(3)*(x)\n}"];
+nodeqq1003 [color=chocolate shape=record,label="{qq1003 : data_transitions=1\n|t3=(3)*(y)\n}"];
+nodeqq1004 [color=chocolate shape=record,label="{qq1004 : data_transitions=1\n|t4=(t1)*(t2)\n}"];
+nodeqq1005 [color=chocolate shape=record,label="{qq1005 : data_transitions=1\n|t5=(dx)*(t3)\n}"];
+nodeqq1006 [color=chocolate shape=record,label="{qq1006 : data_transitions=1\n|t6=u-t4\n}"];
+nodeqq1007 [color=chocolate shape=record,label="{qq1007 : data_transitions=1\n|u=t6-t5\n}"];
+nodeqq1008 [color=chocolate shape=record,label="{qq1008 : data_transitions=1\n|y1=(u)*(dx)\n}"];
+nodeqq1009 [color=chocolate shape=record,label="{qq1009 : data_transitions=1\n|y=y+y1\n}"];
+nodeqq1010 [color=chocolate shape=record,label="{qq1010 : data_transitions=1\n|x=x+dx\n}"];
+nodeqq1997 [color=chocolate shape=record,label="{qq1997 : data_transitions=1\n|i=i+1\n}"];
+}
+nodeqq1011LE [color=chocolate shape=record,label="{qq1011LE : data_transitions=1\n|xout=x\n}"];
+nodeqq1012 [color=chocolate shape=record,label="{qq1012 : data_transitions=1\n|yout=y\n}"];
+nodeqq1013 [color=chocolate shape=record,label="{qq1013 : data_transitions=1\n|uout=u\n}"];
+nodeqq1014 [color=chocolate shape=record,label="{qq1014 : data_transitions=0\n}"];
+nodeqq1000 -> nodeqq1998LB [label=""];
+nodeqq1001 -> nodeqq1002 [label=""];
+nodeqq1002 -> nodeqq1003 [label=""];
+nodeqq1003 -> nodeqq1004 [label=""];
+nodeqq1004 -> nodeqq1005 [label=""];
+nodeqq1005 -> nodeqq1006 [label=""];
+nodeqq1006 -> nodeqq1007 [label=""];
+nodeqq1007 -> nodeqq1008 [label=""];
+nodeqq1008 -> nodeqq1009 [label=""];
+nodeqq1009 -> nodeqq1010 [label=""];
+nodeqq1010 -> nodeqq1997 [label=""];
+nodeqq1011LE -> nodeqq1012 [label=""];
+nodeqq1012 -> nodeqq1013 [label=""];
+nodeqq1013 -> nodeqq1014 [label=""];
+nodeqq1997 -> nodeqq1999 [label=""];
+nodeqq1998LB -> nodeqq1999 [label=""];
+nodeqq1999 -> nodeqq1001 [label="T"];
+nodeqq1999 -> nodeqq1011LE [label="F"];
+
+}
+
+

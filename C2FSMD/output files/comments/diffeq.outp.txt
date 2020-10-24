@@ -1,0 +1,233 @@
+FSMD name: qq
+** SearchInsert : inserted : BREAK	at position 0
+** SearchInsert : inserted : LOOP_END	at position 1
+starting yyparse : 
+** INfsmd : started
+** INfsmd : state transition added 
+diffeq	qq1000
+** Parser : identifier found dieffq
+** Parser : identifier found t1
+** SearchInsert : inserted : t1	at position 2
+** Parser : No data intialization in id: t1
+******* Parser : cool inserted t1
+** Parser : identifier found t2
+** SearchInsert : inserted : t2	at position 3
+** Parser : No data intialization in id: t2
+******* Parser : cool inserted t2
+~~~~~~~~~~~~~~ list : t1 t2 t1
+** Parser : identifier found t3
+** SearchInsert : inserted : t3	at position 4
+** Parser : No data intialization in id: t3
+******* Parser : cool inserted t3
+~~~~~~~~~~~~~~ list : t1 t3 t1
+** Parser : identifier found t4
+** SearchInsert : inserted : t4	at position 5
+** Parser : No data intialization in id: t4
+******* Parser : cool inserted t4
+~~~~~~~~~~~~~~ list : t1 t4 t1
+** Parser : identifier found t5
+** SearchInsert : inserted : t5	at position 6
+** Parser : No data intialization in id: t5
+******* Parser : cool inserted t5
+~~~~~~~~~~~~~~ list : t1 t5 t1
+** Parser : identifier found t6
+** SearchInsert : inserted : t6	at position 7
+** Parser : No data intialization in id: t6
+******* Parser : cool inserted t6
+~~~~~~~~~~~~~~ list : t1 t6 t1
+** Parser : identifier found y1
+** SearchInsert : inserted : y1	at position 8
+** Parser : No data intialization in id: y1
+******* Parser : cool inserted y1
+~~~~~~~~~~~~~~ list : t1 y1 t1
+** Parser : identifier found i
+** SearchInsert : inserted : i	at position 9
+** Parser : No data intialization in id: i
+******* Parser : cool inserted i
+~~~~~~~~~~~~~~ list : t1 i t1
+no declarations listed
+** Parser : identifier found x
+** SearchInsert : inserted : x	at position 10
+** Parser : No data intialization in id: x
+******* Parser : cool inserted x
+** Parser : identifier found y
+** SearchInsert : inserted : y	at position 11
+** Parser : No data intialization in id: y
+******* Parser : cool inserted y
+~~~~~~~~~~~~~~ list : x y x
+** Parser : identifier found u
+** SearchInsert : inserted : u	at position 12
+** Parser : No data intialization in id: u
+******* Parser : cool inserted u
+~~~~~~~~~~~~~~ list : x u x
+** Parser : identifier found a
+** SearchInsert : inserted : a	at position 13
+** Parser : No data intialization in id: a
+******* Parser : cool inserted a
+~~~~~~~~~~~~~~ list : x a x
+** Parser : identifier found dx
+** SearchInsert : inserted : dx	at position 14
+** Parser : No data intialization in id: dx
+******* Parser : cool inserted dx
+~~~~~~~~~~~~~~ list : x dx x
+no declarations listed
+** Parser : identifier found xout
+** SearchInsert : inserted : xout	at position 15
+** Parser : No data intialization in id: xout
+******* Parser : cool inserted xout
+** Parser : identifier found yout
+** SearchInsert : inserted : yout	at position 16
+** Parser : No data intialization in id: yout
+******* Parser : cool inserted yout
+~~~~~~~~~~~~~~ list : xout yout xout
+** Parser : identifier found uout
+** SearchInsert : inserted : uout	at position 17
+** Parser : No data intialization in id: uout
+******* Parser : cool inserted uout
+~~~~~~~~~~~~~~ list : xout uout xout
+no declarations listed
+** Parser : identifier found in expression i
+** Parser : identifier found in expression x
+** Parser : identifier found in expression a
+** Parser : identifier found in expression i
+** Parser : identifier found in expression i
+** Parser : identifier found in expression t1
+** Parser : identifier found in expression u
+** Parser : identifier found in expression dx
+** Parser : expression :: t1=(u)*(dx)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression t2
+** Parser : identifier found in expression x
+** Parser : expression :: t2=(3)*(x)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression t3
+** Parser : identifier found in expression y
+** Parser : expression :: t3=(3)*(y)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression t4
+** Parser : identifier found in expression t1
+** Parser : identifier found in expression t2
+** Parser : expression :: t4=(t1)*(t2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression t5
+** Parser : identifier found in expression dx
+** Parser : identifier found in expression t3
+** Parser : expression :: t5=(dx)*(t3)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression t6
+** Parser : identifier found in expression u
+** Parser : identifier found in expression t4
+** Parser : expression :: t6=u-t4
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression u
+** Parser : identifier found in expression t6
+** Parser : identifier found in expression t5
+** Parser : expression :: u=t6-t5
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression u
+** Parser : identifier found in expression dx
+** Parser : expression :: y1=(u)*(dx)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y
+** Parser : identifier found in expression y
+** Parser : identifier found in expression y1
+** Parser : expression :: y=y+y1
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression x
+** Parser : identifier found in expression x
+** Parser : identifier found in expression dx
+** Parser : expression :: x=x+dx
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added x<a
+** INfsmd : started
+** INfsmd : state transition added !(x<a)
+** Parser : identifier found in expression xout
+** Parser : identifier found in expression x
+** Parser : expression :: xout=x
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression yout
+** Parser : identifier found in expression y
+** Parser : expression :: yout=y
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression uout
+** Parser : identifier found in expression u
+** Parser : expression :: uout=u
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression xout
+parsed
+/**LELB situations will be handled here**/
+time_stamp : state_id comments
+enterd print function
+diffeq.org
+0 1
+
+xout 
+qq1000 1 - / 	qq1998LB	
+qq1001 1 - / t1=(u)*(dx)	qq1002	
+qq1002 1 - / t2=(3)*(x)	qq1003	
+qq1003 1 - / t3=(3)*(y)	qq1004	
+qq1004 1 - / t4=(t1)*(t2)	qq1005	
+qq1005 1 - / t5=(dx)*(t3)	qq1006	
+qq1006 1 - / t6=u-t4	qq1007	
+qq1007 1 - / u=t6-t5	qq1008	
+qq1008 1 - / y1=(u)*(dx)	qq1009	
+qq1009 1 - / y=y+y1	qq1010	
+qq1010 1 - / x=x+dx	qq1997	
+qq1011LE 1 - / xout=x	qq1012	
+qq1012 1 - / yout=y	qq1013	
+qq1013 1 - / uout=u	qq1014	
+end state at qq1014
+qq1997 1 - / i=i+1	qq1999	
+qq1998LB 1 - / i=0	qq1999	
+qq1999 2 x<a / - 	qq1001	 !(x<a) / - 	qq1011LE	
+qq1014 0
+
+
+finished FSMD .org files
+
+
+
+DOTTY :
+loop list :
+<998,999,11,1>
+<0,0,0,0>
+end
+loop count : 1
+hi allocations succesful
+loops sorting & merging :
+loop <999,11> sizes :sizes end <999,11,1> end
+loops sorted
+<0,14,0,0>
+<0,14,0,998>
+<0,14,998,999>
+loop inserted : 999 11
+<0,14,999,11>
+<0,14,11,12>
+<0,14,12,13>
+Ok till here : loops modifications succesful
+Ok till here : nodes are added 
+Links now :
+end state reached : 14
+links too finished
+Generated output file names : HTG_diffeq_c_main.dotty diffeq.org diffeq1.org
+dotty finished
+done

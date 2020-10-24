@@ -1,0 +1,252 @@
+FSMD name: qq
+** SearchInsert : inserted : BREAK	at position 0
+** SearchInsert : inserted : LOOP_END	at position 1
+starting yyparse : 
+** INfsmd : started
+** INfsmd : state transition added 
+balanced	q1000
+** Parser : identifier found chk_balancedness
+** Parser : identifier found z
+** SearchInsert : inserted : z	at position 2
+**function inputs : 
+z 2
+** Parser : identifier found sbox
+~~~~~~~~~~~~~~~~~~~~ array found
+** SearchInsert : inserted : sbox	at position 3
+** Parser : No data intialization in id: sbox
+******* Parser : cool inserted sbox
+no declarations listed
+** Parser : identifier found i
+** SearchInsert : inserted : i	at position 4
+** Parser : No data intialization in id: i
+******* Parser : cool inserted i
+** Parser : identifier found bit_index
+** SearchInsert : inserted : bit_index	at position 5
+** Parser : No data intialization in id: bit_index
+******* Parser : cool inserted bit_index
+~~~~~~~~~~~~~~ list : i bit_index i
+** Parser : identifier found count_1s
+~~~~~~~~~~~~~~~~~~~~ array found
+** SearchInsert : inserted : count_1s	at position 6
+** Parser : No data intialization in id: count_1s
+******* Parser : cool inserted count_1s
+~~~~~~~~~~~~~~ list : i count_1s i
+** Parser : identifier found count_0s
+~~~~~~~~~~~~~~~~~~~~ array found
+** SearchInsert : inserted : count_0s	at position 7
+** Parser : No data intialization in id: count_0s
+******* Parser : cool inserted count_0s
+~~~~~~~~~~~~~~ list : i count_0s i
+no declarations listed
+** Parser : identifier found y
+** SearchInsert : inserted : y	at position 8
+** Parser : No data intialization in id: y
+******* Parser : cool inserted y
+** Parser : identifier found balanced
+** SearchInsert : inserted : balanced	at position 9
+** Parser : No data intialization in id: balanced
+******* Parser : cool inserted balanced
+~~~~~~~~~~~~~~ list : y balanced y
+no declarations listed
+** Parser : identifier found in expression z
+** Parser : expression :: z=10
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression i
+** Parser : identifier found in expression i
+** Parser : identifier found in expression i
+** Parser : identifier found in expression i
+** Parser : identifier found in expression count_1s
+** Parser : identifier found in expression i
+!!!!!!!!!! DT created with array type lhs : count_1s[i] 4 4 16
+** Parser : expression :: count_1s[i]=0
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression count_0s
+** Parser : identifier found in expression i
+!!!!!!!!!! DT created with array type lhs : count_0s[i] 4 4 16
+** Parser : expression :: count_0s[i]=0
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added i<8
+** INfsmd : started
+** INfsmd : state transition added !(i<8)
+** Parser : identifier found in expression i
+** Parser : identifier found in expression i
+** Parser : identifier found in expression f
+***** temporary variable insertion : f
+** SearchInsert : inserted : f	at position 10
+** Parser : identifier found in expression i
+** Parser : identifier found in expression i
+** Parser : identifier found in expression y
+** Parser : identifier found in expression sbox
+** Parser : identifier found in expression i
+** Parser : expression :: y=sbox[i]
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression bit_index
+** Parser : identifier found in expression bit_index
+** Parser : identifier found in expression bit_index
+** Parser : identifier found in expression bit_index
+** Parser : identifier found in expression f2
+***** temporary variable insertion : f2
+** SearchInsert : inserted : f2	at position 11
+** Parser : identifier found in expression y
+** Parser : identifier found in expression bit_index
+** Parser : identifier found in expression count_1s
+** Parser : identifier found in expression bit_index
+** Parser : identifier found in expression count_1s
+** Parser : identifier found in expression bit_index
+!!!!!!!!!! DT created with array type lhs : count_1s[bit_index] 4 4 16
+** Parser : expression :: count_1s[bit_index]=count_1s[bit_index]+1
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression count_0s
+** Parser : identifier found in expression bit_index
+** Parser : identifier found in expression count_0s
+** Parser : identifier found in expression bit_index
+!!!!!!!!!! DT created with array type lhs : count_0s[bit_index] 4 4 16
+** Parser : expression :: count_0s[bit_index]=count_0s[bit_index]+1
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added f2(y,1,bit_index)!=0
+** INfsmd : started
+** INfsmd : state transition added !(f2(y,1,bit_index)!=0)
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added bit_index<8
+** INfsmd : started
+** INfsmd : state transition added !(bit_index<8)
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added i<f(1,8)
+** INfsmd : started
+** INfsmd : state transition added !(i<f(1,8))
+** Parser : identifier found in expression i
+** Parser : identifier found in expression i
+** Parser : identifier found in expression i
+** Parser : identifier found in expression i
+** Parser : identifier found in expression count_1s
+** Parser : identifier found in expression i
+** Parser : identifier found in expression count_0s
+** Parser : identifier found in expression i
+** Parser : identifier found in expression balanced
+** Parser : expression :: balanced=0
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression balanced
+** Parser : expression :: balanced=1
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added count_1s[i]!=count_0s[i]
+** INfsmd : started
+** INfsmd : state transition added !(count_1s[i]!=count_0s[i])
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added i<8
+** INfsmd : started
+** INfsmd : state transition added !(i<8)
+parsed
+/**LELB situations will be handled here**/
+time_stamp : state_id comments
+*****************LELB situation : 
+intially : q1987LB : /* i=0,; i<8; i=i+1, */
+finally : q1987LELB : /* loop_end *//* i=0,; i<8; i=i+1, */
+**********************************
+*****************LELB situation : 
+intially : q1991LB : /* i=0,; i<f(1,8); i=i+1, */
+finally : q1991LELB : /* loop_end *//* i=0,; i<f(1,8); i=i+1, */
+**********************************
+enterd print function
+balanced.org
+1 0
+z 
+
+q1000 1 - / 	qq1001	
+qq1001 1 - / z=10	q1998LB	
+q1002 1 - / count_1s[i]=0	q1003	
+q1003 1 - / count_0s[i]=0	q1997	
+q1004 1 - / y=sbox[i]	q1994LB	
+q1005 1 - / count_1s[bit_index]=count_1s[bit_index]+1	q1993	
+q1006 1 - / count_0s[bit_index]=count_0s[bit_index]+1	q1993	
+q1007 1 - / balanced=0	q1986	
+q1008 1 - / balanced=1	q1986	
+end state at q1009LE
+q1986 1 - / i=i+1	q1988	
+q1987LELB 1 - / i=0	q1988	
+q1988 2 i<8 / - 	q1989	 !(i<8) / - 	q1009LE	
+q1989 2 count_1s[i]!=count_0s[i] / - 	q1007	 !(count_1s[i]!=count_0s[i]) / - 	q1008	
+q1990LE 1 - / i=i+1	q1992	
+q1991LELB 1 - / i=0	q1992	
+q1992 2 i<f(1,8) / - 	q1004	 !(i<f(1,8)) / - 	q1987LELB	
+q1993 1 - / bit_index=bit_index+1	q1995	
+q1994LB 1 - / bit_index=0	q1995	
+q1995 2 bit_index<8 / - 	q1996	 !(bit_index<8) / - 	q1990LE	
+q1996 2 f2(y,1,bit_index)!=0 / - 	q1005	 !(f2(y,1,bit_index)!=0) / - 	q1006	
+q1997 1 - / i=i+1	q1999	
+q1998LB 1 - / i=0	q1999	
+q1999 2 i<8 / - 	q1002	 !(i<8) / - 	q1991LELB	
+q1009LE 0
+
+
+finished FSMD .org files
+
+
+
+DOTTY :
+loop list :
+<998,999,4,1>
+<996,5,7,4>
+<996,6,7,4>
+<994,995,7,1>
+<991,992,7,1>
+<989,7,9,4>
+<989,8,9,4>
+<987,988,9,1>
+<0,0,0,0>
+end
+loop count : 6
+hi allocations succesful
+loops sorting & merging :
+loop <999,991> sizes :sizes end <999,991,1> end
+ifel <996,3773424> sizes :sizes end <996,993,1> end
+loop <995,990> sizes : <158,424>sizes end <995,990,1> end
+loop <992,987> sizes : <347,689>sizes end <992,987,1> end
+ifel <989,3773424> sizes :sizes end <989,986,1> end
+loop <988,9> sizes : <150,366>sizes end <988,9,1> end
+loops sorted
+<0,9,0,0>
+<0,9,0,1>
+<0,9,1,998>
+<0,9,998,999>
+loop inserted : 999 991
+<0,9,999,991>
+<0,9,991,992>
+loop inserted : 992 987
+<0,9,992,987>
+<0,9,987,988>
+loop inserted : 988 9
+Ok till here : loops modifications succesful
+Ok till here : nodes are added 
+Links now :
+end state reached : 9
+links too finished
+Generated output file names : HTG_balanced_c_main.dotty balanced.org balanced1.org
+dotty finished
+done

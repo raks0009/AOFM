@@ -1,0 +1,49 @@
+tlc.org
+0 0
+
+
+t1000 1 - / 	t1998	
+qq1001 1 - / newHL=4	t1002	
+t1002 1 - / newFL=6	t1999	
+t1003 1 - / newstate=4	t1004	
+t1004 1 - / newST=1	t1996	
+t1005 1 - / newstate=0	t1006	
+t1006 1 - / newST=0	t1996	
+t1007 1 - / newHL=2	t1008	
+t1008 1 - / newFL=6	t1997	
+t1009 1 - / newstate=2	t1010	
+t1010 1 - / newST=1	t1994	
+t1011 1 - / newstate=6	t1012	
+t1012 1 - / newST=0	t1994	
+t1013 1 - / newHL=6	t1014	
+t1014 1 - / newFL=4	t1995	
+t1015 1 - / newstate=6	t1016	
+t1016 1 - / newST=1	t1992	
+t1017 1 - / newstate=2	t1018	
+t1018 1 - / newST=0	t1992	
+t1019 1 - / newHL=6	t1020	
+t1020 1 - / newFL=2	t1993	
+t1021 1 - / newstate=0	t1022	
+t1022 1 - / newST=1	t1991	
+t1023 1 - / newstate=6	t1024	
+t1024 1 - / newST=0	t1991	
+t1025 1 - / newHL=0	t1026	
+t1026 1 - / newFL=0	t1027	
+t1027 1 - / newstate=0	t1028	
+t1028 1 - / newST=0	t1029	
+t1029 1 - / state=newstate	t1030	
+t1030 1 - / HiWay=newHL	t1031	
+t1031 1 - / FarmL=newST	t1032	
+t1032 1 - / StartTimer=newST	t1033	
+t1991 2 current_state==7 / - 	t1025	 !(current_state==7) / - 	t1029	
+t1992 2 current_state==6 / - 	t1019	 !(current_state==6) / - 	t1991	
+t1993 2 timeOutS==1 / - 	t1021	 !(timeOutS==1) / - 	t1023	
+t1994 2 current_state==2 / - 	t1013	 !(current_state==2) / - 	t1992	
+t1995 2 (cars==0) || (timeOutL==1) / - 	t1015	 !((cars==0) || (timeOutL==1)) / - 	t1017	
+t1996 2 current_state==4 / - 	t1007	 !(current_state==4) / - 	t1994	
+t1997 2 timeOutS==1 / - 	t1009	 !(timeOutS==1) / - 	t1011	
+t1998 2 current_state==0 / - 	qq1001	 !(current_state==0) / - 	t1996	
+t1999 2 (cars==1) && (timeOutL==1) / - 	t1003	 !((cars==1) && (timeOutL==1)) / - 	t1005	
+t1033 0
+
+

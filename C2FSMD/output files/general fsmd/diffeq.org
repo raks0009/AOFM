@@ -1,0 +1,24 @@
+diffeq.org
+0 1
+
+xout 
+qq1000 1 - / 	qq1998LB	
+qq1001 1 - / t1=(u)*(dx)	qq1002	
+qq1002 1 - / t2=(3)*(x)	qq1003	
+qq1003 1 - / t3=(3)*(y)	qq1004	
+qq1004 1 - / t4=(t1)*(t2)	qq1005	
+qq1005 1 - / t5=(dx)*(t3)	qq1006	
+qq1006 1 - / t6=u-t4	qq1007	
+qq1007 1 - / u=t6-t5	qq1008	
+qq1008 1 - / y1=(u)*(dx)	qq1009	
+qq1009 1 - / y=y+y1	qq1010	
+qq1010 1 - / x=x+dx	qq1997	
+qq1011LE 1 - / xout=x	qq1012	
+qq1012 1 - / yout=y	qq1013	
+qq1013 1 - / uout=u	qq1014	
+qq1997 1 - / i=i+1	qq1999	
+qq1998LB 1 - / i=0	qq1999	
+qq1999 2 x<a / - 	qq1001	 !(x<a) / - 	qq1011LE	
+qq1014 0
+
+

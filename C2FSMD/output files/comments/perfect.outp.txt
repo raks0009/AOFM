@@ -1,0 +1,128 @@
+FSMD name: qq
+** SearchInsert : inserted : BREAK	at position 0
+** SearchInsert : inserted : LOOP_END	at position 1
+starting yyparse : 
+** INfsmd : started
+** INfsmd : state transition added 
+perfect	pp1000
+** Parser : identifier found main
+** Parser : identifier found sum
+** SearchInsert : inserted : sum	at position 2
+** Parser : data declared as id: sum
+******* Parser : cool inserted sum
+** Parser : identifier found i
+** SearchInsert : inserted : i	at position 3
+** Parser : data declared as id: i
+******* Parser : cool inserted i
+~~~~~~~~~~~~~~ list : sum i sum
+** Parser : identifier found n
+** SearchInsert : inserted : n	at position 4
+** Parser : No data intialization in id: n
+******* Parser : cool inserted n
+~~~~~~~~~~~~~~ list : sum n sum
+** Parser : identifier found out
+** SearchInsert : inserted : out	at position 5
+** Parser : No data intialization in id: out
+******* Parser : cool inserted out
+~~~~~~~~~~~~~~ list : sum out sum
+** INfsmd : started
+** INfsmd : state transition added 
+declarations
+** Parser : identifier found in expression i
+** Parser : identifier found in expression n
+** Parser : identifier found in expression n
+** Parser : identifier found in expression i
+** Parser : identifier found in expression sum
+** Parser : identifier found in expression sum
+** Parser : identifier found in expression i
+** Parser : expression :: sum=sum+i
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added n%i==1
+** INfsmd : started
+** INfsmd : state transition added !(n%i==1)
+** Parser : identifier found in expression i
+** Parser : identifier found in expression i
+** Parser : expression :: i=i+1
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added i<n
+** INfsmd : started
+** INfsmd : state transition added !(i<n)
+** Parser : identifier found in expression sum
+** Parser : identifier found in expression n
+** Parser : identifier found in expression out
+** Parser : expression :: out=1
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression out
+** Parser : expression :: out=0
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added sum==n
+** INfsmd : started
+** INfsmd : state transition added !(sum==n)
+parsed
+/**LELB situations will be handled here**/
+time_stamp : state_id comments
+enterd print function
+perfect.org
+0 0
+
+
+pp1000 1 - / 	qq1001	
+qq1001 1 - / sum=1,i=2	pp1997LB	
+pp1002 1 - / sum=sum+i	pp1003	
+pp1003 1 - / i=i+1	pp1996	
+pp1004 1 - / out=1	pp1006	
+pp1005 1 - / out=0	pp1006	
+end state at pp1006
+pp1995LE 2 sum==n / - 	pp1004	 !(sum==n) / - 	pp1005	
+pp1996 1 - / - 	pp1998	
+pp1997LB 1 - / - 	pp1998	
+pp1998 2 i<n / - 	pp1999	 !(i<n) / - 	pp1995LE	
+pp1999 2 n%i==1 / - 	pp1002	 !(n%i==1) / - 	pp1003	
+pp1006 0
+
+
+finished FSMD .org files
+
+
+
+DOTTY :
+loop list :
+<999,2,3,3>
+<997,998,4,1>
+<995,4,6,4>
+<995,5,6,4>
+<0,0,0,0>
+end
+loop count : 3
+hi allocations succesful
+loops sorting & merging :
+if <999,3> sizes :<999,3,1> end
+loop <998,995> sizes : <152,245>sizes end <998,995,1> end
+ifel <995,16368624> sizes :sizes end <995,6,1> end
+loops sorted
+<0,6,0,0>
+<0,6,0,1>
+<0,6,1,997>
+<0,6,997,998>
+loop inserted : 998 995
+<0,6,998,995>
+loop inserted : 995 6
+Ok till here : loops modifications succesful
+Ok till here : nodes are added 
+Links now :
+end state reached : 6
+links too finished
+Generated output file names : HTG_perfect_c_main.dotty perfect.org perfect1.org
+dotty finished
+done

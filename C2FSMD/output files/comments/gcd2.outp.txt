@@ -1,0 +1,3384 @@
+FSMD name: qq
+** SearchInsert : inserted : BREAK	at position 0
+** SearchInsert : inserted : LOOP_END	at position 1
+starting yyparse : 
+** INfsmd : started
+** INfsmd : state transition added 
+gcd2	gg1000
+** Parser : identifier found gcd_modified
+** Parser : identifier found y1
+** SearchInsert : inserted : y1	at position 2
+** Parser : No data intialization in id: y1
+******* Parser : cool inserted y1
+** Parser : identifier found y2
+** SearchInsert : inserted : y2	at position 3
+** Parser : No data intialization in id: y2
+******* Parser : cool inserted y2
+~~~~~~~~~~~~~~ list : y1 y2 y1
+no declarations listed
+** Parser : identifier found z
+** SearchInsert : inserted : z	at position 4
+** Parser : No data intialization in id: z
+******* Parser : cool inserted z
+** Parser : identifier found x
+** SearchInsert : inserted : x	at position 5
+** Parser : No data intialization in id: x
+******* Parser : cool inserted x
+~~~~~~~~~~~~~~ list : z x z
+no declarations listed
+** Parser : identifier found i
+** SearchInsert : inserted : i	at position 6
+** Parser : data declared as id: i
+******* Parser : cool inserted i
+** INfsmd : started
+** INfsmd : state transition added 
+declarations
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y1
+** Parser : identifier found in expression y2
+** Parser : expression :: y1=(y1)/(y2
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y2
+** Parser : identifier found in expression y1
+** Parser : expression :: y2=y2-y1%100-5
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added y1>100
+** INfsmd : started
+** INfsmd : state transition added !(y1>100)
+** INfsmd : started
+** INfsmd : state transition added y1!=y2
+** INfsmd : started
+** INfsmd : state transition added !(y1!=y2)
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression x
+** Parser : expression :: x=5
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression z
+parsed
+/**LELB situations will be handled here**/
+time_stamp : state_id comments
+enterd print function
+gcd2.org
+0 1
+
+z 
+gg1000 1 - / 	qq1001	
+qq1001 1 - / i=5	gg1997	
+gg1002 1 - / y1=(y1)/(y2	gg1998	
+gg1003 1 - / y2=y2-y1%100-5	gg1998	
+gg1004 1 - / y1=(y1)/(y2	gg1995	
+gg1005 1 - / y2=y2-y1%100-5	gg1995	
+gg1006 1 - / y1=(y1)/(y2	gg1992	
+gg1007 1 - / y2=y2-y1%100-5	gg1992	
+gg1008 1 - / y1=(y1)/(y2	gg1989	
+gg1009 1 - / y2=y2-y1%100-5	gg1989	
+gg1010 1 - / y1=(y1)/(y2	gg1986	
+gg1011 1 - / y2=y2-y1%100-5	gg1986	
+gg1012 1 - / y1=(y1)/(y2	gg1983	
+gg1013 1 - / y2=y2-y1%100-5	gg1983	
+gg1014 1 - / y1=(y1)/(y2	gg1980	
+gg1015 1 - / y2=y2-y1%100-5	gg1980	
+gg1016 1 - / y1=(y1)/(y2	gg1977	
+gg1017 1 - / y2=y2-y1%100-5	gg1977	
+gg1018 1 - / y1=(y1)/(y2	gg1974	
+gg1019 1 - / y2=y2-y1%100-5	gg1974	
+gg1020 1 - / y1=(y1)/(y2	gg1971	
+gg1021 1 - / y2=y2-y1%100-5	gg1971	
+gg1022 1 - / y1=(y1)/(y2	gg1968	
+gg1023 1 - / y2=y2-y1%100-5	gg1968	
+gg1024 1 - / y1=(y1)/(y2	gg1965	
+gg1025 1 - / y2=y2-y1%100-5	gg1965	
+gg1026 1 - / y1=(y1)/(y2	gg1962	
+gg1027 1 - / y2=y2-y1%100-5	gg1962	
+gg1028 1 - / y1=(y1)/(y2	gg1959	
+gg1029 1 - / y2=y2-y1%100-5	gg1959	
+gg1030 1 - / y1=(y1)/(y2	gg1956	
+gg1031 1 - / y2=y2-y1%100-5	gg1956	
+gg1032 1 - / y1=(y1)/(y2	gg1953	
+gg1033 1 - / y2=y2-y1%100-5	gg1953	
+gg1034 1 - / y1=(y1)/(y2	gg1950	
+gg1035 1 - / y2=y2-y1%100-5	gg1950	
+gg1036 1 - / y1=(y1)/(y2	gg1947	
+gg1037 1 - / y2=y2-y1%100-5	gg1947	
+gg1038 1 - / y1=(y1)/(y2	gg1944	
+gg1039 1 - / y2=y2-y1%100-5	gg1944	
+gg1040 1 - / y1=(y1)/(y2	gg1941	
+gg1041 1 - / y2=y2-y1%100-5	gg1941	
+gg1042 1 - / y1=(y1)/(y2	gg1938	
+gg1043 1 - / y2=y2-y1%100-5	gg1938	
+gg1044 1 - / y1=(y1)/(y2	gg1935	
+gg1045 1 - / y2=y2-y1%100-5	gg1935	
+gg1046 1 - / y1=(y1)/(y2	gg1932	
+gg1047 1 - / y2=y2-y1%100-5	gg1932	
+gg1048 1 - / y1=(y1)/(y2	gg1929	
+gg1049 1 - / y2=y2-y1%100-5	gg1929	
+gg1050 1 - / y1=(y1)/(y2	gg1926	
+gg1051 1 - / y2=y2-y1%100-5	gg1926	
+gg1052 1 - / y1=(y1)/(y2	gg1923	
+gg1053 1 - / y2=y2-y1%100-5	gg1923	
+gg1054 1 - / y1=(y1)/(y2	gg1920	
+gg1055 1 - / y2=y2-y1%100-5	gg1920	
+gg1056 1 - / y1=(y1)/(y2	gg1917	
+gg1057 1 - / y2=y2-y1%100-5	gg1917	
+gg1058 1 - / y1=(y1)/(y2	gg1914	
+gg1059 1 - / y2=y2-y1%100-5	gg1914	
+gg1060 1 - / y1=(y1)/(y2	gg1911	
+gg1061 1 - / y2=y2-y1%100-5	gg1911	
+gg1062 1 - / y1=(y1)/(y2	gg1908	
+gg1063 1 - / y2=y2-y1%100-5	gg1908	
+gg1064 1 - / y1=(y1)/(y2	gg1905	
+gg1065 1 - / y2=y2-y1%100-5	gg1905	
+gg1066 1 - / y1=(y1)/(y2	gg1902	
+gg1067 1 - / y2=y2-y1%100-5	gg1902	
+gg1068 1 - / y1=(y1)/(y2	gg1899	
+gg1069 1 - / y2=y2-y1%100-5	gg1899	
+gg1070 1 - / y1=(y1)/(y2	gg1896	
+gg1071 1 - / y2=y2-y1%100-5	gg1896	
+gg1072 1 - / y1=(y1)/(y2	gg1893	
+gg1073 1 - / y2=y2-y1%100-5	gg1893	
+gg1074 1 - / y1=(y1)/(y2	gg1890	
+gg1075 1 - / y2=y2-y1%100-5	gg1890	
+gg1076 1 - / y1=(y1)/(y2	gg1887	
+gg1077 1 - / y2=y2-y1%100-5	gg1887	
+gg1078 1 - / y1=(y1)/(y2	gg1884	
+gg1079 1 - / y2=y2-y1%100-5	gg1884	
+gg1080 1 - / y1=(y1)/(y2	gg1881	
+gg1081 1 - / y2=y2-y1%100-5	gg1881	
+gg1082 1 - / y1=(y1)/(y2	gg1878	
+gg1083 1 - / y2=y2-y1%100-5	gg1878	
+gg1084 1 - / y1=(y1)/(y2	gg1875	
+gg1085 1 - / y2=y2-y1%100-5	gg1875	
+gg1086 1 - / y1=(y1)/(y2	gg1872	
+gg1087 1 - / y2=y2-y1%100-5	gg1872	
+gg1088 1 - / y1=(y1)/(y2	gg1869	
+gg1089 1 - / y2=y2-y1%100-5	gg1869	
+gg1090 1 - / y1=(y1)/(y2	gg1866	
+gg1091 1 - / y2=y2-y1%100-5	gg1866	
+gg1092 1 - / y1=(y1)/(y2	gg1863	
+gg1093 1 - / y2=y2-y1%100-5	gg1863	
+gg1094 1 - / y1=(y1)/(y2	gg1860	
+gg1095 1 - / y2=y2-y1%100-5	gg1860	
+gg1096 1 - / y1=(y1)/(y2	gg1857	
+gg1097 1 - / y2=y2-y1%100-5	gg1857	
+gg1098 1 - / y1=(y1)/(y2	gg1854	
+gg1099 1 - / y2=y2-y1%100-5	gg1854	
+gg1100 1 - / y1=(y1)/(y2	gg1851	
+gg1101 1 - / y2=y2-y1%100-5	gg1851	
+gg1102 1 - / y1=(y1)/(y2	gg1848	
+gg1103 1 - / y2=y2-y1%100-5	gg1848	
+gg1104 1 - / y1=(y1)/(y2	gg1845	
+gg1105 1 - / y2=y2-y1%100-5	gg1845	
+gg1106 1 - / y1=(y1)/(y2	gg1842	
+gg1107 1 - / y2=y2-y1%100-5	gg1842	
+gg1108 1 - / y1=(y1)/(y2	gg1839	
+gg1109 1 - / y2=y2-y1%100-5	gg1839	
+gg1110 1 - / y1=(y1)/(y2	gg1836	
+gg1111 1 - / y2=y2-y1%100-5	gg1836	
+gg1112 1 - / y1=(y1)/(y2	gg1833	
+gg1113 1 - / y2=y2-y1%100-5	gg1833	
+gg1114 1 - / y1=(y1)/(y2	gg1830	
+gg1115 1 - / y2=y2-y1%100-5	gg1830	
+gg1116 1 - / y1=(y1)/(y2	gg1827	
+gg1117 1 - / y2=y2-y1%100-5	gg1827	
+gg1118 1 - / y1=(y1)/(y2	gg1824	
+gg1119 1 - / y2=y2-y1%100-5	gg1824	
+gg1120 1 - / y1=(y1)/(y2	gg1821	
+gg1121 1 - / y2=y2-y1%100-5	gg1821	
+gg1122 1 - / y1=(y1)/(y2	gg1818	
+gg1123 1 - / y2=y2-y1%100-5	gg1818	
+gg1124 1 - / y1=(y1)/(y2	gg1815	
+gg1125 1 - / y2=y2-y1%100-5	gg1815	
+gg1126 1 - / y1=(y1)/(y2	gg1812	
+gg1127 1 - / y2=y2-y1%100-5	gg1812	
+gg1128 1 - / y1=(y1)/(y2	gg1809	
+gg1129 1 - / y2=y2-y1%100-5	gg1809	
+gg1130 1 - / y1=(y1)/(y2	gg1806	
+gg1131 1 - / y2=y2-y1%100-5	gg1806	
+gg1132 1 - / y1=(y1)/(y2	gg1803	
+gg1133 1 - / y2=y2-y1%100-5	gg1803	
+gg1134 1 - / y1=(y1)/(y2	gg1800	
+gg1135 1 - / y2=y2-y1%100-5	gg1800	
+gg1136 1 - / y1=(y1)/(y2	gg1797	
+gg1137 1 - / y2=y2-y1%100-5	gg1797	
+gg1138 1 - / y1=(y1)/(y2	gg1794	
+gg1139 1 - / y2=y2-y1%100-5	gg1794	
+gg1140 1 - / y1=(y1)/(y2	gg1791	
+gg1141 1 - / y2=y2-y1%100-5	gg1791	
+gg1142 1 - / y1=(y1)/(y2	gg1788	
+gg1143 1 - / y2=y2-y1%100-5	gg1788	
+gg1144 1 - / y1=(y1)/(y2	gg1785	
+gg1145 1 - / y2=y2-y1%100-5	gg1785	
+gg1146 1 - / y1=(y1)/(y2	gg1782	
+gg1147 1 - / y2=y2-y1%100-5	gg1782	
+gg1148 1 - / y1=(y1)/(y2	gg1779	
+gg1149 1 - / y2=y2-y1%100-5	gg1779	
+gg1150 1 - / y1=(y1)/(y2	gg1776	
+gg1151 1 - / y2=y2-y1%100-5	gg1776	
+gg1152 1 - / y1=(y1)/(y2	gg1773	
+gg1153 1 - / y2=y2-y1%100-5	gg1773	
+gg1154 1 - / y1=(y1)/(y2	gg1770	
+gg1155 1 - / y2=y2-y1%100-5	gg1770	
+gg1156 1 - / y1=(y1)/(y2	gg1767	
+gg1157 1 - / y2=y2-y1%100-5	gg1767	
+gg1158 1 - / y1=(y1)/(y2	gg1764	
+gg1159 1 - / y2=y2-y1%100-5	gg1764	
+gg1160 1 - / y1=(y1)/(y2	gg1761	
+gg1161 1 - / y2=y2-y1%100-5	gg1761	
+gg1162 1 - / y1=(y1)/(y2	gg1758	
+gg1163 1 - / y2=y2-y1%100-5	gg1758	
+gg1164 1 - / y1=(y1)/(y2	gg1755	
+gg1165 1 - / y2=y2-y1%100-5	gg1755	
+gg1166 1 - / y1=(y1)/(y2	gg1752	
+gg1167 1 - / y2=y2-y1%100-5	gg1752	
+gg1168 1 - / y1=(y1)/(y2	gg1749	
+gg1169 1 - / y2=y2-y1%100-5	gg1749	
+gg1170 1 - / y1=(y1)/(y2	gg1746	
+gg1171 1 - / y2=y2-y1%100-5	gg1746	
+gg1172 1 - / y1=(y1)/(y2	gg1743	
+gg1173 1 - / y2=y2-y1%100-5	gg1743	
+gg1174 1 - / y1=(y1)/(y2	gg1740	
+gg1175 1 - / y2=y2-y1%100-5	gg1740	
+gg1176 1 - / x=5	gg1177	
+end state at gg1177
+gg1739 1 - / - 	gg1740	
+gg1740 2 y1!=y2 / - 	gg1741	 !(y1!=y2) / - 	gg1176	
+gg1741 2 y1>100 / - 	gg1174	 !(y1>100) / - 	gg1175	
+gg1742 1 - / - 	gg1743	
+gg1743 2 y1!=y2 / - 	gg1744	 !(y1!=y2) / - 	gg1739	
+gg1744 2 y1>100 / - 	gg1172	 !(y1>100) / - 	gg1173	
+gg1745 1 - / - 	gg1746	
+gg1746 2 y1!=y2 / - 	gg1747	 !(y1!=y2) / - 	gg1742	
+gg1747 2 y1>100 / - 	gg1170	 !(y1>100) / - 	gg1171	
+gg1748 1 - / - 	gg1749	
+gg1749 2 y1!=y2 / - 	gg1750	 !(y1!=y2) / - 	gg1745	
+gg1750 2 y1>100 / - 	gg1168	 !(y1>100) / - 	gg1169	
+gg1751 1 - / - 	gg1752	
+gg1752 2 y1!=y2 / - 	gg1753	 !(y1!=y2) / - 	gg1748	
+gg1753 2 y1>100 / - 	gg1166	 !(y1>100) / - 	gg1167	
+gg1754 1 - / - 	gg1755	
+gg1755 2 y1!=y2 / - 	gg1756	 !(y1!=y2) / - 	gg1751	
+gg1756 2 y1>100 / - 	gg1164	 !(y1>100) / - 	gg1165	
+gg1757 1 - / - 	gg1758	
+gg1758 2 y1!=y2 / - 	gg1759	 !(y1!=y2) / - 	gg1754	
+gg1759 2 y1>100 / - 	gg1162	 !(y1>100) / - 	gg1163	
+gg1760 1 - / - 	gg1761	
+gg1761 2 y1!=y2 / - 	gg1762	 !(y1!=y2) / - 	gg1757	
+gg1762 2 y1>100 / - 	gg1160	 !(y1>100) / - 	gg1161	
+gg1763 1 - / - 	gg1764	
+gg1764 2 y1!=y2 / - 	gg1765	 !(y1!=y2) / - 	gg1760	
+gg1765 2 y1>100 / - 	gg1158	 !(y1>100) / - 	gg1159	
+gg1766 1 - / - 	gg1767	
+gg1767 2 y1!=y2 / - 	gg1768	 !(y1!=y2) / - 	gg1763	
+gg1768 2 y1>100 / - 	gg1156	 !(y1>100) / - 	gg1157	
+gg1769 1 - / - 	gg1770	
+gg1770 2 y1!=y2 / - 	gg1771	 !(y1!=y2) / - 	gg1766	
+gg1771 2 y1>100 / - 	gg1154	 !(y1>100) / - 	gg1155	
+gg1772 1 - / - 	gg1773	
+gg1773 2 y1!=y2 / - 	gg1774	 !(y1!=y2) / - 	gg1769	
+gg1774 2 y1>100 / - 	gg1152	 !(y1>100) / - 	gg1153	
+gg1775 1 - / - 	gg1776	
+gg1776 2 y1!=y2 / - 	gg1777	 !(y1!=y2) / - 	gg1772	
+gg1777 2 y1>100 / - 	gg1150	 !(y1>100) / - 	gg1151	
+gg1778 1 - / - 	gg1779	
+gg1779 2 y1!=y2 / - 	gg1780	 !(y1!=y2) / - 	gg1775	
+gg1780 2 y1>100 / - 	gg1148	 !(y1>100) / - 	gg1149	
+gg1781 1 - / - 	gg1782	
+gg1782 2 y1!=y2 / - 	gg1783	 !(y1!=y2) / - 	gg1778	
+gg1783 2 y1>100 / - 	gg1146	 !(y1>100) / - 	gg1147	
+gg1784 1 - / - 	gg1785	
+gg1785 2 y1!=y2 / - 	gg1786	 !(y1!=y2) / - 	gg1781	
+gg1786 2 y1>100 / - 	gg1144	 !(y1>100) / - 	gg1145	
+gg1787 1 - / - 	gg1788	
+gg1788 2 y1!=y2 / - 	gg1789	 !(y1!=y2) / - 	gg1784	
+gg1789 2 y1>100 / - 	gg1142	 !(y1>100) / - 	gg1143	
+gg1790 1 - / - 	gg1791	
+gg1791 2 y1!=y2 / - 	gg1792	 !(y1!=y2) / - 	gg1787	
+gg1792 2 y1>100 / - 	gg1140	 !(y1>100) / - 	gg1141	
+gg1793 1 - / - 	gg1794	
+gg1794 2 y1!=y2 / - 	gg1795	 !(y1!=y2) / - 	gg1790	
+gg1795 2 y1>100 / - 	gg1138	 !(y1>100) / - 	gg1139	
+gg1796 1 - / - 	gg1797	
+gg1797 2 y1!=y2 / - 	gg1798	 !(y1!=y2) / - 	gg1793	
+gg1798 2 y1>100 / - 	gg1136	 !(y1>100) / - 	gg1137	
+gg1799 1 - / - 	gg1800	
+gg1800 2 y1!=y2 / - 	gg1801	 !(y1!=y2) / - 	gg1796	
+gg1801 2 y1>100 / - 	gg1134	 !(y1>100) / - 	gg1135	
+gg1802 1 - / - 	gg1803	
+gg1803 2 y1!=y2 / - 	gg1804	 !(y1!=y2) / - 	gg1799	
+gg1804 2 y1>100 / - 	gg1132	 !(y1>100) / - 	gg1133	
+gg1805 1 - / - 	gg1806	
+gg1806 2 y1!=y2 / - 	gg1807	 !(y1!=y2) / - 	gg1802	
+gg1807 2 y1>100 / - 	gg1130	 !(y1>100) / - 	gg1131	
+gg1808 1 - / - 	gg1809	
+gg1809 2 y1!=y2 / - 	gg1810	 !(y1!=y2) / - 	gg1805	
+gg1810 2 y1>100 / - 	gg1128	 !(y1>100) / - 	gg1129	
+gg1811 1 - / - 	gg1812	
+gg1812 2 y1!=y2 / - 	gg1813	 !(y1!=y2) / - 	gg1808	
+gg1813 2 y1>100 / - 	gg1126	 !(y1>100) / - 	gg1127	
+gg1814 1 - / - 	gg1815	
+gg1815 2 y1!=y2 / - 	gg1816	 !(y1!=y2) / - 	gg1811	
+gg1816 2 y1>100 / - 	gg1124	 !(y1>100) / - 	gg1125	
+gg1817 1 - / - 	gg1818	
+gg1818 2 y1!=y2 / - 	gg1819	 !(y1!=y2) / - 	gg1814	
+gg1819 2 y1>100 / - 	gg1122	 !(y1>100) / - 	gg1123	
+gg1820 1 - / - 	gg1821	
+gg1821 2 y1!=y2 / - 	gg1822	 !(y1!=y2) / - 	gg1817	
+gg1822 2 y1>100 / - 	gg1120	 !(y1>100) / - 	gg1121	
+gg1823 1 - / - 	gg1824	
+gg1824 2 y1!=y2 / - 	gg1825	 !(y1!=y2) / - 	gg1820	
+gg1825 2 y1>100 / - 	gg1118	 !(y1>100) / - 	gg1119	
+gg1826 1 - / - 	gg1827	
+gg1827 2 y1!=y2 / - 	gg1828	 !(y1!=y2) / - 	gg1823	
+gg1828 2 y1>100 / - 	gg1116	 !(y1>100) / - 	gg1117	
+gg1829 1 - / - 	gg1830	
+gg1830 2 y1!=y2 / - 	gg1831	 !(y1!=y2) / - 	gg1826	
+gg1831 2 y1>100 / - 	gg1114	 !(y1>100) / - 	gg1115	
+gg1832 1 - / - 	gg1833	
+gg1833 2 y1!=y2 / - 	gg1834	 !(y1!=y2) / - 	gg1829	
+gg1834 2 y1>100 / - 	gg1112	 !(y1>100) / - 	gg1113	
+gg1835 1 - / - 	gg1836	
+gg1836 2 y1!=y2 / - 	gg1837	 !(y1!=y2) / - 	gg1832	
+gg1837 2 y1>100 / - 	gg1110	 !(y1>100) / - 	gg1111	
+gg1838 1 - / - 	gg1839	
+gg1839 2 y1!=y2 / - 	gg1840	 !(y1!=y2) / - 	gg1835	
+gg1840 2 y1>100 / - 	gg1108	 !(y1>100) / - 	gg1109	
+gg1841 1 - / - 	gg1842	
+gg1842 2 y1!=y2 / - 	gg1843	 !(y1!=y2) / - 	gg1838	
+gg1843 2 y1>100 / - 	gg1106	 !(y1>100) / - 	gg1107	
+gg1844 1 - / - 	gg1845	
+gg1845 2 y1!=y2 / - 	gg1846	 !(y1!=y2) / - 	gg1841	
+gg1846 2 y1>100 / - 	gg1104	 !(y1>100) / - 	gg1105	
+gg1847 1 - / - 	gg1848	
+gg1848 2 y1!=y2 / - 	gg1849	 !(y1!=y2) / - 	gg1844	
+gg1849 2 y1>100 / - 	gg1102	 !(y1>100) / - 	gg1103	
+gg1850 1 - / - 	gg1851	
+gg1851 2 y1!=y2 / - 	gg1852	 !(y1!=y2) / - 	gg1847	
+gg1852 2 y1>100 / - 	gg1100	 !(y1>100) / - 	gg1101	
+gg1853 1 - / - 	gg1854	
+gg1854 2 y1!=y2 / - 	gg1855	 !(y1!=y2) / - 	gg1850	
+gg1855 2 y1>100 / - 	gg1098	 !(y1>100) / - 	gg1099	
+gg1856 1 - / - 	gg1857	
+gg1857 2 y1!=y2 / - 	gg1858	 !(y1!=y2) / - 	gg1853	
+gg1858 2 y1>100 / - 	gg1096	 !(y1>100) / - 	gg1097	
+gg1859 1 - / - 	gg1860	
+gg1860 2 y1!=y2 / - 	gg1861	 !(y1!=y2) / - 	gg1856	
+gg1861 2 y1>100 / - 	gg1094	 !(y1>100) / - 	gg1095	
+gg1862 1 - / - 	gg1863	
+gg1863 2 y1!=y2 / - 	gg1864	 !(y1!=y2) / - 	gg1859	
+gg1864 2 y1>100 / - 	gg1092	 !(y1>100) / - 	gg1093	
+gg1865 1 - / - 	gg1866	
+gg1866 2 y1!=y2 / - 	gg1867	 !(y1!=y2) / - 	gg1862	
+gg1867 2 y1>100 / - 	gg1090	 !(y1>100) / - 	gg1091	
+gg1868 1 - / - 	gg1869	
+gg1869 2 y1!=y2 / - 	gg1870	 !(y1!=y2) / - 	gg1865	
+gg1870 2 y1>100 / - 	gg1088	 !(y1>100) / - 	gg1089	
+gg1871 1 - / - 	gg1872	
+gg1872 2 y1!=y2 / - 	gg1873	 !(y1!=y2) / - 	gg1868	
+gg1873 2 y1>100 / - 	gg1086	 !(y1>100) / - 	gg1087	
+gg1874 1 - / - 	gg1875	
+gg1875 2 y1!=y2 / - 	gg1876	 !(y1!=y2) / - 	gg1871	
+gg1876 2 y1>100 / - 	gg1084	 !(y1>100) / - 	gg1085	
+gg1877 1 - / - 	gg1878	
+gg1878 2 y1!=y2 / - 	gg1879	 !(y1!=y2) / - 	gg1874	
+gg1879 2 y1>100 / - 	gg1082	 !(y1>100) / - 	gg1083	
+gg1880 1 - / - 	gg1881	
+gg1881 2 y1!=y2 / - 	gg1882	 !(y1!=y2) / - 	gg1877	
+gg1882 2 y1>100 / - 	gg1080	 !(y1>100) / - 	gg1081	
+gg1883 1 - / - 	gg1884	
+gg1884 2 y1!=y2 / - 	gg1885	 !(y1!=y2) / - 	gg1880	
+gg1885 2 y1>100 / - 	gg1078	 !(y1>100) / - 	gg1079	
+gg1886 1 - / - 	gg1887	
+gg1887 2 y1!=y2 / - 	gg1888	 !(y1!=y2) / - 	gg1883	
+gg1888 2 y1>100 / - 	gg1076	 !(y1>100) / - 	gg1077	
+gg1889 1 - / - 	gg1890	
+gg1890 2 y1!=y2 / - 	gg1891	 !(y1!=y2) / - 	gg1886	
+gg1891 2 y1>100 / - 	gg1074	 !(y1>100) / - 	gg1075	
+gg1892 1 - / - 	gg1893	
+gg1893 2 y1!=y2 / - 	gg1894	 !(y1!=y2) / - 	gg1889	
+gg1894 2 y1>100 / - 	gg1072	 !(y1>100) / - 	gg1073	
+gg1895 1 - / - 	gg1896	
+gg1896 2 y1!=y2 / - 	gg1897	 !(y1!=y2) / - 	gg1892	
+gg1897 2 y1>100 / - 	gg1070	 !(y1>100) / - 	gg1071	
+gg1898 1 - / - 	gg1899	
+gg1899 2 y1!=y2 / - 	gg1900	 !(y1!=y2) / - 	gg1895	
+gg1900 2 y1>100 / - 	gg1068	 !(y1>100) / - 	gg1069	
+gg1901 1 - / - 	gg1902	
+gg1902 2 y1!=y2 / - 	gg1903	 !(y1!=y2) / - 	gg1898	
+gg1903 2 y1>100 / - 	gg1066	 !(y1>100) / - 	gg1067	
+gg1904 1 - / - 	gg1905	
+gg1905 2 y1!=y2 / - 	gg1906	 !(y1!=y2) / - 	gg1901	
+gg1906 2 y1>100 / - 	gg1064	 !(y1>100) / - 	gg1065	
+gg1907 1 - / - 	gg1908	
+gg1908 2 y1!=y2 / - 	gg1909	 !(y1!=y2) / - 	gg1904	
+gg1909 2 y1>100 / - 	gg1062	 !(y1>100) / - 	gg1063	
+gg1910 1 - / - 	gg1911	
+gg1911 2 y1!=y2 / - 	gg1912	 !(y1!=y2) / - 	gg1907	
+gg1912 2 y1>100 / - 	gg1060	 !(y1>100) / - 	gg1061	
+gg1913 1 - / - 	gg1914	
+gg1914 2 y1!=y2 / - 	gg1915	 !(y1!=y2) / - 	gg1910	
+gg1915 2 y1>100 / - 	gg1058	 !(y1>100) / - 	gg1059	
+gg1916 1 - / - 	gg1917	
+gg1917 2 y1!=y2 / - 	gg1918	 !(y1!=y2) / - 	gg1913	
+gg1918 2 y1>100 / - 	gg1056	 !(y1>100) / - 	gg1057	
+gg1919 1 - / - 	gg1920	
+gg1920 2 y1!=y2 / - 	gg1921	 !(y1!=y2) / - 	gg1916	
+gg1921 2 y1>100 / - 	gg1054	 !(y1>100) / - 	gg1055	
+gg1922 1 - / - 	gg1923	
+gg1923 2 y1!=y2 / - 	gg1924	 !(y1!=y2) / - 	gg1919	
+gg1924 2 y1>100 / - 	gg1052	 !(y1>100) / - 	gg1053	
+gg1925 1 - / - 	gg1926	
+gg1926 2 y1!=y2 / - 	gg1927	 !(y1!=y2) / - 	gg1922	
+gg1927 2 y1>100 / - 	gg1050	 !(y1>100) / - 	gg1051	
+gg1928 1 - / - 	gg1929	
+gg1929 2 y1!=y2 / - 	gg1930	 !(y1!=y2) / - 	gg1925	
+gg1930 2 y1>100 / - 	gg1048	 !(y1>100) / - 	gg1049	
+gg1931 1 - / - 	gg1932	
+gg1932 2 y1!=y2 / - 	gg1933	 !(y1!=y2) / - 	gg1928	
+gg1933 2 y1>100 / - 	gg1046	 !(y1>100) / - 	gg1047	
+gg1934 1 - / - 	gg1935	
+gg1935 2 y1!=y2 / - 	gg1936	 !(y1!=y2) / - 	gg1931	
+gg1936 2 y1>100 / - 	gg1044	 !(y1>100) / - 	gg1045	
+gg1937 1 - / - 	gg1938	
+gg1938 2 y1!=y2 / - 	gg1939	 !(y1!=y2) / - 	gg1934	
+gg1939 2 y1>100 / - 	gg1042	 !(y1>100) / - 	gg1043	
+gg1940 1 - / - 	gg1941	
+gg1941 2 y1!=y2 / - 	gg1942	 !(y1!=y2) / - 	gg1937	
+gg1942 2 y1>100 / - 	gg1040	 !(y1>100) / - 	gg1041	
+gg1943 1 - / - 	gg1944	
+gg1944 2 y1!=y2 / - 	gg1945	 !(y1!=y2) / - 	gg1940	
+gg1945 2 y1>100 / - 	gg1038	 !(y1>100) / - 	gg1039	
+gg1946 1 - / - 	gg1947	
+gg1947 2 y1!=y2 / - 	gg1948	 !(y1!=y2) / - 	gg1943	
+gg1948 2 y1>100 / - 	gg1036	 !(y1>100) / - 	gg1037	
+gg1949 1 - / - 	gg1950	
+gg1950 2 y1!=y2 / - 	gg1951	 !(y1!=y2) / - 	gg1946	
+gg1951 2 y1>100 / - 	gg1034	 !(y1>100) / - 	gg1035	
+gg1952 1 - / - 	gg1953	
+gg1953 2 y1!=y2 / - 	gg1954	 !(y1!=y2) / - 	gg1949	
+gg1954 2 y1>100 / - 	gg1032	 !(y1>100) / - 	gg1033	
+gg1955 1 - / - 	gg1956	
+gg1956 2 y1!=y2 / - 	gg1957	 !(y1!=y2) / - 	gg1952	
+gg1957 2 y1>100 / - 	gg1030	 !(y1>100) / - 	gg1031	
+gg1958 1 - / - 	gg1959	
+gg1959 2 y1!=y2 / - 	gg1960	 !(y1!=y2) / - 	gg1955	
+gg1960 2 y1>100 / - 	gg1028	 !(y1>100) / - 	gg1029	
+gg1961 1 - / - 	gg1962	
+gg1962 2 y1!=y2 / - 	gg1963	 !(y1!=y2) / - 	gg1958	
+gg1963 2 y1>100 / - 	gg1026	 !(y1>100) / - 	gg1027	
+gg1964 1 - / - 	gg1965	
+gg1965 2 y1!=y2 / - 	gg1966	 !(y1!=y2) / - 	gg1961	
+gg1966 2 y1>100 / - 	gg1024	 !(y1>100) / - 	gg1025	
+gg1967 1 - / - 	gg1968	
+gg1968 2 y1!=y2 / - 	gg1969	 !(y1!=y2) / - 	gg1964	
+gg1969 2 y1>100 / - 	gg1022	 !(y1>100) / - 	gg1023	
+gg1970 1 - / - 	gg1971	
+gg1971 2 y1!=y2 / - 	gg1972	 !(y1!=y2) / - 	gg1967	
+gg1972 2 y1>100 / - 	gg1020	 !(y1>100) / - 	gg1021	
+gg1973 1 - / - 	gg1974	
+gg1974 2 y1!=y2 / - 	gg1975	 !(y1!=y2) / - 	gg1970	
+gg1975 2 y1>100 / - 	gg1018	 !(y1>100) / - 	gg1019	
+gg1976 1 - / - 	gg1977	
+gg1977 2 y1!=y2 / - 	gg1978	 !(y1!=y2) / - 	gg1973	
+gg1978 2 y1>100 / - 	gg1016	 !(y1>100) / - 	gg1017	
+gg1979 1 - / - 	gg1980	
+gg1980 2 y1!=y2 / - 	gg1981	 !(y1!=y2) / - 	gg1976	
+gg1981 2 y1>100 / - 	gg1014	 !(y1>100) / - 	gg1015	
+gg1982 1 - / - 	gg1983	
+gg1983 2 y1!=y2 / - 	gg1984	 !(y1!=y2) / - 	gg1979	
+gg1984 2 y1>100 / - 	gg1012	 !(y1>100) / - 	gg1013	
+gg1985 1 - / - 	gg1986	
+gg1986 2 y1!=y2 / - 	gg1987	 !(y1!=y2) / - 	gg1982	
+gg1987 2 y1>100 / - 	gg1010	 !(y1>100) / - 	gg1011	
+gg1988 1 - / - 	gg1989	
+gg1989 2 y1!=y2 / - 	gg1990	 !(y1!=y2) / - 	gg1985	
+gg1990 2 y1>100 / - 	gg1008	 !(y1>100) / - 	gg1009	
+gg1991 1 - / - 	gg1992	
+gg1992 2 y1!=y2 / - 	gg1993	 !(y1!=y2) / - 	gg1988	
+gg1993 2 y1>100 / - 	gg1006	 !(y1>100) / - 	gg1007	
+gg1994 1 - / - 	gg1995	
+gg1995 2 y1!=y2 / - 	gg1996	 !(y1!=y2) / - 	gg1991	
+gg1996 2 y1>100 / - 	gg1004	 !(y1>100) / - 	gg1005	
+gg1997 1 - / - 	gg1998	
+gg1998 2 y1!=y2 / - 	gg1999	 !(y1!=y2) / - 	gg1994	
+gg1999 2 y1>100 / - 	gg1002	 !(y1>100) / - 	gg1003	
+gg1177 0
+
+
+finished FSMD .org files
+
+
+
+DOTTY :
+loop list :
+<999,2,4,4>
+<999,3,4,4>
+<997,998,4,2>
+<996,4,6,4>
+<996,5,6,4>
+<994,995,6,2>
+<993,6,8,4>
+<993,7,8,4>
+<991,992,8,2>
+<990,8,10,4>
+<990,9,10,4>
+<988,989,10,2>
+<987,10,12,4>
+<987,11,12,4>
+<985,986,12,2>
+<984,12,14,4>
+<984,13,14,4>
+<982,983,14,2>
+<981,14,16,4>
+<981,15,16,4>
+<979,980,16,2>
+<978,16,18,4>
+<978,17,18,4>
+<976,977,18,2>
+<975,18,20,4>
+<975,19,20,4>
+<973,974,20,2>
+<972,20,22,4>
+<972,21,22,4>
+<970,971,22,2>
+<969,22,24,4>
+<969,23,24,4>
+<967,968,24,2>
+<966,24,26,4>
+<966,25,26,4>
+<964,965,26,2>
+<963,26,28,4>
+<963,27,28,4>
+<961,962,28,2>
+<960,28,30,4>
+<960,29,30,4>
+<958,959,30,2>
+<957,30,32,4>
+<957,31,32,4>
+<955,956,32,2>
+<954,32,34,4>
+<954,33,34,4>
+<952,953,34,2>
+<951,34,36,4>
+<951,35,36,4>
+<949,950,36,2>
+<948,36,38,4>
+<948,37,38,4>
+<946,947,38,2>
+<945,38,40,4>
+<945,39,40,4>
+<943,944,40,2>
+<942,40,42,4>
+<942,41,42,4>
+<940,941,42,2>
+<939,42,44,4>
+<939,43,44,4>
+<937,938,44,2>
+<936,44,46,4>
+<936,45,46,4>
+<934,935,46,2>
+<933,46,48,4>
+<933,47,48,4>
+<931,932,48,2>
+<930,48,50,4>
+<930,49,50,4>
+<928,929,50,2>
+<927,50,52,4>
+<927,51,52,4>
+<925,926,52,2>
+<924,52,54,4>
+<924,53,54,4>
+<922,923,54,2>
+<921,54,56,4>
+<921,55,56,4>
+<919,920,56,2>
+<918,56,58,4>
+<918,57,58,4>
+<916,917,58,2>
+<915,58,60,4>
+<915,59,60,4>
+<913,914,60,2>
+<912,60,62,4>
+<912,61,62,4>
+<910,911,62,2>
+<909,62,64,4>
+<909,63,64,4>
+<907,908,64,2>
+<906,64,66,4>
+<906,65,66,4>
+<904,905,66,2>
+<903,66,68,4>
+<903,67,68,4>
+<901,902,68,2>
+<900,68,70,4>
+<900,69,70,4>
+<898,899,70,2>
+<897,70,72,4>
+<897,71,72,4>
+<895,896,72,2>
+<894,72,74,4>
+<894,73,74,4>
+<892,893,74,2>
+<891,74,76,4>
+<891,75,76,4>
+<889,890,76,2>
+<888,76,78,4>
+<888,77,78,4>
+<886,887,78,2>
+<885,78,80,4>
+<885,79,80,4>
+<883,884,80,2>
+<882,80,82,4>
+<882,81,82,4>
+<880,881,82,2>
+<879,82,84,4>
+<879,83,84,4>
+<877,878,84,2>
+<876,84,86,4>
+<876,85,86,4>
+<874,875,86,2>
+<873,86,88,4>
+<873,87,88,4>
+<871,872,88,2>
+<870,88,90,4>
+<870,89,90,4>
+<868,869,90,2>
+<867,90,92,4>
+<867,91,92,4>
+<865,866,92,2>
+<864,92,94,4>
+<864,93,94,4>
+<862,863,94,2>
+<861,94,96,4>
+<861,95,96,4>
+<859,860,96,2>
+<858,96,98,4>
+<858,97,98,4>
+<856,857,98,2>
+<855,98,100,4>
+<855,99,100,4>
+<853,854,100,2>
+<852,100,102,4>
+<852,101,102,4>
+<850,851,102,2>
+<849,102,104,4>
+<849,103,104,4>
+<847,848,104,2>
+<846,104,106,4>
+<846,105,106,4>
+<844,845,106,2>
+<843,106,108,4>
+<843,107,108,4>
+<841,842,108,2>
+<840,108,110,4>
+<840,109,110,4>
+<838,839,110,2>
+<837,110,112,4>
+<837,111,112,4>
+<835,836,112,2>
+<834,112,114,4>
+<834,113,114,4>
+<832,833,114,2>
+<831,114,116,4>
+<831,115,116,4>
+<829,830,116,2>
+<828,116,118,4>
+<828,117,118,4>
+<826,827,118,2>
+<825,118,120,4>
+<825,119,120,4>
+<823,824,120,2>
+<822,120,122,4>
+<822,121,122,4>
+<820,821,122,2>
+<819,122,124,4>
+<819,123,124,4>
+<817,818,124,2>
+<816,124,126,4>
+<816,125,126,4>
+<814,815,126,2>
+<813,126,128,4>
+<813,127,128,4>
+<811,812,128,2>
+<810,128,130,4>
+<810,129,130,4>
+<808,809,130,2>
+<807,130,132,4>
+<807,131,132,4>
+<805,806,132,2>
+<804,132,134,4>
+<804,133,134,4>
+<802,803,134,2>
+<801,134,136,4>
+<801,135,136,4>
+<799,800,136,2>
+<798,136,138,4>
+<798,137,138,4>
+<796,797,138,2>
+<795,138,140,4>
+<795,139,140,4>
+<793,794,140,2>
+<792,140,142,4>
+<792,141,142,4>
+<790,791,142,2>
+<789,142,144,4>
+<789,143,144,4>
+<787,788,144,2>
+<786,144,146,4>
+<786,145,146,4>
+<784,785,146,2>
+<783,146,148,4>
+<783,147,148,4>
+<781,782,148,2>
+<780,148,150,4>
+<780,149,150,4>
+<778,779,150,2>
+<777,150,152,4>
+<777,151,152,4>
+<775,776,152,2>
+<774,152,154,4>
+<774,153,154,4>
+<772,773,154,2>
+<771,154,156,4>
+<771,155,156,4>
+<769,770,156,2>
+<768,156,158,4>
+<768,157,158,4>
+<766,767,158,2>
+<765,158,160,4>
+<765,159,160,4>
+<763,764,160,2>
+<762,160,162,4>
+<762,161,162,4>
+<760,761,162,2>
+<759,162,164,4>
+<759,163,164,4>
+<757,758,164,2>
+<756,164,166,4>
+<756,165,166,4>
+<754,755,166,2>
+<753,166,168,4>
+<753,167,168,4>
+<751,752,168,2>
+<750,168,170,4>
+<750,169,170,4>
+<748,749,170,2>
+<747,170,172,4>
+<747,171,172,4>
+<745,746,172,2>
+<744,172,174,4>
+<744,173,174,4>
+<742,743,174,2>
+<741,174,176,4>
+<741,175,176,4>
+<739,740,176,2>
+<0,0,0,0>
+end
+loop count : 174
+hi allocations succesful
+loops sorting & merging :
+ifel <999,9069848> sizes :sizes end <999,998,1> end
+loop <998,994> sizes : <154,360>sizes end <998,994,1> end
+ifel <996,9069552> sizes :sizes end <996,995,1> end
+loop <995,991> sizes : <154,360>sizes end <995,991,1> end
+ifel <993,9069552> sizes :sizes end <993,992,1> end
+loop <992,988> sizes : <154,360>sizes end <992,988,1> end
+ifel <990,9069552> sizes :sizes end <990,989,1> end
+loop <989,985> sizes : <154,360>sizes end <989,985,1> end
+ifel <987,9069552> sizes :sizes end <987,986,1> end
+loop <986,982> sizes : <154,360>sizes end <986,982,1> end
+ifel <984,9069552> sizes :sizes end <984,983,1> end
+loop <983,979> sizes : <154,360>sizes end <983,979,1> end
+ifel <981,9069552> sizes :sizes end <981,980,1> end
+loop <980,976> sizes : <154,360>sizes end <980,976,1> end
+ifel <978,9069552> sizes :sizes end <978,977,1> end
+loop <977,973> sizes : <154,360>sizes end <977,973,1> end
+ifel <975,9069552> sizes :sizes end <975,974,1> end
+loop <974,970> sizes : <154,360>sizes end <974,970,1> end
+ifel <972,9069552> sizes :sizes end <972,971,1> end
+loop <971,967> sizes : <154,360>sizes end <971,967,1> end
+ifel <969,0> sizes :sizes end <969,968,1> end
+loop <968,964> sizes : <156,362>sizes end <968,964,1> end
+ifel <966,0> sizes :sizes end <966,965,1> end
+loop <965,961> sizes : <156,362>sizes end <965,961,1> end
+ifel <963,0> sizes :sizes end <963,962,1> end
+loop <962,958> sizes : <156,362>sizes end <962,958,1> end
+ifel <960,0> sizes :sizes end <960,959,1> end
+loop <959,955> sizes : <156,362>sizes end <959,955,1> end
+ifel <957,0> sizes :sizes end <957,956,1> end
+loop <956,952> sizes : <156,362>sizes end <956,952,1> end
+ifel <954,0> sizes :sizes end <954,953,1> end
+loop <953,949> sizes : <156,362>sizes end <953,949,1> end
+ifel <951,0> sizes :sizes end <951,950,1> end
+loop <950,946> sizes : <156,362>sizes end <950,946,1> end
+ifel <948,0> sizes :sizes end <948,947,1> end
+loop <947,943> sizes : <156,362>sizes end <947,943,1> end
+ifel <945,0> sizes :sizes end <945,944,1> end
+loop <944,940> sizes : <156,362>sizes end <944,940,1> end
+ifel <942,0> sizes :sizes end <942,941,1> end
+loop <941,937> sizes : <156,362>sizes end <941,937,1> end
+ifel <939,0> sizes :sizes end <939,938,1> end
+loop <938,934> sizes : <156,362>sizes end <938,934,1> end
+ifel <936,0> sizes :sizes end <936,935,1> end
+loop <935,931> sizes : <156,362>sizes end <935,931,1> end
+ifel <933,0> sizes :sizes end <933,932,1> end
+loop <932,928> sizes : <156,362>sizes end <932,928,1> end
+ifel <930,0> sizes :sizes end <930,929,1> end
+loop <929,925> sizes : <156,362>sizes end <929,925,1> end
+ifel <927,0> sizes :sizes end <927,926,1> end
+loop <926,922> sizes : <156,362>sizes end <926,922,1> end
+ifel <924,0> sizes :sizes end <924,923,1> end
+loop <923,919> sizes : <156,362>sizes end <923,919,1> end
+ifel <921,0> sizes :sizes end <921,920,1> end
+loop <920,916> sizes : <156,362>sizes end <920,916,1> end
+ifel <918,0> sizes :sizes end <918,917,1> end
+loop <917,913> sizes : <156,362>sizes end <917,913,1> end
+ifel <915,0> sizes :sizes end <915,914,1> end
+loop <914,910> sizes : <156,362>sizes end <914,910,1> end
+ifel <912,0> sizes :sizes end <912,911,1> end
+loop <911,907> sizes : <156,362>sizes end <911,907,1> end
+ifel <909,0> sizes :sizes end <909,908,1> end
+loop <908,904> sizes : <156,362>sizes end <908,904,1> end
+ifel <906,0> sizes :sizes end <906,905,1> end
+loop <905,901> sizes : <156,362>sizes end <905,901,1> end
+ifel <903,0> sizes :sizes end <903,902,1> end
+loop <902,898> sizes : <156,362>sizes end <902,898,1> end
+ifel <900,0> sizes :sizes end <900,899,1> end
+loop <899,895> sizes : <156,362>sizes end <899,895,1> end
+ifel <897,0> sizes :sizes end <897,896,1> end
+loop <896,892> sizes : <156,362>sizes end <896,892,1> end
+ifel <894,0> sizes :sizes end <894,893,1> end
+loop <893,889> sizes : <156,362>sizes end <893,889,1> end
+ifel <891,0> sizes :sizes end <891,890,1> end
+loop <890,886> sizes : <156,362>sizes end <890,886,1> end
+ifel <888,0> sizes :sizes end <888,887,1> end
+loop <887,883> sizes : <156,362>sizes end <887,883,1> end
+ifel <885,0> sizes :sizes end <885,884,1> end
+loop <884,880> sizes : <156,362>sizes end <884,880,1> end
+ifel <882,0> sizes :sizes end <882,881,1> end
+loop <881,877> sizes : <156,362>sizes end <881,877,1> end
+ifel <879,0> sizes :sizes end <879,878,1> end
+loop <878,874> sizes : <156,362>sizes end <878,874,1> end
+ifel <876,0> sizes :sizes end <876,875,1> end
+loop <875,871> sizes : <156,362>sizes end <875,871,1> end
+ifel <873,0> sizes :sizes end <873,872,1> end
+loop <872,868> sizes : <156,362>sizes end <872,868,1> end
+ifel <870,0> sizes :sizes end <870,869,1> end
+loop <869,865> sizes : <156,362>sizes end <869,865,1> end
+ifel <867,0> sizes :sizes end <867,866,1> end
+loop <866,862> sizes : <156,362>sizes end <866,862,1> end
+ifel <864,0> sizes :sizes end <864,863,1> end
+loop <863,859> sizes : <156,362>sizes end <863,859,1> end
+ifel <861,0> sizes :sizes end <861,860,1> end
+loop <860,856> sizes : <156,362>sizes end <860,856,1> end
+ifel <858,0> sizes :sizes end <858,857,1> end
+loop <857,853> sizes : <156,362>sizes end <857,853,1> end
+ifel <855,0> sizes :sizes end <855,854,1> end
+loop <854,850> sizes : <156,362>sizes end <854,850,1> end
+ifel <852,0> sizes :sizes end <852,851,1> end
+loop <851,847> sizes : <156,362>sizes end <851,847,1> end
+ifel <849,0> sizes :sizes end <849,848,1> end
+loop <848,844> sizes : <156,362>sizes end <848,844,1> end
+ifel <846,0> sizes :sizes end <846,845,1> end
+loop <845,841> sizes : <156,362>sizes end <845,841,1> end
+ifel <843,0> sizes :sizes end <843,842,1> end
+loop <842,838> sizes : <156,362>sizes end <842,838,1> end
+ifel <840,0> sizes :sizes end <840,839,1> end
+loop <839,835> sizes : <156,362>sizes end <839,835,1> end
+ifel <837,0> sizes :sizes end <837,836,1> end
+loop <836,832> sizes : <156,362>sizes end <836,832,1> end
+ifel <834,0> sizes :sizes end <834,833,1> end
+loop <833,829> sizes : <156,362>sizes end <833,829,1> end
+ifel <831,0> sizes :sizes end <831,830,1> end
+loop <830,826> sizes : <156,362>sizes end <830,826,1> end
+ifel <828,0> sizes :sizes end <828,827,1> end
+loop <827,823> sizes : <156,362>sizes end <827,823,1> end
+ifel <825,0> sizes :sizes end <825,824,1> end
+loop <824,820> sizes : <156,362>sizes end <824,820,1> end
+ifel <822,0> sizes :sizes end <822,821,1> end
+loop <821,817> sizes : <156,362>sizes end <821,817,1> end
+ifel <819,0> sizes :sizes end <819,818,1> end
+loop <818,814> sizes : <156,362>sizes end <818,814,1> end
+ifel <816,0> sizes :sizes end <816,815,1> end
+loop <815,811> sizes : <156,362>sizes end <815,811,1> end
+ifel <813,0> sizes :sizes end <813,812,1> end
+loop <812,808> sizes : <156,362>sizes end <812,808,1> end
+ifel <810,0> sizes :sizes end <810,809,1> end
+loop <809,805> sizes : <156,362>sizes end <809,805,1> end
+ifel <807,0> sizes :sizes end <807,806,1> end
+loop <806,802> sizes : <156,362>sizes end <806,802,1> end
+ifel <804,0> sizes :sizes end <804,803,1> end
+loop <803,799> sizes : <156,362>sizes end <803,799,1> end
+ifel <801,0> sizes :sizes end <801,800,1> end
+loop <800,796> sizes : <156,362>sizes end <800,796,1> end
+ifel <798,0> sizes :sizes end <798,797,1> end
+loop <797,793> sizes : <156,362>sizes end <797,793,1> end
+ifel <795,0> sizes :sizes end <795,794,1> end
+loop <794,790> sizes : <156,362>sizes end <794,790,1> end
+ifel <792,0> sizes :sizes end <792,791,1> end
+loop <791,787> sizes : <156,362>sizes end <791,787,1> end
+ifel <789,0> sizes :sizes end <789,788,1> end
+loop <788,784> sizes : <156,362>sizes end <788,784,1> end
+ifel <786,0> sizes :sizes end <786,785,1> end
+loop <785,781> sizes : <156,362>sizes end <785,781,1> end
+ifel <783,0> sizes :sizes end <783,782,1> end
+loop <782,778> sizes : <156,362>sizes end <782,778,1> end
+ifel <780,0> sizes :sizes end <780,779,1> end
+loop <779,775> sizes : <156,362>sizes end <779,775,1> end
+ifel <777,0> sizes :sizes end <777,776,1> end
+loop <776,772> sizes : <156,362>sizes end <776,772,1> end
+ifel <774,0> sizes :sizes end <774,773,1> end
+loop <773,769> sizes : <156,362>sizes end <773,769,1> end
+ifel <771,0> sizes :sizes end <771,770,1> end
+loop <770,766> sizes : <156,362>sizes end <770,766,1> end
+ifel <768,0> sizes :sizes end <768,767,1> end
+loop <767,763> sizes : <156,362>sizes end <767,763,1> end
+ifel <765,0> sizes :sizes end <765,764,1> end
+loop <764,760> sizes : <156,362>sizes end <764,760,1> end
+ifel <762,0> sizes :sizes end <762,761,1> end
+loop <761,757> sizes : <156,362>sizes end <761,757,1> end
+ifel <759,0> sizes :sizes end <759,758,1> end
+loop <758,754> sizes : <156,362>sizes end <758,754,1> end
+ifel <756,0> sizes :sizes end <756,755,1> end
+loop <755,751> sizes : <156,362>sizes end <755,751,1> end
+ifel <753,0> sizes :sizes end <753,752,1> end
+loop <752,748> sizes : <156,362>sizes end <752,748,1> end
+ifel <750,0> sizes :sizes end <750,749,1> end
+loop <749,745> sizes : <156,362>sizes end <749,745,1> end
+ifel <747,0> sizes :sizes end <747,746,1> end
+loop <746,742> sizes : <156,362>sizes end <746,742,1> end
+ifel <744,0> sizes :sizes end <744,743,1> end
+loop <743,739> sizes : <156,362>sizes end <743,739,1> end
+ifel <741,0> sizes :sizes end <741,740,1> end
+loop <740,176> sizes : <156,362>sizes end <740,176,1> end
+loops sorted
+<0,177,0,0>
+<0,177,0,1>
+<0,177,1,997>
+<0,177,997,998>
+loop inserted : 998 994
+<0,177,998,994>
+<0,177,994,995>
+loop inserted : 995 991
+<0,177,995,991>
+<0,177,991,992>
+loop inserted : 992 988
+<0,177,992,988>
+<0,177,988,989>
+loop inserted : 989 985
+<0,177,989,985>
+<0,177,985,986>
+loop inserted : 986 982
+<0,177,986,982>
+<0,177,982,983>
+loop inserted : 983 979
+<0,177,983,979>
+<0,177,979,980>
+loop inserted : 980 976
+<0,177,980,976>
+<0,177,976,977>
+loop inserted : 977 973
+<0,177,977,973>
+<0,177,973,974>
+loop inserted : 974 970
+<0,177,974,970>
+<0,177,970,971>
+loop inserted : 971 967
+<0,177,971,967>
+<0,177,967,968>
+loop inserted : 968 964
+<0,177,968,964>
+<0,177,964,965>
+loop inserted : 965 961
+<0,177,965,961>
+<0,177,961,962>
+loop inserted : 962 958
+<0,177,962,958>
+<0,177,958,959>
+loop inserted : 959 955
+<0,177,959,955>
+<0,177,955,956>
+loop inserted : 956 952
+<0,177,956,952>
+<0,177,952,953>
+loop inserted : 953 949
+<0,177,953,949>
+<0,177,949,950>
+loop inserted : 950 946
+<0,177,950,946>
+<0,177,946,947>
+loop inserted : 947 943
+<0,177,947,943>
+<0,177,943,944>
+loop inserted : 944 940
+<0,177,944,940>
+<0,177,940,941>
+loop inserted : 941 937
+<0,177,941,937>
+<0,177,937,938>
+loop inserted : 938 934
+<0,177,938,934>
+<0,177,934,935>
+loop inserted : 935 931
+<0,177,935,931>
+<0,177,931,932>
+loop inserted : 932 928
+<0,177,932,928>
+<0,177,928,929>
+loop inserted : 929 925
+<0,177,929,925>
+<0,177,925,926>
+loop inserted : 926 922
+<0,177,926,922>
+<0,177,922,923>
+loop inserted : 923 919
+<0,177,923,919>
+<0,177,919,920>
+loop inserted : 920 916
+<0,177,920,916>
+<0,177,916,917>
+loop inserted : 917 913
+<0,177,917,913>
+<0,177,913,914>
+loop inserted : 914 910
+<0,177,914,910>
+<0,177,910,911>
+loop inserted : 911 907
+<0,177,911,907>
+<0,177,907,908>
+loop inserted : 908 904
+<0,177,908,904>
+<0,177,904,905>
+loop inserted : 905 901
+<0,177,905,901>
+<0,177,901,902>
+loop inserted : 902 898
+<0,177,902,898>
+<0,177,898,899>
+loop inserted : 899 895
+<0,177,899,895>
+<0,177,895,896>
+loop inserted : 896 892
+<0,177,896,892>
+<0,177,892,893>
+loop inserted : 893 889
+<0,177,893,889>
+<0,177,889,890>
+loop inserted : 890 886
+<0,177,890,886>
+<0,177,886,887>
+loop inserted : 887 883
+<0,177,887,883>
+<0,177,883,884>
+loop inserted : 884 880
+<0,177,884,880>
+<0,177,880,881>
+loop inserted : 881 877
+<0,177,881,877>
+<0,177,877,878>
+loop inserted : 878 874
+<0,177,878,874>
+<0,177,874,875>
+loop inserted : 875 871
+<0,177,875,871>
+<0,177,871,872>
+loop inserted : 872 868
+<0,177,872,868>
+<0,177,868,869>
+loop inserted : 869 865
+<0,177,869,865>
+<0,177,865,866>
+loop inserted : 866 862
+<0,177,866,862>
+<0,177,862,863>
+loop inserted : 863 859
+<0,177,863,859>
+<0,177,859,860>
+loop inserted : 860 856
+<0,177,860,856>
+<0,177,856,857>
+loop inserted : 857 853
+<0,177,857,853>
+<0,177,853,854>
+loop inserted : 854 850
+<0,177,854,850>
+<0,177,850,851>
+loop inserted : 851 847
+<0,177,851,847>
+<0,177,847,848>
+loop inserted : 848 844
+<0,177,848,844>
+<0,177,844,845>
+loop inserted : 845 841
+<0,177,845,841>
+<0,177,841,842>
+loop inserted : 842 838
+<0,177,842,838>
+<0,177,838,839>
+loop inserted : 839 835
+<0,177,839,835>
+<0,177,835,836>
+loop inserted : 836 832
+<0,177,836,832>
+<0,177,832,833>
+loop inserted : 833 829
+<0,177,833,829>
+<0,177,829,830>
+loop inserted : 830 826
+<0,177,830,826>
+<0,177,826,827>
+loop inserted : 827 823
+<0,177,827,823>
+<0,177,823,824>
+loop inserted : 824 820
+<0,177,824,820>
+<0,177,820,821>
+loop inserted : 821 817
+<0,177,821,817>
+<0,177,817,818>
+loop inserted : 818 814
+<0,177,818,814>
+<0,177,814,815>
+loop inserted : 815 811
+<0,177,815,811>
+<0,177,811,812>
+loop inserted : 812 808
+<0,177,812,808>
+<0,177,808,809>
+loop inserted : 809 805
+<0,177,809,805>
+<0,177,805,806>
+loop inserted : 806 802
+<0,177,806,802>
+<0,177,802,803>
+loop inserted : 803 799
+<0,177,803,799>
+<0,177,799,800>
+loop inserted : 800 796
+<0,177,800,796>
+<0,177,796,797>
+loop inserted : 797 793
+<0,177,797,793>
+<0,177,793,794>
+loop inserted : 794 790
+<0,177,794,790>
+<0,177,790,791>
+loop inserted : 791 787
+<0,177,791,787>
+<0,177,787,788>
+loop inserted : 788 784
+<0,177,788,784>
+<0,177,784,785>
+loop inserted : 785 781
+<0,177,785,781>
+<0,177,781,782>
+loop inserted : 782 778
+<0,177,782,778>
+<0,177,778,779>
+loop inserted : 779 775
+<0,177,779,775>
+<0,177,775,776>
+loop inserted : 776 772
+<0,177,776,772>
+<0,177,772,773>
+loop inserted : 773 769
+<0,177,773,769>
+<0,177,769,770>
+loop inserted : 770 766
+<0,177,770,766>
+<0,177,766,767>
+loop inserted : 767 763
+<0,177,767,763>
+<0,177,763,764>
+loop inserted : 764 760
+<0,177,764,760>
+<0,177,760,761>
+loop inserted : 761 757
+<0,177,761,757>
+<0,177,757,758>
+loop inserted : 758 754
+<0,177,758,754>
+<0,177,754,755>
+loop inserted : 755 751
+<0,177,755,751>
+<0,177,751,752>
+loop inserted : 752 748
+<0,177,752,748>
+<0,177,748,749>
+loop inserted : 749 745
+<0,177,749,745>
+<0,177,745,746>
+loop inserted : 746 742
+<0,177,746,742>
+<0,177,742,743>
+loop inserted : 743 739
+<0,177,743,739>
+<0,177,739,740>
+loop inserted : 740 176
+<0,177,740,176>
+Ok till here : loops modifications succesful
+Ok till here : nodes are added 
+Links now :
+end state reached : 177
+links too finished
+Generated output file names : HTG_gcd2_c_main.dotty gcd2.org gcd21.org
+dotty finished
+done

@@ -1,0 +1,687 @@
+FSMD name: qq
+** SearchInsert : inserted : BREAK	at position 0
+** SearchInsert : inserted : LOOP_END	at position 1
+starting yyparse : 
+** INfsmd : started
+** INfsmd : state transition added 
+barcode	bcd1000
+** Parser : identifier found main
+** Parser : identifier found reset
+** SearchInsert : inserted : reset	at position 2
+** Parser : No data intialization in id: reset
+******* Parser : cool inserted reset
+** Parser : identifier found clk
+** SearchInsert : inserted : clk	at position 3
+** Parser : No data intialization in id: clk
+******* Parser : cool inserted clk
+~~~~~~~~~~~~~~ list : reset clk reset
+** Parser : identifier found scan
+** SearchInsert : inserted : scan	at position 4
+** Parser : No data intialization in id: scan
+******* Parser : cool inserted scan
+~~~~~~~~~~~~~~ list : reset scan reset
+** Parser : identifier found video
+** SearchInsert : inserted : video	at position 5
+** Parser : No data intialization in id: video
+******* Parser : cool inserted video
+~~~~~~~~~~~~~~ list : reset video reset
+** Parser : identifier found start
+** SearchInsert : inserted : start	at position 6
+** Parser : No data intialization in id: start
+******* Parser : cool inserted start
+~~~~~~~~~~~~~~ list : reset start reset
+** Parser : identifier found num
+** SearchInsert : inserted : num	at position 7
+** Parser : No data intialization in id: num
+******* Parser : cool inserted num
+~~~~~~~~~~~~~~ list : reset num reset
+no declarations listed
+** Parser : identifier found eoc
+** SearchInsert : inserted : eoc	at position 8
+** Parser : No data intialization in id: eoc
+******* Parser : cool inserted eoc
+** Parser : identifier found memw
+** SearchInsert : inserted : memw	at position 9
+** Parser : No data intialization in id: memw
+******* Parser : cool inserted memw
+~~~~~~~~~~~~~~ list : eoc memw eoc
+** Parser : identifier found data
+** SearchInsert : inserted : data	at position 10
+** Parser : No data intialization in id: data
+******* Parser : cool inserted data
+~~~~~~~~~~~~~~ list : eoc data eoc
+** Parser : identifier found addr
+** SearchInsert : inserted : addr	at position 11
+** Parser : No data intialization in id: addr
+******* Parser : cool inserted addr
+~~~~~~~~~~~~~~ list : eoc addr eoc
+no declarations listed
+** Parser : identifier found white
+** SearchInsert : inserted : white	at position 12
+** Parser : No data intialization in id: white
+******* Parser : cool inserted white
+** Parser : identifier found black
+** SearchInsert : inserted : black	at position 13
+** Parser : No data intialization in id: black
+******* Parser : cool inserted black
+~~~~~~~~~~~~~~ list : white black white
+** Parser : identifier found actnum
+** SearchInsert : inserted : actnum	at position 14
+** Parser : No data intialization in id: actnum
+******* Parser : cool inserted actnum
+~~~~~~~~~~~~~~ list : white actnum white
+** Parser : identifier found flag
+** SearchInsert : inserted : flag	at position 15
+** Parser : No data intialization in id: flag
+******* Parser : cool inserted flag
+~~~~~~~~~~~~~~ list : white flag white
+** Parser : identifier found wh
+** SearchInsert : inserted : wh	at position 16
+** Parser : No data intialization in id: wh
+******* Parser : cool inserted wh
+~~~~~~~~~~~~~~ list : white wh white
+** Parser : identifier found bl
+** SearchInsert : inserted : bl	at position 17
+** Parser : No data intialization in id: bl
+******* Parser : cool inserted bl
+~~~~~~~~~~~~~~ list : white bl white
+** Parser : identifier found eop
+** SearchInsert : inserted : eop	at position 18
+** Parser : No data intialization in id: eop
+******* Parser : cool inserted eop
+~~~~~~~~~~~~~~ list : white eop white
+** Parser : identifier found breakflag
+** SearchInsert : inserted : breakflag	at position 19
+** Parser : No data intialization in id: breakflag
+******* Parser : cool inserted breakflag
+~~~~~~~~~~~~~~ list : white breakflag white
+no declarations listed
+** Parser : identifier found in expression wh
+** Parser : expression :: wh=0
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression bl
+** Parser : expression :: bl=1
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression eoc
+** Parser : expression :: eoc=0
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression memw
+** Parser : expression :: memw=0
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression data
+** Parser : expression :: data=0
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression addr
+** Parser : expression :: addr=0
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression eop
+** Parser : expression :: eop=0
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression clk
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added clk!=1
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added !(clk!=1)
+** Parser : identifier found in expression eop
+** Parser : expression :: eop=0
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression reset
+** Parser : identifier found in expression eop
+** Parser : expression :: eop=1
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : expression :: BREAK
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added reset==1
+** INfsmd : started
+** INfsmd : state transition added !(reset==1)
+** Parser : identifier found in expression start
+** Parser : expression :: BREAK
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added start==1
+** INfsmd : started
+** INfsmd : state transition added !(start==1)
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added !()
+** Parser : identifier found in expression eop
+** Parser : expression :: BREAK
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added eop==1
+** INfsmd : started
+** INfsmd : state transition added !(eop==1)
+** Parser : identifier found in expression actnum
+** Parser : identifier found in expression num
+** Parser : identifier found in expression white
+** Parser : identifier found in expression clk
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added clk!=1
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added !(clk!=1)
+** Parser : identifier found in expression eop
+** Parser : expression :: eop=0
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression reset
+** Parser : identifier found in expression eop
+** Parser : expression :: eop=1
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : expression :: BREAK
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added reset==1
+** INfsmd : started
+** INfsmd : state transition added !(reset==1)
+** Parser : identifier found in expression scan
+** Parser : expression :: BREAK
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added scan==1
+** INfsmd : started
+** INfsmd : state transition added !(scan==1)
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added !()
+** Parser : identifier found in expression eop
+** Parser : expression :: BREAK
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added eop==1
+** INfsmd : started
+** INfsmd : state transition added !(eop==1)
+** Parser : identifier found in expression flag
+** Parser : identifier found in expression wh
+** Parser : expression :: flag=wh
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression actnum
+** Parser : expression :: actnum=0
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression white
+** Parser : expression :: white=0
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression black
+** Parser : expression :: black=0
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression eoc
+** Parser : expression :: eoc=0
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression white
+** Parser : identifier found in expression black
+** Parser : identifier found in expression video
+** Parser : identifier found in expression wh
+** Parser : identifier found in expression clk
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added clk!=1
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added !(clk!=1)
+** Parser : identifier found in expression eop
+** Parser : expression :: eop=0
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression reset
+** Parser : identifier found in expression eop
+** Parser : expression :: eop=1
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : expression :: BREAK
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added reset==1
+** INfsmd : started
+** INfsmd : state transition added !(reset==1)
+** Parser : identifier found in expression white
+** Parser : identifier found in expression white
+** Parser : expression :: white=white+1
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression flag
+** Parser : identifier found in expression bl
+** Parser : identifier found in expression actnum
+** Parser : identifier found in expression actnum
+** Parser : expression :: actnum=actnum+1
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression memw
+** Parser : expression :: memw=0
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression memw
+** Parser : expression :: memw=1
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added flag==bl
+** INfsmd : started
+** INfsmd : state transition added !(flag==bl)
+** Parser : identifier found in expression black
+** Parser : expression :: black=0
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression flag
+** Parser : identifier found in expression wh
+** Parser : expression :: flag=wh
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression data
+** Parser : identifier found in expression white
+** Parser : expression :: data=white
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression clk
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added clk!=1
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added !(clk!=1)
+** Parser : identifier found in expression eop
+** Parser : expression :: eop=0
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression reset
+** Parser : identifier found in expression eop
+** Parser : expression :: eop=1
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : expression :: BREAK
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added reset==1
+** INfsmd : started
+** INfsmd : state transition added !(reset==1)
+** Parser : identifier found in expression black
+** Parser : identifier found in expression black
+** Parser : expression :: black=black+1
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression flag
+** Parser : identifier found in expression wh
+** Parser : identifier found in expression actnum
+** Parser : identifier found in expression actnum
+** Parser : expression :: actnum=actnum+1
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression memw
+** Parser : expression :: memw=0
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression memw
+** Parser : expression :: memw=1
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added flag==wh
+** INfsmd : started
+** INfsmd : state transition added !(flag==wh)
+** Parser : identifier found in expression flag
+** Parser : identifier found in expression bl
+** Parser : expression :: flag=bl
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression white
+** Parser : expression :: white=0
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression data
+** Parser : identifier found in expression black
+** Parser : expression :: data=black
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added video==wh
+** INfsmd : started
+** INfsmd : state transition added !(video==wh)
+** Parser : identifier found in expression eop
+** Parser : expression :: BREAK
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added eop==1
+** INfsmd : started
+** INfsmd : state transition added !(eop==1)
+** Parser : identifier found in expression addr
+** Parser : identifier found in expression actnum
+** Parser : expression :: addr=actnum
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added (white!=255) || (black!=255)
+** INfsmd : started
+** INfsmd : state transition added !((white!=255) || (black!=255))
+** Parser : identifier found in expression eop
+** Parser : expression :: BREAK
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added eop==1
+** INfsmd : started
+** INfsmd : state transition added !(eop==1)
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added (actnum!=num) && (white!=255)
+** INfsmd : started
+** INfsmd : state transition added !((actnum!=num) && (white!=255))
+** Parser : identifier found in expression eop
+** Parser : expression :: BREAK
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added eop==1
+** INfsmd : started
+** INfsmd : state transition added !(eop==1)
+** Parser : identifier found in expression memw
+** Parser : expression :: memw=0
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression eoc
+** Parser : expression :: eoc=1
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression start
+** Parser : identifier found in expression clk
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added clk!=1
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added !(clk!=1)
+** Parser : identifier found in expression eop
+** Parser : expression :: eop=0
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression reset
+** Parser : identifier found in expression eop
+** Parser : expression :: eop=1
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : expression :: BREAK
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added reset==1
+** INfsmd : started
+** INfsmd : state transition added !(reset==1)
+** Parser : identifier found in expression start
+** Parser : expression :: BREAK
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added start==0
+** INfsmd : started
+** INfsmd : state transition added !(start==0)
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added start!=0
+** INfsmd : started
+** INfsmd : state transition added !(start!=0)
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added 
+** INfsmd : started
+** INfsmd : state transition added !()
+parsed
+/**LELB situations will be handled here**/
+time_stamp : state_id comments
+enterd print function
+barcode.org
+0 0
+
+
+bcd1000 1 - / 	qq1001	
+qq1001 1 - / wh=0	bcd1002	
+bcd1002 1 - / bl=1	bcd1003	
+bcd1003 1 - / eoc=0	bcd1004	
+bcd1004 1 - / memw=0	bcd1005	
+bcd1005 1 - / data=0	bcd1006	
+bcd1006 1 - / addr=0	bcd1007	
+bcd1007 1 - / eop=0	bcd1967LB	
+bcd1008LB 1 - / - 	bcd1009	
+bcd1009 2 clk!=1 / - 	bcd1010	 !(clk!=1) / - 	bcd1011LE	
+bcd1010 1 - / - 	bcd1009	
+bcd1011LE 1 - / eop=0	bcd1999	
+bcd1012 1 - / eop=1	bcd1013	
+bcd1013 1 - / BREAK=1	bcd1998	
+bcd1014 1 - / BREAK=1	bcd1995	
+bcd1015 1 - / BREAK=1	bcd1976LB	
+bcd1016LB 1 - / - 	bcd1017	
+bcd1017 2 clk!=1 / - 	bcd1018	 !(clk!=1) / - 	bcd1019LE	
+bcd1018 1 - / - 	bcd1017	
+bcd1019LE 1 - / eop=0	bcd1993	
+bcd1020 1 - / eop=1	bcd1021	
+bcd1021 1 - / BREAK=1	bcd1992	
+bcd1022 1 - / BREAK=1	bcd1989	
+bcd1023 1 - / BREAK=1	bcd1024	
+bcd1024 1 - / flag=wh	bcd1025	
+bcd1025 1 - / actnum=0	bcd1026	
+bcd1026 1 - / white=0	bcd1027	
+bcd1027 1 - / black=0	bcd1028	
+bcd1028 1 - / eoc=0	bcd1980LB	
+bcd1029LB 1 - / - 	bcd1030	
+bcd1030 2 clk!=1 / - 	bcd1031	 !(clk!=1) / - 	bcd1032LE	
+bcd1031 1 - / - 	bcd1030	
+bcd1032LE 1 - / eop=0	bcd1987	
+bcd1033 1 - / eop=1	bcd1034	
+bcd1034 1 - / BREAK=1	bcd1035	
+bcd1035 1 - / white=white+1	bcd1986	
+bcd1036 1 - / actnum=actnum+1	bcd1037	
+bcd1037 1 - / memw=0	bcd1039	
+bcd1038 1 - / memw=1	bcd1039	
+bcd1039 1 - / black=0	bcd1040	
+bcd1040 1 - / flag=wh	bcd1041	
+bcd1041 1 - / data=white	bcd1982	
+bcd1042LB 1 - / - 	bcd1043	
+bcd1043 2 clk!=1 / - 	bcd1044	 !(clk!=1) / - 	bcd1045LE	
+bcd1044 1 - / - 	bcd1043	
+bcd1045LE 1 - / eop=0	bcd1985	
+bcd1046 1 - / eop=1	bcd1047	
+bcd1047 1 - / BREAK=1	bcd1048	
+bcd1048 1 - / black=black+1	bcd1984	
+bcd1049 1 - / actnum=actnum+1	bcd1050	
+bcd1050 1 - / memw=0	bcd1052	
+bcd1051 1 - / memw=1	bcd1052	
+bcd1052 1 - / flag=bl	bcd1053	
+bcd1053 1 - / white=0	bcd1054	
+bcd1054 1 - / data=black	bcd1982	
+bcd1055 1 - / BREAK=1	bcd1056	
+bcd1056 1 - / addr=actnum	bcd1979	
+bcd1057 1 - / BREAK=1	bcd1975	
+bcd1058 1 - / BREAK=1	bcd1059	
+bcd1059 1 - / memw=0	bcd1060	
+bcd1060 1 - / eoc=1	bcd1970LB	
+bcd1061LB 1 - / - 	bcd1062	
+bcd1062 2 clk!=1 / - 	bcd1063	 !(clk!=1) / - 	bcd1064LE	
+bcd1063 1 - / - 	bcd1062	
+bcd1064LE 1 - / eop=0	bcd1973	
+bcd1065 1 - / eop=1	bcd1066	
+bcd1066 1 - / BREAK=1	bcd1972	
+bcd1067 1 - / BREAK=1	bcd1969	
+end state at bcd1068LE
+bcd1966LE 1 - / - 	bcd1968	
+bcd1967LB 1 - / - 	bcd1968	
+bcd1968 2 - / - 	bcd1996LB	 !() / - 	bcd1068LE	
+bcd1969 1 - / - 	bcd1971	
+bcd1970LB 1 - / - 	bcd1971	
+bcd1971 2 start!=0 / - 	bcd1061LB	 !(start!=0) / - 	bcd1966LE	
+bcd1972 2 start==0 / - 	bcd1067	 !(start==0) / - 	bcd1969	
+bcd1973 2 reset==1 / - 	bcd1065	 !(reset==1) / - 	bcd1972	
+bcd1974LE 2 eop==1 / - 	bcd1058	 !(eop==1) / - 	bcd1059	
+bcd1975 1 - / - 	bcd1977	
+bcd1976LB 1 - / - 	bcd1977	
+bcd1977 2 (actnum!=num) && (white!=255) / - 	bcd1990LB	 !((actnum!=num) && (white!=255)) / - 	bcd1974LE	
+bcd1978LE 2 eop==1 / - 	bcd1057	 !(eop==1) / - 	bcd1975	
+bcd1979 1 - / - 	bcd1981	
+bcd1980LB 1 - / - 	bcd1981	
+bcd1981 2 (white!=255) || (black!=255) / - 	bcd1983	 !((white!=255) || (black!=255)) / - 	bcd1978LE	
+bcd1982 2 eop==1 / - 	bcd1055	 !(eop==1) / - 	bcd1056	
+bcd1983 2 video==wh / - 	bcd1029LB	 !(video==wh) / - 	bcd1042LB	
+bcd1984 2 flag==wh / - 	bcd1049	 !(flag==wh) / - 	bcd1051	
+bcd1985 2 reset==1 / - 	bcd1046	 !(reset==1) / - 	bcd1048	
+bcd1986 2 flag==bl / - 	bcd1036	 !(flag==bl) / - 	bcd1038	
+bcd1987 2 reset==1 / - 	bcd1033	 !(reset==1) / - 	bcd1035	
+bcd1988LE 2 eop==1 / - 	bcd1023	 !(eop==1) / - 	bcd1024	
+bcd1989 1 - / - 	bcd1991	
+bcd1990LB 1 - / - 	bcd1991	
+bcd1991 2 - / - 	bcd1016LB	 !() / - 	bcd1988LE	
+bcd1992 2 scan==1 / - 	bcd1022	 !(scan==1) / - 	bcd1989	
+bcd1993 2 reset==1 / - 	bcd1020	 !(reset==1) / - 	bcd1992	
+bcd1994LE 2 eop==1 / - 	bcd1015	 !(eop==1) / - 	bcd1976LB	
+bcd1995 1 - / - 	bcd1997	
+bcd1996LB 1 - / - 	bcd1997	
+bcd1997 2 - / - 	bcd1008LB	 !() / - 	bcd1994LE	
+bcd1998 2 start==1 / - 	bcd1014	 !(start==1) / - 	bcd1995	
+bcd1999 2 reset==1 / - 	bcd1012	 !(reset==1) / - 	bcd1998	
+bcd1068LE 0
+
+
+finished FSMD .org files
+
+
+
+DOTTY :
+loop list :
+<8,9,11,1>
+<999,12,14,3>
+<998,14,15,3>
+<996,997,15,1>
+<994,15,16,3>
+<16,17,19,1>
+<993,20,22,3>
+<992,22,23,3>
+<990,991,23,1>
+<988,23,24,3>
+<29,30,32,1>
+<987,33,35,3>
+<986,36,39,4>
+<986,38,39,4>
+<42,43,45,1>
+<985,46,48,3>
+<984,49,52,4>
+<984,51,52,4>
+<983,29,55,4>
+<983,42,55,4>
+<982,55,56,3>
+<980,981,57,1>
+<978,57,58,3>
+<976,977,58,1>
+<974,58,59,3>
+<61,62,64,1>
+<973,65,67,3>
+<972,67,68,3>
+<970,971,68,1>
+<967,968,68,1>
+<0,0,0,0>
+end
+loop count : 27
+hi allocations succesful
+loops sorting & merging :
+loop <9,11> sizes :sizes end <9,11,1> end
+if <999,998> sizes :<999,998,1> end
+if <998,995> sizes :<998,995,1> end
+loop <997,994> sizes : <239,243> <579,342> <921,249>sizes end <997,994,1> end
+if <994,976> sizes :<994,976,1> end
+loop <17,19> sizes :sizes end <17,19,1> end
+if <993,992> sizes :<993,992,1> end
+if <992,989> sizes :<992,989,1> end
+loop <991,988> sizes : <239,243> <579,342> <921,248>sizes end <991,988,1> end
+if <988,24> sizes :<988,24,1> end
+loop <30,32> sizes :sizes end <30,32,1> end
+if <987,35> sizes :<987,35,1> end
+ifel <986,0> sizes :sizes end <986,39,1> end
+loop <43,45> sizes :sizes end <43,45,1> end
+if <985,48> sizes :<985,48,1> end
+ifel <984,0> sizes :sizes end <984,52,1> end
+ifel <983,0> sizes : <254,243> <594,342> <1037,457> <1871,243> <2211,342> <2654,457>sizes end <983,982,1> end
+if <982,56> sizes :<982,56,1> end
+loop <981,978> sizes : <178,3401> <3579,247>sizes end <981,978,1> end
+if <978,975> sizes :<978,975,1> end
+loop <977,974> sizes : <268,1256> <1524,251> <2338,4012> <6350,251>sizes end <977,974,1> end
+if <974,59> sizes :<974,59,1> end
+loop <62,64> sizes :sizes end <62,64,1> end
+if <973,972> sizes :<973,972,1> end
+if <972,969> sizes :<972,969,1> end
+loop <971,966> sizes : <247,243> <587,344> <931,251>sizes end <971,966,1> end
+loop <968,68> sizes : <241,1257> <1498,251> <1838,6688> <8526,253> <9055,1269>sizes end <968,68,1> end
+loops sorted
+<0,68,0,0>
+<0,68,0,1>
+<0,68,1,2>
+<0,68,2,3>
+<0,68,3,4>
+<0,68,4,5>
+<0,68,5,6>
+<0,68,6,7>
+<0,68,7,967>
+<0,68,967,968>
+loop inserted : 968 68
+Ok till here : loops modifications succesful
+Ok till here : nodes are added 
+Links now :
+end state reached : 68
+links too finished
+Generated output file names : HTG_barcode_c_main.dotty barcode.org barcode1.org
+dotty finished
+done

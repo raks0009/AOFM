@@ -1,0 +1,122 @@
+digraph routine
+{
+fontname = "Times-Roman"; fontsize = 14;
+nodesep = 0.1; ranksep = 0.5;
+node [height = 0.25, width = 0.4, shape = box ];
+edge [color = black ];
+nodet1000 [color=chocolate shape=record,label="{t1000 : data_transitions=1\n}"];
+subgraph cluster_if_IF0  { color=magenta; label="IF0";
+nodet1998 [color=chocolate shape=record,label="{t1998 : data_transitions=0\n|?current_state==0\n}"];
+nodeqq1001 [color=chocolate shape=record,label="{qq1001 : data_transitions=1\n|newHL=4\n}"];
+nodet1002 [color=chocolate shape=record,label="{t1002 : data_transitions=1\n|newFL=6\n}"];
+subgraph cluster_ifelse_IFELSE0  { color=magenta; label="IFELSE0";
+nodet1999 [color=chocolate shape=record,label="{t1999 : data_transitions=0\n|?(cars==1) && (timeOutL==1)\n}"];
+nodet1003 [color=chocolate shape=record,label="{t1003 : data_transitions=1\n|newstate=4\n}"];
+nodet1004 [color=chocolate shape=record,label="{t1004 : data_transitions=1\n|newST=1\n}"];
+nodet1005 [color=chocolate shape=record,label="{t1005 : data_transitions=1\n|newstate=0\n}"];
+nodet1006 [color=chocolate shape=record,label="{t1006 : data_transitions=1\n|newST=0\n}"];
+}
+}
+subgraph cluster_if_IF1  { color=magenta; label="IF1";
+nodet1996 [color=chocolate shape=record,label="{t1996 : data_transitions=0\n|?current_state==4\n}"];
+nodet1007 [color=chocolate shape=record,label="{t1007 : data_transitions=1\n|newHL=2\n}"];
+nodet1008 [color=chocolate shape=record,label="{t1008 : data_transitions=1\n|newFL=6\n}"];
+subgraph cluster_ifelse_IFELSE1  { color=magenta; label="IFELSE1";
+nodet1997 [color=chocolate shape=record,label="{t1997 : data_transitions=0\n|?timeOutS==1\n}"];
+nodet1009 [color=chocolate shape=record,label="{t1009 : data_transitions=1\n|newstate=2\n}"];
+nodet1010 [color=chocolate shape=record,label="{t1010 : data_transitions=1\n|newST=1\n}"];
+nodet1011 [color=chocolate shape=record,label="{t1011 : data_transitions=1\n|newstate=6\n}"];
+nodet1012 [color=chocolate shape=record,label="{t1012 : data_transitions=1\n|newST=0\n}"];
+}
+}
+subgraph cluster_if_IF2  { color=magenta; label="IF2";
+nodet1994 [color=chocolate shape=record,label="{t1994 : data_transitions=0\n|?current_state==2\n}"];
+nodet1013 [color=chocolate shape=record,label="{t1013 : data_transitions=1\n|newHL=6\n}"];
+nodet1014 [color=chocolate shape=record,label="{t1014 : data_transitions=1\n|newFL=4\n}"];
+subgraph cluster_ifelse_IFELSE2  { color=magenta; label="IFELSE2";
+nodet1995 [color=chocolate shape=record,label="{t1995 : data_transitions=0\n|?(cars==0) || (timeOutL==1)\n}"];
+nodet1015 [color=chocolate shape=record,label="{t1015 : data_transitions=1\n|newstate=6\n}"];
+nodet1016 [color=chocolate shape=record,label="{t1016 : data_transitions=1\n|newST=1\n}"];
+nodet1017 [color=chocolate shape=record,label="{t1017 : data_transitions=1\n|newstate=2\n}"];
+nodet1018 [color=chocolate shape=record,label="{t1018 : data_transitions=1\n|newST=0\n}"];
+}
+}
+subgraph cluster_if_IF3  { color=magenta; label="IF3";
+nodet1992 [color=chocolate shape=record,label="{t1992 : data_transitions=0\n|?current_state==6\n}"];
+nodet1019 [color=chocolate shape=record,label="{t1019 : data_transitions=1\n|newHL=6\n}"];
+nodet1020 [color=chocolate shape=record,label="{t1020 : data_transitions=1\n|newFL=2\n}"];
+subgraph cluster_ifelse_IFELSE3  { color=magenta; label="IFELSE3";
+nodet1993 [color=chocolate shape=record,label="{t1993 : data_transitions=0\n|?timeOutS==1\n}"];
+nodet1021 [color=chocolate shape=record,label="{t1021 : data_transitions=1\n|newstate=0\n}"];
+nodet1022 [color=chocolate shape=record,label="{t1022 : data_transitions=1\n|newST=1\n}"];
+nodet1023 [color=chocolate shape=record,label="{t1023 : data_transitions=1\n|newstate=6\n}"];
+nodet1024 [color=chocolate shape=record,label="{t1024 : data_transitions=1\n|newST=0\n}"];
+}
+}
+subgraph cluster_if_IF4  { color=magenta; label="IF4";
+nodet1991 [color=chocolate shape=record,label="{t1991 : data_transitions=0\n|?current_state==7\n}"];
+nodet1025 [color=chocolate shape=record,label="{t1025 : data_transitions=1\n|newHL=0\n}"];
+nodet1026 [color=chocolate shape=record,label="{t1026 : data_transitions=1\n|newFL=0\n}"];
+nodet1027 [color=chocolate shape=record,label="{t1027 : data_transitions=1\n|newstate=0\n}"];
+nodet1028 [color=chocolate shape=record,label="{t1028 : data_transitions=1\n|newST=0\n}"];
+}
+nodet1029 [color=chocolate shape=record,label="{t1029 : data_transitions=1\n|state=newstate\n}"];
+nodet1030 [color=chocolate shape=record,label="{t1030 : data_transitions=1\n|HiWay=newHL\n}"];
+nodet1031 [color=chocolate shape=record,label="{t1031 : data_transitions=1\n|FarmL=newST\n}"];
+nodet1032 [color=chocolate shape=record,label="{t1032 : data_transitions=1\n|StartTimer=newST\n}"];
+nodet1033 [color=chocolate shape=record,label="{t1033 : data_transitions=0\n}"];
+nodet1000 -> nodet1998 [label=""];
+nodeqq1001 -> nodet1002 [label=""];
+nodet1002 -> nodet1999 [label=""];
+nodet1003 -> nodet1004 [label=""];
+nodet1004 -> nodet1996 [label=""];
+nodet1005 -> nodet1006 [label=""];
+nodet1006 -> nodet1996 [label=""];
+nodet1007 -> nodet1008 [label=""];
+nodet1008 -> nodet1997 [label=""];
+nodet1009 -> nodet1010 [label=""];
+nodet1010 -> nodet1994 [label=""];
+nodet1011 -> nodet1012 [label=""];
+nodet1012 -> nodet1994 [label=""];
+nodet1013 -> nodet1014 [label=""];
+nodet1014 -> nodet1995 [label=""];
+nodet1015 -> nodet1016 [label=""];
+nodet1016 -> nodet1992 [label=""];
+nodet1017 -> nodet1018 [label=""];
+nodet1018 -> nodet1992 [label=""];
+nodet1019 -> nodet1020 [label=""];
+nodet1020 -> nodet1993 [label=""];
+nodet1021 -> nodet1022 [label=""];
+nodet1022 -> nodet1991 [label=""];
+nodet1023 -> nodet1024 [label=""];
+nodet1024 -> nodet1991 [label=""];
+nodet1025 -> nodet1026 [label=""];
+nodet1026 -> nodet1027 [label=""];
+nodet1027 -> nodet1028 [label=""];
+nodet1028 -> nodet1029 [label=""];
+nodet1029 -> nodet1030 [label=""];
+nodet1030 -> nodet1031 [label=""];
+nodet1031 -> nodet1032 [label=""];
+nodet1032 -> nodet1033 [label=""];
+nodet1991 -> nodet1025 [label="T"];
+nodet1991 -> nodet1029 [label="F"];
+nodet1992 -> nodet1019 [label="T"];
+nodet1992 -> nodet1991 [label="F"];
+nodet1993 -> nodet1021 [label="T"];
+nodet1993 -> nodet1023 [label="F"];
+nodet1994 -> nodet1013 [label="T"];
+nodet1994 -> nodet1992 [label="F"];
+nodet1995 -> nodet1015 [label="T"];
+nodet1995 -> nodet1017 [label="F"];
+nodet1996 -> nodet1007 [label="T"];
+nodet1996 -> nodet1994 [label="F"];
+nodet1997 -> nodet1009 [label="T"];
+nodet1997 -> nodet1011 [label="F"];
+nodet1998 -> nodeqq1001 [label="T"];
+nodet1998 -> nodet1996 [label="F"];
+nodet1999 -> nodet1003 [label="T"];
+nodet1999 -> nodet1005 [label="F"];
+
+}
+
+

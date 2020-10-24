@@ -1,0 +1,18 @@
+"perfect1.org"
+0 0;
+;
+;
+pp1000 1 - | 	qq1001	; 
+qq1001 1 - | sum=1,i=2	pp1997LB	; 	
+pp1002 1 - | sum=sum+i	pp1003	; 	
+pp1003 1 - | i=i+1	pp1996	; 	
+pp1004 1 - | out=1	pp1006	; 	
+pp1005 1 - | out=0	pp1006	; 	
+pp1995LE 2 sum==n | - 	pp1004	 !(sum==n) | - 	pp1005	; 	/* loop_end */
+pp1996 1 - | - 	pp1998	; 	
+pp1997LB 1 - | - 	pp1998	; 	/* ; i<n; */
+pp1998 2 i<n | - 	pp1999	 !(i<n) | - 	pp1995LE	; 	
+pp1999 2 n%i==1 | - 	pp1002	 !(n%i==1) | - 	pp1003	; 	
+pp1006 0;
+
+
