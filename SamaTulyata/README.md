@@ -17,7 +17,7 @@ Prototype of CPN-based Equivalence checker
 (b) Automated-- the DCPEQX module + a front end for taking FSMD models and having them transformed to CPN mdoels     
    through an automated model constructor.
 
-(For Acta Informatica reviewers)
+(Accepted in Acta Informatica)
 ************************************************************************************************************************************
 3. SCPEQX -- 
 
@@ -26,7 +26,7 @@ Prototype of CPN-based Equivalence checker
 (b) Automated -- the SCPEQX module + a front end for taking FSMD models and having them transformed to CPN mdoels 
    through an automated model constructor.
 
-(Published in ATVA 2017 as a short paper)
+(Published in ATVA 2017 as Tool paper and Under review in Acta Informatica)
 ************************************************************************************************************************************
 4. RunThesisExamples: There is a shell script which helps to run all examples which are presented in the paper
 ************************************************************************************************************************************
